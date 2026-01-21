@@ -11,12 +11,13 @@ config_version=5
 [application]
 
 config/name="24Q Web Game"
+run/main_scene="uid://dlarb3vwv1bn7"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
-Game_State_Manager="*res://game_state_manager.gd"
+Game_State_Manager="*res://Game State/game_state_manager.gd"
 
 [rendering]
 
