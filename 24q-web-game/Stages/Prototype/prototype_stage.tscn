@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=3 uid="uid://desdxf2kr6vwf"]
+
+[ext_resource type="PackedScene" uid="uid://sieh2fvg3wln" path="res://Stages/Prototype/proto_platform.tscn" id="1_jdh3h"]
+
+[node name="Prototype Stage" type="Node2D"]
+
+[node name="Proto_Platform" parent="." instance=ExtResource("1_jdh3h")]
+scale = Vector2(5, 1)
+
+[node name="Proto_Platform2" parent="." instance=ExtResource("1_jdh3h")]
+position = Vector2(-160, 0)
+scale = Vector2(5, 1)
+
+[node name="Proto_Platform9" parent="." instance=ExtResource("1_jdh3h")]
+position = Vector2(-319, 0)
+scale = Vector2(5, 1)
+
+[node name="Proto_Platform3" parent="." instance=ExtResource("1_jdh3h")]
+position = Vector2(160, 0)
+scale = Vector2(5, 1)
+
+[node name="Proto_Platform8" parent="." instance=ExtResource("1_jdh3h")]
+position = Vector2(321, 0)
+scale = Vector2(5, 1)
+
+[node name="Proto_Platform4" parent="." instance=ExtResource("1_jdh3h")]
+position = Vector2(160, -135)
+scale = Vector2(5, 1)
+
+[node name="Proto_Platform5" parent="." instance=ExtResource("1_jdh3h")]
+position = Vector2(-160, -135)
+scale = Vector2(5, 1)
+
+[node name="Proto_Platform6" parent="." instance=ExtResource("1_jdh3h")]
+position = Vector2(-319, -135)
+scale = Vector2(5, 1)
+
+[node name="Proto_Platform11" parent="." instance=ExtResource("1_jdh3h")]
+position = Vector2(-479, -135)
+scale = Vector2(5, 1)
+
+[node name="Proto_Platform7" parent="." instance=ExtResource("1_jdh3h")]
+position = Vector2(319, -135)
+scale = Vector2(5, 1)
+
+[node name="Proto_Platform10" parent="." instance=ExtResource("1_jdh3h")]
+position = Vector2(479, -135)
+scale = Vector2(5, 1)

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlarb3vwv1bn7"]
+
+[ext_resource type="PackedScene" uid="uid://desdxf2kr6vwf" path="res://Stages/Prototype/prototype_stage.tscn" id="1_7ktn1"]
+
+[node name="Prototype Level" type="Node2D"]
+
+[node name="Prototype Stage" parent="." instance=ExtResource("1_7ktn1")]
