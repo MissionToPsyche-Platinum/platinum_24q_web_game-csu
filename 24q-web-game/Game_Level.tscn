@@ -5,3 +5,4 @@
 [node name="Prototype Level" type="Node2D"]
 
 [node name="Prototype Stage" parent="." instance=ExtResource("1_7ktn1")]
+position = Vector2(0, -1)
