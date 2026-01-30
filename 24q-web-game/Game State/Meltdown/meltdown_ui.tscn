@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://h5j7kmuxvsq1"]
 
-[node name="Meltdown_UI" type="Control"]
+[ext_resource type="Texture2D" uid="uid://5lyga2o0atvk" path="res://Assets/bar_shadow_round_large.svg" id="1_jk82b"]
+[ext_resource type="Texture2D" uid="uid://diuywy5um0yrg" path="res://Assets/bar_round_gloss_large.svg" id="2_kj8me"]
+
+[node name="Meltdown_UI" type="Control" unique_id=1199764937]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -8,7 +11,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1459216078]
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
@@ -16,10 +19,14 @@ offset_bottom = 38.0
 grow_horizontal = 2
 alignment = 1
 
-[node name="Meltdown Bar" type="ProgressBar" parent="HBoxContainer"]
+[node name="Meltdown Bar" type="TextureProgressBar" parent="HBoxContainer" unique_id=1153179442 groups=["Meltdown_Bar"]]
 unique_name_in_owner = true
 layout_mode = 2
-size_flags_horizontal = 4
-theme_override_font_sizes/font_size = 24
-step = -1.0
-value = 100.0
+size_flags_horizontal = 3
+size_flags_vertical = 4
+stretch_margin_left = 300
+stretch_margin_top = 50
+stretch_margin_right = 300
+stretch_margin_bottom = 50
+texture_under = ExtResource("1_jk82b")
+texture_progress = ExtResource("2_kj8me")

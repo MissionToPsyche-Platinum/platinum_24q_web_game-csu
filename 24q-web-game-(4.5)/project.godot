@@ -1,0 +1,17 @@
+config_version=5
+
+[application]
+
+config/name="24Q Web Game (4.5)"
+run/main_scene="uid://dlarb3vwv1bn7"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Game_State_Manager="*res://Game State/game_state_manager.gd"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
