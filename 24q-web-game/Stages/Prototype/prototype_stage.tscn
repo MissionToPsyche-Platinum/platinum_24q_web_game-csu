@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://sieh2fvg3wln" path="res://Stages/Prototype/proto_platform.tscn" id="1_jdh3h"]
 
 [node name="Prototype Stage" type="Node2D"]
+position = Vector2(570, 609)
 
 [node name="Proto_Platform" parent="." instance=ExtResource("1_jdh3h")]
 scale = Vector2(5, 1)
