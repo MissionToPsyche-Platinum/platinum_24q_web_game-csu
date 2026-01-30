@@ -1,9 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://desdxf2kr6vwf"]
+[gd_scene load_steps=4 format=3 uid="uid://desdxf2kr6vwf"]
 
 [ext_resource type="PackedScene" uid="uid://sieh2fvg3wln" path="res://Stages/Prototype/proto_platform.tscn" id="1_jdh3h"]
+[ext_resource type="PackedScene" uid="uid://bcnowstwgupnn" path="res://Game State/Stations/Engine/station2.tscn" id="2_pj2ln"]
+[ext_resource type="PackedScene" uid="uid://qky2vtg0rsmt" path="res://Game State/Stations/Controls/station1.tscn" id="3_wxmbk"]
 
 [node name="Prototype Stage" type="Node2D"]
-position = Vector2(570, 609)
 
 [node name="Proto_Platform" parent="." instance=ExtResource("1_jdh3h")]
 scale = Vector2(5, 1)
@@ -47,3 +48,12 @@ scale = Vector2(5, 1)
 [node name="Proto_Platform10" parent="." instance=ExtResource("1_jdh3h")]
 position = Vector2(479, -135)
 scale = Vector2(5, 1)
+
+[node name="station2" parent="." instance=ExtResource("2_pj2ln")]
+position = Vector2(330, -214)
+
+[node name="station1" parent="." instance=ExtResource("3_wxmbk")]
+position = Vector2(-310, -214)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -254)

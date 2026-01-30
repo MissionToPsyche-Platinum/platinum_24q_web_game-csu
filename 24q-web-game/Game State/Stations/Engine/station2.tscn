@@ -1,14 +1,14 @@
 [gd_scene load_steps=7 format=3 uid="uid://bcnowstwgupnn"]
 
-[ext_resource type="Script" uid="uid://bv033trfyh41t" path="res://Game State/EngineStation/station2.gd" id="1_ve4gr"]
-[ext_resource type="Texture2D" uid="uid://dth30w4ik4smd" path="res://Assets/station2.png" id="2_aorfp"]
-[ext_resource type="PackedScene" uid="uid://cyfvaf0q10yp7" path="res://Game State/EngineStation/interactable.tscn" id="3_av8mw"]
+[ext_resource type="Script" uid="uid://bv033trfyh41t" path="res://Game State/Stations/Engine/station2.gd" id="1_ve4gr"]
+[ext_resource type="Texture2D" uid="uid://bma21qmybmael" path="res://Assets/station1.png" id="2_k7b0o"]
+[ext_resource type="PackedScene" uid="uid://cyfvaf0q10yp7" path="res://Game State/Stations/Engine/interactable.tscn" id="3_av8mw"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2jd5w"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_aorfp")
+"texture": ExtResource("2_k7b0o")
 }],
 "loop": true,
 "name": &"default",
@@ -16,24 +16,27 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_s7v1y"]
-radius = 11.0
-height = 34.0
+radius = 21.077282
+height = 64.63699
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5bqd6"]
+radius = 42.0
+height = 132.0
 
 [node name="station2" type="StaticBody2D"]
 script = ExtResource("1_ve4gr")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(4, 3.963)
 sprite_frames = SubResource("SpriteFrames_2jd5w")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, 3)
+scale = Vector2(2.135, 2.135)
 shape = SubResource("CapsuleShape2D_s7v1y")
 
 [node name="Interactable" parent="." instance=ExtResource("3_av8mw")]
+position = Vector2(3, 2)
 interact_name = "Work on station"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Interactable"]
-position = Vector2(1, 3)
 shape = SubResource("CapsuleShape2D_5bqd6")
