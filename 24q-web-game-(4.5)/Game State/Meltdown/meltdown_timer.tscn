@@ -1,5 +1,0 @@
-[gd_scene format=3 uid="uid://bjv0xcwp8e2my"]
-
-[node name="Meltdown Timer" type="Timer"]
-wait_time = 60.0
-one_shot = true
