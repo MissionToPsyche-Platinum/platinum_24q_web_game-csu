@@ -1,7 +1,23 @@
-[gd_scene load_steps=12 format=3 uid="uid://bh62ksaow4ao7"]
+[gd_scene load_steps=20 format=3 uid="uid://bh62ksaow4ao7"]
 
 [ext_resource type="Texture2D" uid="uid://brwoujme22gf" path="res://Assets/astro.png" id="1_6qu56"]
 [ext_resource type="Script" uid="uid://b1wy5ove725b4" path="res://CharMov.gd" id="1_abhy1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qm3qr"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(0, 0, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4rgo6"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(128, 0, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kgfhe"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(256, 0, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oe88b"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(384, 0, 128, 192)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_abhy1"]
 atlas = ExtResource("1_6qu56")
@@ -35,8 +51,41 @@ region = Rect2(256, 384, 128, 192)
 atlas = ExtResource("1_6qu56")
 region = Rect2(384, 384, 128, 192)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_s6ttw"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(0, 576, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a5jdf"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(128, 576, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dcfdb"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(256, 576, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j41d7"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(384, 576, 128, 192)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_qm3qr"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qm3qr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4rgo6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kgfhe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oe88b")
+}],
+"loop": true,
+"name": &"down-foward",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_abhy1")
@@ -70,6 +119,23 @@ animations = [{
 "loop": true,
 "name": &"right_walk",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s6ttw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a5jdf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dcfdb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j41d7")
+}],
+"loop": true,
+"name": &"up-forward",
+"speed": 5.0
 }]
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
@@ -78,5 +144,5 @@ script = ExtResource("1_abhy1")
 [node name="Player" type="AnimatedSprite2D" parent="."]
 position = Vector2(530, 534)
 sprite_frames = SubResource("SpriteFrames_qm3qr")
-animation = &"left_walk"
-frame_progress = 0.02356894
+animation = &"down-foward"
+frame_progress = 0.13850217
