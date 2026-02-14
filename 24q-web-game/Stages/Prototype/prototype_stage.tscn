@@ -54,6 +54,3 @@ position = Vector2(330, -214)
 
 [node name="station1" parent="." instance=ExtResource("3_wxmbk")]
 position = Vector2(-310, -214)
-
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(0, -254)
