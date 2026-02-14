@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxjniv7su6do7"]
+
+[ext_resource type="Texture2D" uid="uid://b24uxi4tqpeg0" path="res://Assets/control-table-spacecraft.jpg" id="1_ouv0n"]
+[ext_resource type="PackedScene" uid="uid://dlarb3vwv1bn7" path="res://Game_Level.tscn" id="2_70e50"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -3326.0
+offset_top = -2173.0
+offset_right = 2977.0
+offset_bottom = 1300.0
+texture = ExtResource("1_ouv0n")
+
+[node name="Prototype Level" parent="." instance=ExtResource("2_70e50")]
+position = Vector2(-11, 169)
