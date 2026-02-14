@@ -4,23 +4,30 @@ extends CharacterBody2D
 @onready var animated_sprite = $Player
 
 func _physics_process(delta):
-	var direction = Input.get_axis("ui_left", "ui_right")
+	var direction_x = Input.get_axis("ui_left", "ui_right")
+	var direction_y = Input.get_axis("ui_up", "ui_down")
 	
-	if direction > 0:
+	# Apply velocity
+	velocity.x = direction_x * speed
+	velocity.y = direction_y * speed
+	
+	# Play animations based on direction
+	# Priority: check which direction has input
+	if direction_y < 0:
+		# Moving up
+		animated_sprite.play("up-forward")
+	elif direction_y > 0:
+		# Moving down
+		animated_sprite.play("down-foward")
+	elif direction_x > 0:
 		# Moving right
-		velocity.x = speed
 		animated_sprite.play("right_walk")
-		
-	elif direction < 0:
+	elif direction_x < 0:
 		# Moving left
-		velocity.x = -speed
 		animated_sprite.play("left_walk")
-		
 	else:
 		# Not moving
-		velocity.x = move_toward(velocity.x, 0, speed)
 		animated_sprite.stop()
-		# Or use an idle animation:
-		# animated_sprite.play("idle")
+		# Or use idle: animated_sprite.play("idle")
 	
 	move_and_slide()
