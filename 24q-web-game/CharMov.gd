@@ -1,33 +1,35 @@
 extends CharacterBody2D
 
-@export var speed : float = 300.0
+@export var speed : float = 400.0
 @onready var animated_sprite = $Player
 
 func _physics_process(delta):
-	var direction_x = Input.get_axis("ui_left", "ui_right")
-	var direction_y = Input.get_axis("ui_up", "ui_down")
+	var direction = Vector2.ZERO
 	
-	# Apply velocity
-	velocity.x = direction_x * speed
-	velocity.y = direction_y * speed
+	# Get input for both axes
+	direction.x = Input.get_axis("ui_left", "ui_right")
+	direction.y = Input.get_axis("ui_up", "ui_down")
 	
-	# Play animations based on direction
-	# Priority: check which direction has input
-	if direction_y < 0:
-		# Moving up
-		animated_sprite.play("up-forward")
-	elif direction_y > 0:
-		# Moving down
-		animated_sprite.play("down-foward")
-	elif direction_x > 0:
-		# Moving right
-		animated_sprite.play("right_walk")
-	elif direction_x < 0:
-		# Moving left
-		animated_sprite.play("left_walk")
+	# Normalize so diagonal movement isn't faster
+	if direction != Vector2.ZERO:
+		direction = direction.normalized()
+		velocity = direction * speed
+		
+		# Animation handling
+		if abs(direction.x) > abs(direction.y):
+			if direction.x > 0:
+				animated_sprite.play("right_walk")
+			else:
+				animated_sprite.play("left_walk")
+		else:
+			if direction.y > 0:
+				animated_sprite.play("down_walk")
+			else:
+				animated_sprite.play("up_walk")
 	else:
-		# Not moving
+		# Smooth stop
+		velocity = velocity.move_toward(Vector2.ZERO, speed)
 		animated_sprite.stop()
-		# Or use idle: animated_sprite.play("idle")
+		# or: animated_sprite.play("idle")
 	
 	move_and_slide()
