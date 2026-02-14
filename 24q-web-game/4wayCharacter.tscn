@@ -1,0 +1,82 @@
+[gd_scene load_steps=12 format=3 uid="uid://bh62ksaow4ao7"]
+
+[ext_resource type="Texture2D" uid="uid://brwoujme22gf" path="res://Assets/astro.png" id="1_6qu56"]
+[ext_resource type="Script" uid="uid://b1wy5ove725b4" path="res://CharMov.gd" id="1_abhy1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_abhy1"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(0, 192, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wvypw"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(128, 192, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_krs14"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(256, 192, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qquno"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(384, 192, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ixn3y"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(0, 384, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5subm"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(128, 384, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gkddf"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(256, 384, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xhbte"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(384, 384, 128, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qm3qr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_abhy1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wvypw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_krs14")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qquno")
+}],
+"loop": true,
+"name": &"left_walk",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ixn3y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5subm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gkddf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xhbte")
+}],
+"loop": true,
+"name": &"right_walk",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_abhy1")
+
+[node name="Player" type="AnimatedSprite2D" parent="."]
+position = Vector2(530, 534)
+sprite_frames = SubResource("SpriteFrames_qm3qr")
+animation = &"left_walk"
+frame_progress = 0.02356894
