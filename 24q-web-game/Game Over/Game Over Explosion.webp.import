@@ -2,17 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5lyga2o0atvk"
-path="res://.godot/imported/bar_shadow_round_large.svg-84bfcafaad76750f1c6b4073092f7474.ctex"
+uid="uid://baqvf0nriksy4"
+path="res://.godot/imported/Game Over Explosion.webp-3a70bac49066854d805a0e7373c917ed.ctex"
 metadata={
-"has_editor_variant": true,
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/bar_shadow_round_large.svg"
-dest_files=["res://.godot/imported/bar_shadow_round_large.svg-84bfcafaad76750f1c6b4073092f7474.ctex"]
+source_file="res://Game Over/Game Over Explosion.webp"
+dest_files=["res://.godot/imported/Game Over Explosion.webp-3a70bac49066854d805a0e7373c917ed.ctex"]
 
 [params]
 
@@ -39,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=true
-editor/convert_colors_with_editor_theme=false
