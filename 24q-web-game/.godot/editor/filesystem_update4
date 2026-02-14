@@ -1,7 +1,3 @@
-res://interior.tscn
-res://templvl.tscn
-res://Game_Level.tscn
-res://Scripts/Player Movement/player_movement.gd
-res://Game State/Stations/Engine/station2.tscn
-res://Game State/game_state_manager.gd
+res://4wayCharacter.tscn
+res://addons/bluebrains_character_controller/sprites/sprite_frames.tres
 res://CharMov.gd

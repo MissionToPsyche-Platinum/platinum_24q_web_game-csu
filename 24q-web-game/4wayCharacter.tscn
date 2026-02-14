@@ -145,4 +145,3 @@ script = ExtResource("1_abhy1")
 position = Vector2(530, 534)
 sprite_frames = SubResource("SpriteFrames_qm3qr")
 animation = &"down-foward"
-frame_progress = 0.13850217

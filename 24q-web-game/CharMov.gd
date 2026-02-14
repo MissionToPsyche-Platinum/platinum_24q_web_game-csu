@@ -23,9 +23,9 @@ func _physics_process(delta):
 				animated_sprite.play("left_walk")
 		else:
 			if direction.y > 0:
-				animated_sprite.play("down_walk")
+				animated_sprite.play("down-foward")
 			else:
-				animated_sprite.play("up_walk")
+				animated_sprite.play("up-forward")
 	else:
 		# Smooth stop
 		velocity = velocity.move_toward(Vector2.ZERO, speed)
