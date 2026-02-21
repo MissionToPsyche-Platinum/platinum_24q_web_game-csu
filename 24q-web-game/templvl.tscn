@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=4 uid="uid://cdubdsvvyov0d"]
+[gd_scene load_steps=12 format=4 uid="uid://cdubdsvvyov0d"]
 
 [ext_resource type="Texture2D" uid="uid://04gq00nj7p8g" path="res://Assets/TileSet_v1.0.png" id="1_hucw8"]
 [ext_resource type="Texture2D" uid="uid://j20n60544gsq" path="res://Assets/Stars-64x64.jpg" id="2_8t5en"]
@@ -626,10 +626,6 @@ physics_layer_0/collision_layer = 1
 physics_layer_0/physics_material = SubResource("PhysicsMaterial_yyd5p")
 sources/1 = SubResource("TileSetAtlasSource_iy3js")
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_53gqp"]
-radius = 35.0
-height = 170.0
-
 [node name="Interior" type="Node2D"]
 
 [node name="Back" type="TileMapLayer" parent="."]
@@ -654,12 +650,9 @@ position = Vector2(1699, 195)
 position = Vector2(73, 480)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("5_yyd5p")]
+light_mask = 0
 position = Vector2(656, 127)
 scale = Vector2(0.5, 0.5)
-
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="CharacterBody2D"]
-position = Vector2(535, 529)
-shape = SubResource("CapsuleShape2D_53gqp")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(539, 529)

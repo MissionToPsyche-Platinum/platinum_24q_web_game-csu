@@ -7,3 +7,4 @@ res://interactions/interacting_component.tscn
 res://interactions/interactable.tscn
 res://Game State/Stations/Engine/station2.gd
 res://interactions/interacting_component.gd
+res://player/4wayCharacter.tscn
