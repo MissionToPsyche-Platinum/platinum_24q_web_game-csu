@@ -1,2 +1,9 @@
 res://Main_Menu/main_menu.tscn
 res://Game Over/game_over.tscn
+res://templvl.tscn
+res://Game State/Meltdown/meltdown_timer.tscn
+res://game_level.gd
+res://interactions/interacting_component.tscn
+res://interactions/interacting_component.gd
+res://Game State/Stations/Controls/station1.tscn
+res://player/4wayCharacter.tscn

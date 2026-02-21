@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://bh62ksaow4ao7"]
+[gd_scene load_steps=22 format=3 uid="uid://bh62ksaow4ao7"]
 
 [ext_resource type="Texture2D" uid="uid://brwoujme22gf" path="res://Assets/astro.png" id="1_6qu56"]
 [ext_resource type="Script" uid="uid://b1wy5ove725b4" path="res://CharMov.gd" id="1_abhy1"]
@@ -139,6 +139,10 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2aphb"]
+radius = 35.0
+height = 170.0
+
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_abhy1")
 
@@ -149,3 +153,7 @@ animation = &"down-foward"
 
 [node name="Interacting Component" parent="." instance=ExtResource("3_wvypw")]
 position = Vector2(530, 534)
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(535, 529)
+shape = SubResource("CapsuleShape2D_2aphb")

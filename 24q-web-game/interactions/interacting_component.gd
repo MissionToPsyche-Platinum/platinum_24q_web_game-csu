@@ -16,6 +16,9 @@ func _input(event: InputEvent) -> void:
 
 
 func _process(_delta: float) -> void:
+	
+	#print(current_interactions)
+	
 	if current_interactions and can_interact:
 		current_interactions.sort_custom(_sort_by_nearest)
 		if current_interactions[0].is_interactable:

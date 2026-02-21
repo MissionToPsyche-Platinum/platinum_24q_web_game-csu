@@ -2,7 +2,7 @@ extends Node2D
 
 
 @onready var meltdown_timer: Timer = %"Meltdown Timer"
-@onready var meltdown_bar: TextureProgressBar = $"Meltdown_UI/HBoxContainer/Meltdown Bar"
+@onready var meltdown_bar: TextureProgressBar = $"%Meltdown_UI/HBoxContainer/Meltdown Bar"
 
 
 func _ready() -> void:
