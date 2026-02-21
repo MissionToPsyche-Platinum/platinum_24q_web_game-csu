@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://j20n60544gsq" path="res://Assets/Stars-64x64.jpg" id="2_8t5en"]
 [ext_resource type="PackedScene" uid="uid://bcnowstwgupnn" path="res://Game State/Stations/Engine/station2.tscn" id="3_ldww2"]
 [ext_resource type="PackedScene" uid="uid://qky2vtg0rsmt" path="res://Game State/Stations/Controls/station1.tscn" id="4_yyd5p"]
-[ext_resource type="PackedScene" path="res://4wayCharacter.tscn" id="5_yyd5p"]
+[ext_resource type="PackedScene" uid="uid://bh62ksaow4ao7" path="res://player/4wayCharacter.tscn" id="5_yyd5p"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fx4di"]
 texture = ExtResource("1_hucw8")
@@ -657,7 +657,7 @@ position = Vector2(73, 480)
 position = Vector2(656, 127)
 scale = Vector2(0.5, 0.5)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(535, 529)
 shape = SubResource("CapsuleShape2D_53gqp")
 

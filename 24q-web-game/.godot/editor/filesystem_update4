@@ -1,3 +1,9 @@
+res://Game State/Stations/Engine/station2.tscn
 res://4wayCharacter.tscn
-res://addons/bluebrains_character_controller/sprites/sprite_frames.tres
-res://CharMov.gd
+res://templvl.tscn
+res://Game State/Stations/Engine/interacting_component.tscn
+res://Game State/Stations/Controls/station1.tscn
+res://interactions/interacting_component.tscn
+res://interactions/interactable.tscn
+res://Game State/Stations/Engine/station2.gd
+res://interactions/interacting_component.gd

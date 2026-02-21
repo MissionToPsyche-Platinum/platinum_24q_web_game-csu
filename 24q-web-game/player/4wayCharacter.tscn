@@ -1,7 +1,8 @@
-[gd_scene load_steps=20 format=3 uid="uid://bh62ksaow4ao7"]
+[gd_scene load_steps=21 format=3 uid="uid://bh62ksaow4ao7"]
 
 [ext_resource type="Texture2D" uid="uid://brwoujme22gf" path="res://Assets/astro.png" id="1_6qu56"]
 [ext_resource type="Script" uid="uid://b1wy5ove725b4" path="res://CharMov.gd" id="1_abhy1"]
+[ext_resource type="PackedScene" uid="uid://jfu2u84syok8" path="res://interactions/interacting_component.tscn" id="3_wvypw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qm3qr"]
 atlas = ExtResource("1_6qu56")
@@ -145,3 +146,6 @@ script = ExtResource("1_abhy1")
 position = Vector2(530, 534)
 sprite_frames = SubResource("SpriteFrames_qm3qr")
 animation = &"down-foward"
+
+[node name="Interacting Component" parent="." instance=ExtResource("3_wvypw")]
+position = Vector2(530, 534)
