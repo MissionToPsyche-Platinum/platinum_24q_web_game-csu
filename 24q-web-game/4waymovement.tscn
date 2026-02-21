@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://cyflnea68ufag"]
+[gd_scene load_steps=0 format=3 uid="uid://cyflnea68ufag"]
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 
