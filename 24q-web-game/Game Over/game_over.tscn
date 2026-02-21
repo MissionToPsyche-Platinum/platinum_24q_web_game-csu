@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://34876fsrkr4j"]
 
-[ext_resource type="Script" uid="uid://ckqy10kaby36m" path="res://Game Over/game_over.gd" id="1_kmk4c"]
+[ext_resource type="Script" path="res://Game Over/game_over.gd" id="1_kmk4c"]
 [ext_resource type="Texture2D" uid="uid://baqvf0nriksy4" path="res://Game Over/Game Over Explosion.webp" id="1_vw0ob"]
 [ext_resource type="Theme" uid="uid://dcxyqodh1whod" path="res://Main_Menu/Button_Theme.tres" id="2_kmk4c"]
 
@@ -15,7 +15,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_kmk4c")
-game_scene = "res://Game_Level.tscn"
+game_scene = "res://templvl.tscn"
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1

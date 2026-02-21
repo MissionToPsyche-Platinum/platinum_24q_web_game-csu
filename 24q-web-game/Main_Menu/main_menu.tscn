@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cg7dgud21a50x"]
 
 [ext_resource type="Texture2D" uid="uid://ddp0o8wifrrid" path="res://Main_Menu/MilkyWayPlaceHolder.jpg" id="1_e582s"]
-[ext_resource type="Script" uid="uid://coahdq6edvik0" path="res://Main_Menu/main_menu.gd" id="1_jht8a"]
+[ext_resource type="Script" path="res://Main_Menu/main_menu.gd" id="1_jht8a"]
 [ext_resource type="Theme" uid="uid://dcxyqodh1whod" path="res://Main_Menu/Button_Theme.tres" id="3_6qckm"]
 
 [sub_resource type="Theme" id="Theme_2jvup"]
@@ -15,7 +15,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_jht8a")
-game_scene = "res://Game_Level.tscn"
+game_scene = "res://templvl.tscn"
 
 [node name="ColorRect" type="TextureRect" parent="."]
 layout_mode = 1
