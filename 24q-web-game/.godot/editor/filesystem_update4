@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+res://Test1.tscn
+=======
+res://interior.tscn
+res://templvl.tscn
+res://Game_Level.tscn
+res://Scripts/Player Movement/player_movement.gd
+res://Game State/Stations/Engine/station2.tscn
+res://Game State/game_state_manager.gd
+res://CharMov.gd
+>>>>>>> 6b3b70f15f17aaf2437b2644912012ea13778195

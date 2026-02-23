@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 AudioStreamPlayer2D
+=======
+CollisionShape2D
+>>>>>>> 0bb3976899526c2b2c0c51f5c2a348a405358497
 AnimatedSprite2D
 CharacterBody2D
 TextureRect
