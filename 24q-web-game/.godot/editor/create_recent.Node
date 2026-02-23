@@ -2,7 +2,12 @@
 AudioStreamPlayer2D
 =======
 CollisionShape2D
+<<<<<<< HEAD
 >>>>>>> 0bb3976899526c2b2c0c51f5c2a348a405358497
+=======
+Label
+Area2D
+>>>>>>> master
 AnimatedSprite2D
 CharacterBody2D
 TextureRect
