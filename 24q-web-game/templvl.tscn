@@ -1,10 +1,11 @@
-[gd_scene load_steps=12 format=4 uid="uid://cdubdsvvyov0d"]
+[gd_scene load_steps=13 format=4 uid="uid://cdubdsvvyov0d"]
 
 [ext_resource type="Texture2D" uid="uid://04gq00nj7p8g" path="res://Assets/TileSet_v1.0.png" id="1_hucw8"]
 [ext_resource type="Texture2D" uid="uid://j20n60544gsq" path="res://Assets/Stars-64x64.jpg" id="2_8t5en"]
 [ext_resource type="PackedScene" uid="uid://bcnowstwgupnn" path="res://Game State/Stations/Engine/station2.tscn" id="3_ldww2"]
 [ext_resource type="PackedScene" uid="uid://qky2vtg0rsmt" path="res://Game State/Stations/Controls/station1.tscn" id="4_yyd5p"]
 [ext_resource type="PackedScene" uid="uid://bh62ksaow4ao7" path="res://player/4wayCharacter.tscn" id="5_yyd5p"]
+[ext_resource type="PackedScene" uid="uid://jfu2u84syok8" path="res://interactions/interacting_component.tscn" id="6_53gqp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fx4di"]
 texture = ExtResource("1_hucw8")
@@ -645,8 +646,11 @@ position = Vector2(1699, 195)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("5_yyd5p")]
 light_mask = 0
-position = Vector2(656, 127)
-scale = Vector2(0.5, 0.5)
+position = Vector2(1008, 337)
+scale = Vector2(0.24, 0.24)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(539, 529)
+
+[node name="Interacting Component" parent="CharacterBody2D" instance=ExtResource("6_53gqp")]
+position = Vector2(534.2465, 449.31503)

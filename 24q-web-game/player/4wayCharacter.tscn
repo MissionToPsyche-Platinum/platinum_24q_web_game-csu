@@ -1,7 +1,6 @@
-[gd_scene load_steps=21 format=3 uid="uid://bh62ksaow4ao7"]
+[gd_scene load_steps=22 format=3 uid="uid://bh62ksaow4ao7"]
 
 [ext_resource type="Script" uid="uid://b1wy5ove725b4" path="res://CharMov.gd" id="1_abhy1"]
-<<<<<<< HEAD:24q-web-game/4wayCharacter.tscn
 [ext_resource type="Texture2D" uid="uid://b5a2qcocvd4eq" path="res://atroo.png" id="2_abhy1"]
 [ext_resource type="Script" uid="uid://dknfa64rnas8h" path="res://Footstep.gd" id="3_wvypw"]
 
@@ -140,16 +139,22 @@ animations = [{
 "speed": 5.0
 }]
 
-<<<<<<< HEAD:24q-web-game/4wayCharacter.tscn
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2aphb"]
+radius = 101.0
+height = 372.0
+
 [node name="4wayCharacter" type="CharacterBody2D"]
 script = ExtResource("1_abhy1")
 
 [node name="Player" type="AnimatedSprite2D" parent="."]
 position = Vector2(526, 447)
 sprite_frames = SubResource("SpriteFrames_qm3qr")
-<<<<<<< HEAD:24q-web-game/4wayCharacter.tscn
 animation = &"up-forward"
 frame_progress = 0.43538836
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(533, 457)
+shape = SubResource("CapsuleShape2D_2aphb")
 
 [node name="Walk_Sounds" type="AudioStreamPlayer2D" parent="."]
 script = ExtResource("3_wvypw")
