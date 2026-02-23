@@ -1,4 +1,6 @@
 CollisionShape2D
+Label
+Area2D
 AnimatedSprite2D
 CharacterBody2D
 TextureRect
