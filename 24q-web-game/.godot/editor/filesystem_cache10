@@ -1,16 +1,17 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1771816758
+::res://::1771817388
 4wayCharacter.tscn::PackedScene::2943396462365862532::1771816685::0::1::::<><><>0<>0<><>::uid://b1wy5ove725b4::::res://CharMov.gd<>uid://b5a2qcocvd4eq::::res://atroo.png<>uid://dknfa64rnas8h::::res://Footstep.gd
 4waymovement.tscn::PackedScene::6468386817257262634::1771816649::0::1::::<><><>0<>0<><>::
 atroo.png::CompressedTexture2D::4493754051134293044::1771639886::1771639887::1::::<><><>0<>0<>7ba0a3231f3e7be324b72d49a448a6fa<>res://.godot/imported/atroo.png-d170c0b051e7e0d9e289de0745e22b5d.ctex::
-CharMov.gd::GDScript::4258258478508195279::1771815626::0::1::::<>CharacterBody2D<><>0<>0<><>::
+CharMov.gd::GDScript::4258258478508195279::1771817196::0::1::::<>CharacterBody2D<><>0<>0<><>::
 default_bus_layout.tres::AudioBusLayout::918026742601527025::1771814170::0::1::::<><><>0<>0<><>::
 Footstep.gd::GDScript::7888292657039215457::1771815894::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
 game_level.gd::GDScript::4534050863927980809::1771033443::0::1::::<>Node2D<><>0<>0<><>::
-Game_Level.tscn::PackedScene::7932374809891956862::1771038188::0::1::::<><><>0<>0<><>::uid://desdxf2kr6vwf::::res://Stages/Prototype/prototype_stage.tscn<>uid://b5ulfjr0li130::::res://game_level.gd<>uid://bjv0xcwp8e2my::::res://Game State/Meltdown/meltdown_timer.tscn<>uid://h5j7kmuxvsq1::::res://Game State/Meltdown/meltdown_ui.tscn
+Game_Level.tscn::PackedScene::-1::1771817196::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::8227062921787772187::1771033443::1771033443::1::::<><><>0<>0<>97a210e8ce86c784b9a6f7d1bd191078<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-templvl.tscn::PackedScene::5024762506603962617::1771037170::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn
+templvl.tscn::PackedScene::5024762506603962617::1771817196::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>res://4wayCharacter.tscn
 Test1.tscn::PackedScene::4020148247681468160::1771033443::0::1::::<><><>0<>0<><>::uid://b24uxi4tqpeg0::::res://Assets/control-table-spacecraft.jpg<>uid://dlarb3vwv1bn7::::res://Game_Level.tscn
+Testing.tscn::PackedScene::5811252716542087252::1771817196::0::1::::<><><>0<>0<><>::
 ::res://addons/::1771033443
 ::res://addons/bluebrains_character_controller/::1771033443
 bluebrains_character_controller.gd::GDScript::3990685585572676345::1771033443::0::1::::<>EditorPlugin<><>0<>1<><>::
@@ -168,7 +169,7 @@ MilkyWayPlaceHolder.jpg::CompressedTexture2D::7402338941865232175::1771033443::1
 398937__softdistortionfx__metal-footsteps.mp3::AudioStreamMP3::4432120499156901101::1771635184::1771635208::1::::<><><>0<>0<>69a0524c4efc0e5aaf53a96c953027e5<>res://.godot/imported/398937__softdistortionfx__metal-footsteps.mp3-1efe5a203649a97f2997944d2c443313.mp3str::
 metal_walk.ogg::AudioStreamOggVorbis::8332401097257156309::1771815310::1771815310::1::::<><><>0<>0<>f9bf4f0e62c00efc5d4ea757198e4abc<>res://.godot/imported/metal_walk.ogg-1382920cffdc2062fae8df7253de2e61.oggvorbisstr::
 ::res://Stages/::1771033548
-::res://Stages/Prototype/::1771033443
+::res://Stages/Prototype/::1771817196
 platform.tscn::PackedScene::4852305123884715635::1771033443::0::1::::<><><>0<>0<><>::uid://d3kjlenstws02::::res://Assets/Platform.png
-prototype_stage.tscn::PackedScene::7477399754247406029::1771033443::0::1::::<><><>0<>0<><>::uid://sieh2fvg3wln::::res://Stages/Prototype/proto_platform.tscn<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn
+prototype_stage.tscn::PackedScene::-1::1771817196::0::1::::<><><>0<>0<><>::
 proto_platform.tscn::PackedScene::1280171002863225467::1771033443::0::1::::<><><>0<>0<><>::uid://d3kjlenstws02::::res://Assets/Platform.png
