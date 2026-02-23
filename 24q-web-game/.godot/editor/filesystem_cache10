@@ -1,11 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1771636252
-4waymovement.tscn::PackedScene::6468386817257262634::1771632466::0::1::::<><><>0<>0<><>::
+::res://::1771812423
 CharMov.gd::GDScript::4258258478508195279::1771632466::0::1::::<>CharacterBody2D<><>0<>0<><>::
 game_level.gd::GDScript::4534050863927980809::1769811404::0::1::::<>Node2D<><>0<>0<><>::
 Game_Level.tscn::PackedScene::7932374809891956862::1771033804::0::1::::<><><>0<>0<><>::uid://desdxf2kr6vwf::::res://Stages/Prototype/prototype_stage.tscn<>uid://b5ulfjr0li130::::res://game_level.gd<>uid://bjv0xcwp8e2my::::res://Game State/Meltdown/meltdown_timer.tscn<>uid://h5j7kmuxvsq1::::res://Game State/Meltdown/meltdown_ui.tscn
 icon.svg::CompressedTexture2D::8227062921787772187::1769811404::1771033759::1::::<><><>0<>0<>97a210e8ce86c784b9a6f7d1bd191078<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-templvl.tscn::PackedScene::5024762506603962617::1771636252::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn
+templvl.tscn::PackedScene::5024762506603962617::1771639022::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn
 Test1.tscn::PackedScene::4020148247681468160::1771033848::0::1::::<><><>0<>0<><>::uid://b24uxi4tqpeg0::::res://Assets/control-table-spacecraft.jpg<>uid://dlarb3vwv1bn7::::res://Game_Level.tscn
 ::res://addons/::1771033804
 ::res://addons/bluebrains_character_controller/::1771033804
@@ -21,16 +20,16 @@ example_character_controller.tscn::PackedScene::1242622232217166029::1771033804:
 dynamic_data_row.gd::GDScript::2620748503569110640::1771033804::0::1::::DynamicDataRow<>Resource<><>0<>0<><>::
 input_transition.gd::GDScript::712096093501737719::1771033804::0::1::::InputStateTransition<>StateTransition<><>0<>1<><>::
 magic_transition.gd::GDScript::191043130513532881::1771033804::0::1::::MagicStateTransition<>StateTransition<><>0<>1<><>::
-state.gd::GDScript::4363396357744232197::1771033804::0::1::::CharacterControllerState<>Node<><>0<>1<><>::
-state_machine.gd::GDScript::4464895966329905551::1771033804::0::1::::CharacterControllerStateMachine<>CharacterControllerState<><>0<>1<><>::
-transition.gd::GDScript::1358703449678615030::1771033804::0::1::::StateTransition<>Node<><>0<>1<><>::
+state.gd::GDScript::4363396357744232197::1771033804::0::1::::CharacterControllerState<>Node<>res://addons/bluebrains_character_controller/icons/diamond-yellow.png<>0<>1<><>::
+state_machine.gd::GDScript::4464895966329905551::1771033804::0::1::::CharacterControllerStateMachine<>CharacterControllerState<>res://addons/bluebrains_character_controller/icons/multi-diamonds-yellow.png<>0<>1<><>::
+transition.gd::GDScript::1358703449678615030::1771033804::0::1::::StateTransition<>Node<>res://addons/bluebrains_character_controller/icons/jump-to-yellow.png<>0<>1<><>::
 ::res://addons/bluebrains_character_controller/character_controller/state_machine/states/::1771033804
 airborne.gd::GDScript::3301240708427646836::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 grounded.gd::GDScript::6323765194114651454::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 hang.gd::GDScript::8585078938984680431::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 jump.gd::GDScript::1868761230054743121::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 jump_air.gd::GDScript::6100312264205990115::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
-one_shot.gd::GDScript::7166132919656969604::1771033804::0::1::::OneShotState<>CharacterControllerState<><>0<>1<><>::
+one_shot.gd::GDScript::7166132919656969604::1771033804::0::1::::OneShotState<>CharacterControllerState<>res://addons/bluebrains_character_controller/icons/diamond-jump-to-yellow.png<>0<>1<><>::
 wall_slide.gd::GDScript::4081958062252761413::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 ::res://addons/bluebrains_character_controller/components/::1771033804
 input_map.gd::GDScript::7997554843139282103::1771033804::0::1::::InputMapNode<>Node<><>0<>0<><>::
@@ -147,22 +146,23 @@ meltdown_timer.tscn::PackedScene::3063031347107838764::1771033804::0::1::::<><><
 meltdown_ui.tscn::PackedScene::553857381139320218::1771033804::0::1::::<><><>0<>0<><>::uid://5lyga2o0atvk::::res://Assets/bar_shadow_round_large.svg<>uid://diuywy5um0yrg::::res://Assets/bar_round_gloss_large.svg
 ::res://Game State/Stations/::1771031657
 ::res://Game State/Stations/Controls/::1771635202
-station1.tscn::PackedScene::1145171832659290507::1771635202::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://dth30w4ik4smd::::res://Assets/station2.png<>uid://cyfvaf0q10yp7::::res://Game State/Stations/Engine/interactable.tscn
-::res://Game State/Stations/Engine/::1771636118
-station2.gd::GDScript::3913746946434960147::1771636118::0::1::::<>StaticBody2D<><>0<>0<><>::
-station2.tscn::PackedScene::2554525582916568835::1771636118::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://bma21qmybmael::::res://Assets/station1.png<>uid://cyfvaf0q10yp7::::res://interactions/interactable.tscn
-::res://interactions/::1771635960
-interactable.gd::GDScript::5974264426253389930::1771031657::0::1::::<>Area2D<><>0<>0<><>::
-interactable.tscn::PackedScene::6468970862316957478::1771635534::0::1::::<><><>0<>0<><>::uid://crd8i6fpmmite::::res://interactions/interactable.gd
-interacting_component.gd::GDScript::3144964373422885364::1771031657::0::1::::<>Node2D<><>0<>0<><>::
-interacting_component.tscn::PackedScene::643285140591541613::1771635960::0::1::::<><><>0<>0<><>::uid://bk2pdr6uqqxgm::::res://interactions/interacting_component.gd
+station1.tscn::PackedScene::1145171832659290507::1771635202::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://dth30w4ik4smd::::res://Assets/station2.png<>uid://cyfvaf0q10yp7::::res://interactions/interactable.tscn
+::res://Game State/Stations/Engine/::1771639331
+station2.gd::GDScript::3913746946434960147::1771639331::0::1::::<>StaticBody2D<><>0<>0<><>::
+station2.tscn::PackedScene::2554525582916568835::1771639331::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://bma21qmybmael::::res://Assets/station1.png<>uid://cyfvaf0q10yp7::::res://interactions/interactable.tscn
+::res://interactions/::1771640220
+interactable.gd::GDScript::5974264426253389930::1771638638::0::1::::<>Area2D<><>0<>0<><>::
+interactable.tscn::PackedScene::6468970862316957478::1771638638::0::1::::<><><>0<>0<><>::uid://crd8i6fpmmite::::res://interactions/interactable.gd
+interacting_component.gd::GDScript::3144964373422885364::1771640220::0::1::::<>Node2D<><>0<>0<><>::
+interacting_component.tscn::PackedScene::643285140591541613::1771640220::0::1::::<><><>0<>0<><>::uid://bk2pdr6uqqxgm::::res://interactions/interacting_component.gd
 ::res://Main_Menu/::1771033804
 Button_Theme.tres::Theme::7348606947542597483::1771033804::0::1::::<><><>0<>0<><>::
 main_menu.gd::GDScript::5755916443098860325::1771033804::0::1::::<>Control<><>0<>0<><>::
 main_menu.tscn::PackedScene::5260228439448990881::1771033804::0::1::::<><><>0<>0<><>::uid://ddp0o8wifrrid::::res://Main_Menu/MilkyWayPlaceHolder.jpg<>uid://coahdq6edvik0::::res://Main_Menu/main_menu.gd<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
 MilkyWayPlaceHolder.jpg::CompressedTexture2D::7402338941865232175::1771033804::1771033804::1::::<><><>0<>0<>0c6a9a7de9f4774cffa013bdb72b4e43<>res://.godot/imported/MilkyWayPlaceHolder.jpg-6abed295275b1bb1e8a335b7f986d1d3.ctex::
-::res://player/::1771636252
-4wayCharacter.tscn::PackedScene::2943396462365862532::1771636122::0::1::::<><><>0<>0<><>::uid://brwoujme22gf::::res://Assets/astro.png<>uid://b1wy5ove725b4::::res://CharMov.gd<>uid://jfu2u84syok8::::res://interactions/interacting_component.tscn
+::res://player/::1771639080
+4wayCharacter.tscn::PackedScene::2943396462365862532::1771639080::0::1::::<><><>0<>0<><>::uid://brwoujme22gf::::res://Assets/astro.png<>uid://b1wy5ove725b4::::res://CharMov.gd<>uid://jfu2u84syok8::::res://interactions/interacting_component.tscn
+4waymovement.tscn::PackedScene::6468386817257262634::1771632466::0::1::::<><><>0<>0<><>::
 ::res://Stages/::1769811404
 ::res://Stages/Prototype/::1771033848
 platform.tscn::PackedScene::4852305123884715635::1771033848::0::1::::<><><>0<>0<><>::uid://d3kjlenstws02::::res://Assets/Platform.png

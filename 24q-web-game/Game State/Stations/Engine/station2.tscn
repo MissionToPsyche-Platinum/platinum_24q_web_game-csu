@@ -36,6 +36,7 @@ shape = SubResource("CapsuleShape2D_8wc0a")
 
 [node name="Interactable" parent="." instance=ExtResource("3_av8mw")]
 position = Vector2(3, 2)
+collision_mask = 2
 interact_name = "Work on station"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Interactable"]

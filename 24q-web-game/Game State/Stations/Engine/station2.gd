@@ -8,10 +8,8 @@ func _ready() -> void:
 	interactable.interact = _on_interact
 	
 func _on_interact():
-	if animated_sprite_2d.frame == 0:
-		animated_sprite_2d.frame = 1
-		interactable.is_interactable = false
-		print("The play is working on a station")
+	interactable.is_interactable = false
+	print("The play is working on a station")
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:

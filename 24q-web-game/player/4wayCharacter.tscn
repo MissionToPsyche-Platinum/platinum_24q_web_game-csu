@@ -157,4 +157,5 @@ shape = SubResource("CapsuleShape2D_2aphb")
 
 [node name="Interacting Component" parent="." instance=ExtResource("3_wvypw")]
 light_mask = 0
+visibility_layer = 2
 position = Vector2(530, 534)
