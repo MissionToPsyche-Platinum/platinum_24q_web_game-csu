@@ -1,4 +1,5 @@
 CollisionShape2D
+AudioStreamPlayer2D
 Label
 Area2D
 AnimatedSprite2D

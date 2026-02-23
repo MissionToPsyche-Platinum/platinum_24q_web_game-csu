@@ -46,6 +46,7 @@ property = "run_speed"
 metadata/_custom_type_script = "uid://bdlrly1hkn1qa"
 
 [node name="PlayerCharacter" instance=ExtResource("1_kvvxd")]
+position = Vector2(7, 0)
 collision_layer = 0
 character_size = Vector2(12, 32)
 
