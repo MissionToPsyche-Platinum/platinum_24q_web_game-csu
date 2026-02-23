@@ -1,3 +1,2 @@
-res://player/4wayCharacter.tscn
-res://interactions/interacting_component.tscn
-res://interactions/interacting_component.gd
+res://Game Over/game_over.tscn
+res://Main_Menu/main_menu.tscn
