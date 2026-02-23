@@ -640,14 +640,8 @@ tile_set = SubResource("TileSet_tlcko")
 [node name="station2" parent="." instance=ExtResource("3_ldww2")]
 position = Vector2(515, 197)
 
-[node name="station3" parent="." instance=ExtResource("3_ldww2")]
-position = Vector2(1856, 482)
-
 [node name="station1" parent="." instance=ExtResource("4_yyd5p")]
 position = Vector2(1699, 195)
-
-[node name="station4" parent="." instance=ExtResource("4_yyd5p")]
-position = Vector2(73, 480)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("5_yyd5p")]
 light_mask = 0

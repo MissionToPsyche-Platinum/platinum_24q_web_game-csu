@@ -7,7 +7,7 @@ radius = 130.0
 height = 412.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_6p3la"]
-font_size = 200
+font_size = 111
 outline_size = 50
 outline_color = Color(0, 0, 0, 1)
 
@@ -24,11 +24,13 @@ shape = SubResource("CapsuleShape2D_c0ilj")
 [node name="InteractLabel" type="Label" parent="."]
 z_index = 10
 offset_left = -572.0
-offset_top = -716.0
+offset_top = -428.0
 offset_right = 607.0
-offset_bottom = -443.0
+offset_bottom = -155.0
 size_flags_horizontal = 4
 text = "E to Interact"
 label_settings = SubResource("LabelSettings_6p3la")
+horizontal_alignment = 1
 
 [connection signal="area_entered" from="InteractRange" to="." method="_on_interact_range_area_entered"]
+[connection signal="area_exited" from="InteractRange" to="." method="_on_interact_range_area_exited"]
