@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 [gd_scene load_steps=2 format=3 uid="uid://bw5oj2bnb5gqp"]
 
 [ext_resource type="PackedScene" path="res://Stages/Prototype/proto_platform.tscn" id="1_jdh3h"]
+=======
+[gd_scene load_steps=4 format=3 uid="uid://desdxf2kr6vwf"]
+
+[ext_resource type="PackedScene" uid="uid://sieh2fvg3wln" path="res://Stages/Prototype/proto_platform.tscn" id="1_jdh3h"]
+[ext_resource type="PackedScene" uid="uid://bcnowstwgupnn" path="res://Game State/Stations/Engine/station2.tscn" id="2_pj2ln"]
+[ext_resource type="PackedScene" uid="uid://qky2vtg0rsmt" path="res://Game State/Stations/Controls/station1.tscn" id="3_wxmbk"]
+>>>>>>> 6b3b70f15f17aaf2437b2644912012ea13778195
 
 [node name="Prototype Stage" type="Node2D"]
 
@@ -46,3 +54,12 @@ scale = Vector2(5, 1)
 [node name="Proto_Platform10" parent="." instance=ExtResource("1_jdh3h")]
 position = Vector2(479, -135)
 scale = Vector2(5, 1)
+<<<<<<< HEAD
+=======
+
+[node name="station2" parent="." instance=ExtResource("2_pj2ln")]
+position = Vector2(330, -214)
+
+[node name="station1" parent="." instance=ExtResource("3_wxmbk")]
+position = Vector2(-310, -214)
+>>>>>>> 6b3b70f15f17aaf2437b2644912012ea13778195
