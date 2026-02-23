@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bv033trfyh41t" path="res://Game State/Stations/Engine/station2.gd" id="1_kqq4a"]
 [ext_resource type="Texture2D" uid="uid://dth30w4ik4smd" path="res://Assets/station2.png" id="2_kqq4a"]
-[ext_resource type="PackedScene" uid="uid://cyfvaf0q10yp7" path="res://Game State/Stations/Engine/interactable.tscn" id="3_pq5o4"]
+[ext_resource type="PackedScene" uid="uid://cyfvaf0q10yp7" path="res://interactions/interactable.tscn" id="3_pq5o4"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2jd5w"]
 animations = [{
@@ -36,7 +36,7 @@ shape = SubResource("CapsuleShape2D_s7v1y")
 
 [node name="Interactable" parent="." instance=ExtResource("3_pq5o4")]
 position = Vector2(3, 2)
-interact_name = "Work on station"
+interact_name = "Work"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Interactable"]
 shape = SubResource("CapsuleShape2D_5bqd6")
