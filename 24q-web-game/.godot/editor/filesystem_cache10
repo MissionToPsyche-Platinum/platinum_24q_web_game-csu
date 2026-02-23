@@ -1,175 +1,175 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1771817388
-4wayCharacter.tscn::PackedScene::2943396462365862532::1771816685::0::1::::<><><>0<>0<><>::uid://b1wy5ove725b4::::res://CharMov.gd<>uid://b5a2qcocvd4eq::::res://atroo.png<>uid://dknfa64rnas8h::::res://Footstep.gd
-4waymovement.tscn::PackedScene::6468386817257262634::1771816649::0::1::::<><><>0<>0<><>::
-atroo.png::CompressedTexture2D::4493754051134293044::1771639886::1771639887::1::::<><><>0<>0<>7ba0a3231f3e7be324b72d49a448a6fa<>res://.godot/imported/atroo.png-d170c0b051e7e0d9e289de0745e22b5d.ctex::
-CharMov.gd::GDScript::4258258478508195279::1771817196::0::1::::<>CharacterBody2D<><>0<>0<><>::
-default_bus_layout.tres::AudioBusLayout::918026742601527025::1771814170::0::1::::<><><>0<>0<><>::
-Footstep.gd::GDScript::7888292657039215457::1771815894::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
-game_level.gd::GDScript::4534050863927980809::1771033443::0::1::::<>Node2D<><>0<>0<><>::
-Game_Level.tscn::PackedScene::-1::1771817196::0::1::::<><><>0<>0<><>::
-icon.svg::CompressedTexture2D::8227062921787772187::1771033443::1771033443::1::::<><><>0<>0<>97a210e8ce86c784b9a6f7d1bd191078<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-templvl.tscn::PackedScene::5024762506603962617::1771817196::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>res://4wayCharacter.tscn
-Test1.tscn::PackedScene::4020148247681468160::1771033443::0::1::::<><><>0<>0<><>::uid://b24uxi4tqpeg0::::res://Assets/control-table-spacecraft.jpg<>uid://dlarb3vwv1bn7::::res://Game_Level.tscn
-Testing.tscn::PackedScene::5811252716542087252::1771817196::0::1::::<><><>0<>0<><>::
-::res://addons/::1771033443
-::res://addons/bluebrains_character_controller/::1771033443
-bluebrains_character_controller.gd::GDScript::3990685585572676345::1771033443::0::1::::<>EditorPlugin<><>0<>1<><>::
-icon.png::CompressedTexture2D::6508474833440183413::1771033443::1771033443::1::::<><><>0<>0<>8c910c4d4fbc062279f81350d5794c04<>res://.godot/imported/icon.png-c3a81f75dc9677d19b1a37107fc9f22e.ctex::
-plugin.cfg::TextFile::-1::1771033443::0::1::::<><><>0<>0<><>::
-::res://addons/bluebrains_character_controller/character_controller/::1771699232
-2d_character_controller.gd::GDScript::2858346881058662303::1771033443::0::1::::PlayerCharacterBody2D<>CharacterBody2D<><>0<>0<><>::
-2d_character_controller.tscn::PackedScene::1813640493772185566::1771033443::0::1::::<><><>0<>0<><>::uid://c3ixhnu256fxs::::res://addons/bluebrains_character_controller/sprites/sprite_frames.tres<>uid://bgyus5ghfgqd0::::res://addons/bluebrains_character_controller/character_controller/2d_character_controller.gd<>uid://cihci01qsk7vc::::res://animated_sprite_2d_tool.gd<>uid://dg5r27f36mn07::::res://addons/bluebrains_character_controller/components/ledge_detector.tscn<>uid://b4u3gi8hgjlet::::res://addons/bluebrains_character_controller/character_controller/state_machine/state_machine.gd<>uid://dl7ctbe0cv3c2::::res://addons/bluebrains_character_controller/components/input_map.gd<>uid://duwoy3nkmvy38::::res://addons/bluebrains_character_controller/components/movement_variables.gd<>uid://cwdjqvddxjqqg::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/grounded.gd<>uid://dadlfrrf4y021::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/one_shot.gd<>uid://cs6bis811k88n::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/jump_air.gd<>uid://b8ub53csc0twm::::res://addons/bluebrains_character_controller/components/state_machine_variables.gd<>uid://bnbe7mxk8wsky::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/airborne.gd<>uid://ke7ebekdcqfn::::res://addons/bluebrains_character_controller/character_controller/state_machine/input_transition.gd<>uid://cyspnbaj7tun::::res://addons/bluebrains_character_controller/character_controller/state_machine/magic_transition.gd<>uid://dukw84gcuvd3d::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/hang.gd<>uid://bdlrly1hkn1qa::::res://addons/bluebrains_character_controller/character_controller/state_machine/dynamic_data_row.gd<>uid://byfliumen4dwv::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/wall_slide.gd
-2d_character_controller_base.tscn::PackedScene::1490772616616093676::1771033443::0::1::::<><><>0<>0<><>::uid://bgyus5ghfgqd0::::res://addons/bluebrains_character_controller/character_controller/2d_character_controller.gd<>uid://dl7ctbe0cv3c2::::res://addons/bluebrains_character_controller/components/input_map.gd<>uid://b8ub53csc0twm::::res://addons/bluebrains_character_controller/components/state_machine_variables.gd<>uid://duwoy3nkmvy38::::res://addons/bluebrains_character_controller/components/movement_variables.gd<>uid://b4u3gi8hgjlet::::res://addons/bluebrains_character_controller/character_controller/state_machine/state_machine.gd<>uid://dg5r27f36mn07::::res://addons/bluebrains_character_controller/components/ledge_detector.tscn
-example_character_controller.tscn::PackedScene::1242622232217166029::1771699232::0::1::::<><><>0<>0<><>::uid://vie2pd3qfb5e::::res://addons/bluebrains_character_controller/character_controller/2d_character_controller_base.tscn<>uid://c3ixhnu256fxs::::res://addons/bluebrains_character_controller/sprites/sprite_frames.tres<>uid://cwdjqvddxjqqg::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/grounded.gd<>uid://ke7ebekdcqfn::::res://addons/bluebrains_character_controller/character_controller/state_machine/input_transition.gd<>uid://cyspnbaj7tun::::res://addons/bluebrains_character_controller/character_controller/state_machine/magic_transition.gd<>uid://bdlrly1hkn1qa::::res://addons/bluebrains_character_controller/character_controller/state_machine/dynamic_data_row.gd<>uid://dadlfrrf4y021::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/one_shot.gd<>uid://cs6bis811k88n::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/jump_air.gd<>uid://bnbe7mxk8wsky::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/airborne.gd<>uid://dukw84gcuvd3d::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/hang.gd<>uid://byfliumen4dwv::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/wall_slide.gd
-::res://addons/bluebrains_character_controller/character_controller/state_machine/::1771033443
-dynamic_data_row.gd::GDScript::2620748503569110640::1771033443::0::1::::DynamicDataRow<>Resource<><>0<>0<><>::
-input_transition.gd::GDScript::712096093501737719::1771033443::0::1::::InputStateTransition<>StateTransition<><>0<>1<><>::
-magic_transition.gd::GDScript::191043130513532881::1771033443::0::1::::MagicStateTransition<>StateTransition<><>0<>1<><>::
-state.gd::GDScript::4363396357744232197::1771033443::0::1::::CharacterControllerState<>Node<>res://addons/bluebrains_character_controller/icons/diamond-yellow.png<>0<>1<><>::
-state_machine.gd::GDScript::4464895966329905551::1771033443::0::1::::CharacterControllerStateMachine<>CharacterControllerState<>res://addons/bluebrains_character_controller/icons/multi-diamonds-yellow.png<>0<>1<><>::
-transition.gd::GDScript::1358703449678615030::1771033443::0::1::::StateTransition<>Node<>res://addons/bluebrains_character_controller/icons/jump-to-yellow.png<>0<>1<><>::
-::res://addons/bluebrains_character_controller/character_controller/state_machine/states/::1771033443
-airborne.gd::GDScript::3301240708427646836::1771033443::0::1::::<>CharacterControllerState<><>0<>1<><>::
-grounded.gd::GDScript::6323765194114651454::1771033443::0::1::::<>CharacterControllerState<><>0<>1<><>::
-hang.gd::GDScript::8585078938984680431::1771033443::0::1::::<>CharacterControllerState<><>0<>1<><>::
-jump.gd::GDScript::1868761230054743121::1771033443::0::1::::<>CharacterControllerState<><>0<>1<><>::
-jump_air.gd::GDScript::6100312264205990115::1771033443::0::1::::<>CharacterControllerState<><>0<>1<><>::
-one_shot.gd::GDScript::7166132919656969604::1771033443::0::1::::OneShotState<>CharacterControllerState<>res://addons/bluebrains_character_controller/icons/diamond-jump-to-yellow.png<>0<>1<><>::
-wall_slide.gd::GDScript::4081958062252761413::1771033443::0::1::::<>CharacterControllerState<><>0<>1<><>::
-::res://addons/bluebrains_character_controller/components/::1771033443
-input_map.gd::GDScript::7997554843139282103::1771033443::0::1::::InputMapNode<>Node<><>0<>0<><>::
-ledge_detector.gd::GDScript::6467932707580828766::1771033443::0::1::::LedgeDetector<>Node2D<><>0<>0<><>::
-ledge_detector.tscn::PackedScene::7643408540627085366::1771033443::0::1::::<><><>0<>0<><>::uid://cyfd53fuwelk5::::res://addons/bluebrains_character_controller/components/ledge_detector.gd
-movement_variables.gd::GDScript::8609349622589219745::1771033443::0::1::::MovementVariables<>Node<><>0<>0<><>::
-state_machine_variables.gd::GDScript::4744055844204207084::1771033443::0::1::::BehaviourVariables<>Node<><>0<>0<><>::
-::res://addons/bluebrains_character_controller/helpers/::1771033443
-static_configuration_warning.gd::GDScript::5388576979569073463::1771033443::0::1::::ConfigurationWarningHelper<>Object<><>0<>0<><>::
-::res://addons/bluebrains_character_controller/icons/::1771033443
-diamond-jump-to-yellow.png::CompressedTexture2D::6176816225251503415::1771033443::1771033443::1::::<><><>0<>0<>4ede7146856e75bb26a4f51ef107f772<>res://.godot/imported/diamond-jump-to-yellow.png-a02003b22fbcbf077e50c5a6f2490946.ctex::
-diamond-yellow.png::CompressedTexture2D::4044719620008190239::1771033443::1771033443::1::::<><><>0<>0<>0dec4a53bca1942499dc4d84b1462118<>res://.godot/imported/diamond-yellow.png-4c1ea4c0e4acf749791d289b4771da84.ctex::
-jump-to-yellow.png::CompressedTexture2D::2311711702893399650::1771033443::1771033443::1::::<><><>0<>0<>95762ae619ac3be53452063185c6b77c<>res://.godot/imported/jump-to-yellow.png-cd3ef55445c1cab82162420b366b39c8.ctex::
-multi-diamonds-yellow.png::CompressedTexture2D::8450732681527182792::1771033443::1771033443::1::::<><><>0<>0<>70875a5803a4f315c956a96423c72b2b<>res://.godot/imported/multi-diamonds-yellow.png-7897adeffb86ebffc8497b7fab0814ee.ctex::
-::res://addons/bluebrains_character_controller/sprites/::1771814029
-sprite_frames.tres::SpriteFrames::6756053717642261740::1771814029::0::1::::<><><>0<>0<><>::uid://cp0lb7sgvnpm5::::res://addons/bluebrains_character_controller/sprites/Jump/player jump 48x48.png<>uid://dga236wr4leoa::::res://addons/bluebrains_character_controller/sprites/Air Spin/player air spin 48x48.png<>uid://3a0rqs8x10g4::::res://addons/bluebrains_character_controller/sprites/Climb (facing back of player)/player climb-back 48x48.png<>uid://bwbn6hgshpgn0::::res://addons/bluebrains_character_controller/sprites/Climb (facing side of player)/Player Side-Climb 48x48.png<>uid://dmi1hlownmymv::::res://addons/bluebrains_character_controller/sprites/Crouch-Idle/Player Crouch-Idle 48x48.png<>uid://bpu8teow0xorc::::res://addons/bluebrains_character_controller/sprites/Crouch-Walk/player crouch-walk 48x48.png<>uid://bhv1gfxh4wcww::::res://addons/bluebrains_character_controller/sprites/Dash/dash 48x48.png<>uid://coc4uobfbjjt8::::res://addons/bluebrains_character_controller/sprites/Death/Player Death 64x64.png<>uid://dw027bs0tkhqy::::res://addons/bluebrains_character_controller/sprites/Hurt-Damaged/Player Hurt 48x48.png<>uid://blu2l62mh1ify::::res://addons/bluebrains_character_controller/sprites/Idle/Player Idle 48x48.png<>uid://p10lms5nki45::::res://addons/bluebrains_character_controller/sprites/Katana Air Attack/player katana air attack (upper body) 80x64.png<>uid://dulgh1l8w0eqo::::res://addons/bluebrains_character_controller/sprites/Katana Attack-Sheathe/player katana attack-sheathe 80x64.png<>uid://b2llbfocrmbnj::::res://addons/bluebrains_character_controller/sprites/Katana Continuous Attack/player katana continuous attack 80x64.png<>uid://cfgw1i0bbg2rv::::res://addons/bluebrains_character_controller/sprites/Katana Run/player katana run 48x48.png<>uid://bicbnjagbt8sv::::res://addons/bluebrains_character_controller/sprites/Land/player land 48x48.png<>uid://bas37xdb4isrc::::res://addons/bluebrains_character_controller/sprites/Ledge Grab-Climb/player ledge climb 48x48.png<>uid://co64qqm1fgy2u::::res://addons/bluebrains_character_controller/sprites/Pull/Player Pull 48x48.png<>uid://dghn0txl8ygy7::::res://addons/bluebrains_character_controller/sprites/Punch/Player Punch 64x64.png<>uid://bhcjvrrl180gi::::res://addons/bluebrains_character_controller/sprites/Punch Cross/Player Punch Cross 64x64.png<>uid://cedogs5pivk4v::::res://addons/bluebrains_character_controller/sprites/Punch Jab/Player Jab 48x48.png<>uid://caxcixnedecx2::::res://addons/bluebrains_character_controller/sprites/Push/player push 48x48.png<>uid://b1162hme440b2::::res://addons/bluebrains_character_controller/sprites/PushPull (idle state)/player push idle 48x48.png<>uid://dx64q1ge2m376::::res://addons/bluebrains_character_controller/sprites/Roll/Player Roll 48x48.png<>uid://bl2qs810s27r7::::res://addons/bluebrains_character_controller/sprites/Run/player run 48x48.png<>uid://cbbjk8cpqkcia::::res://addons/bluebrains_character_controller/sprites/Shooting (two-handed)/player shoot 2H 48x48.png<>uid://c8i0josvab7rw::::res://addons/bluebrains_character_controller/sprites/Slide/Player Slide 48x48.png<>uid://bjc20ias3p8mf::::res://addons/bluebrains_character_controller/sprites/Sword Attack/player sword atk 64x64.png<>uid://da655muyodvyt::::res://addons/bluebrains_character_controller/sprites/Sword Idle/Player Sword Idle 48x48.png<>uid://2ene2r8ix6vi::::res://addons/bluebrains_character_controller/sprites/Sword Run/Player Sword Run 48x48.png<>uid://dhbb56t2q1hre::::res://addons/bluebrains_character_controller/sprites/Sword Stab/Player Sword Stab 96x48.png<>uid://v5erqhvqlnds::::res://addons/bluebrains_character_controller/sprites/Walk/PlayerWalk 48x48.png<>uid://cgnk4uglhecbp::::res://addons/bluebrains_character_controller/sprites/Wall Land/Player Wall Land (left) 48x48.png<>uid://dkruh47lkqa68::::res://addons/bluebrains_character_controller/sprites/Wall Slide/player wall slide 48x48.png
-::res://addons/bluebrains_character_controller/sprites/Air Spin/::1771033443
-player air spin 48x48.png::CompressedTexture2D::7582086136962674100::1771033443::1771033443::1::::<><><>0<>0<>1987b91ac2f8e455a115434bf91d5999<>res://.godot/imported/player air spin 48x48.png-d305620219e44372db2d106009e0d539.ctex::
-::res://addons/bluebrains_character_controller/sprites/Climb (facing back of player)/::1771033443
-player climb-back 48x48.png::CompressedTexture2D::1966836774891689133::1771033443::1771033443::1::::<><><>0<>0<>8e3ac1e2e7d7568049db1bf0593ae392<>res://.godot/imported/player climb-back 48x48.png-cbc88a3a0719d692c6a15f4f3a8cf363.ctex::
-::res://addons/bluebrains_character_controller/sprites/Climb (facing side of player)/::1771033443
-Player Side-Climb 48x48.png::CompressedTexture2D::3933484679760955539::1771033443::1771033443::1::::<><><>0<>0<>f12413aca3a9faf32b7d6c1285320bb8<>res://.godot/imported/Player Side-Climb 48x48.png-6a66a45d2519335b308162ea87001eb3.ctex::
-::res://addons/bluebrains_character_controller/sprites/Climb (facing side of player)/old climb/::1771033443
-Player Side-Climb 48x48.png::CompressedTexture2D::8995737826598502220::1771033443::1771033443::1::::<><><>0<>0<>f20395e73f934a6dc5fa53cbc38978cb<>res://.godot/imported/Player Side-Climb 48x48.png-b24225e9e9994d2a4f0a24b83dce73ef.ctex::
-::res://addons/bluebrains_character_controller/sprites/Crouch-Idle/::1771033443
-Player Crouch-Idle 48x48.png::CompressedTexture2D::8019634939538997245::1771033443::1771033443::1::::<><><>0<>0<>0bee22de84ca81616a55d23f467fae40<>res://.godot/imported/Player Crouch-Idle 48x48.png-3ad6db0328fe9ac04f207d290fd02f62.ctex::
-::res://addons/bluebrains_character_controller/sprites/Crouch-Walk/::1771033443
-player crouch-walk 48x48.png::CompressedTexture2D::3482578716944839556::1771033443::1771033443::1::::<><><>0<>0<>0ec60100eb9da1a63ea1e2b9044792e2<>res://.godot/imported/player crouch-walk 48x48.png-8d81578ba2d5313c2e71c8e485a30107.ctex::
-::res://addons/bluebrains_character_controller/sprites/Dash/::1771033443
-dash 48x48.png::CompressedTexture2D::2922684177074862250::1771033443::1771033443::1::::<><><>0<>0<>308e075518b2ab5cdea5e5687133842b<>res://.godot/imported/dash 48x48.png-1b41a3ca504800231ef4a9e1e155e874.ctex::
-::res://addons/bluebrains_character_controller/sprites/Death/::1771033443
-Player Death 64x64.png::CompressedTexture2D::5761411179595685123::1771033443::1771033443::1::::<><><>0<>0<>39b5ff9d2bb63a7aaaa11dbf355fef71<>res://.godot/imported/Player Death 64x64.png-d845fca326e3075c68fa52451e2e7165.ctex::
-::res://addons/bluebrains_character_controller/sprites/Hurt-Damaged/::1771033443
-Player Hurt 48x48.png::CompressedTexture2D::8756722640668668532::1771033443::1771033443::1::::<><><>0<>0<>0d606f4ae3574023d4b56aec7c294a05<>res://.godot/imported/Player Hurt 48x48.png-e13a08d1c58b11bba6eaf88d04720f11.ctex::
-::res://addons/bluebrains_character_controller/sprites/Idle/::1771033443
-Player Idle 48x48.png::CompressedTexture2D::3201446191819485666::1771033443::1771033443::1::::<><><>0<>0<>293003b9677dd501f193ee661491686a<>res://.godot/imported/Player Idle 48x48.png-e3642531c85263d9576756efe7a2c1d0.ctex::
-::res://addons/bluebrains_character_controller/sprites/Jump/::1771033443
-player jump 48x48.png::CompressedTexture2D::5877954847377406698::1771033443::1771033443::1::::<><><>0<>0<>305532246031e3e51f633b7febf77eb7<>res://.godot/imported/player jump 48x48.png-c6bed5a06bfde1cba225615f1d8a45da.ctex::
-player jump left 48x48-sheet.png::CompressedTexture2D::7309213252708798664::1771033443::1771033443::1::::<><><>0<>0<>dbe35232317261bbdff996acff8558d4<>res://.godot/imported/player jump left 48x48-sheet.png-f3b4999b339ce9bb5b70b1670a29487b.ctex::
-player new jump 48x48.png::CompressedTexture2D::8421044066898055606::1771033443::1771033443::1::::<><><>0<>0<>1168f0a8958488dff14883722c0f6a82<>res://.godot/imported/player new jump 48x48.png-c5e60e8cb04c8b43b61fdc792209394a.ctex::
-::res://addons/bluebrains_character_controller/sprites/Katana Air Attack/::1771033443
-player katana air attack (upper body) 80x64.png::CompressedTexture2D::1108044704195675000::1771033443::1771033443::1::::<><><>0<>0<>915eab168eef44d02bf225f776a9cdbd<>res://.godot/imported/player katana air attack (upper body) 80x64.png-6cef4ebd332c1f0f4d6e402e7e89e667.ctex::
-::res://addons/bluebrains_character_controller/sprites/Katana Attack-Sheathe/::1771033443
-player katana attack-sheathe 80x64.png::CompressedTexture2D::8586125265778249926::1771033443::1771033443::1::::<><><>0<>0<>a25b0d09f79562b32609c1a45118dae5<>res://.godot/imported/player katana attack-sheathe 80x64.png-e3447ccf5a7c6d2ad633cd46eb846789.ctex::
-::res://addons/bluebrains_character_controller/sprites/Katana Continuous Attack/::1771033443
-player katana continuous attack 80x64.png::CompressedTexture2D::4304897574287043319::1771033443::1771033443::1::::<><><>0<>0<>a93211d3584cadf5ce2cbdb3cfc0e67e<>res://.godot/imported/player katana continuous attack 80x64.png-6fc3ee6f09f6e3c4d8b1fbf6645dcc65.ctex::
-::res://addons/bluebrains_character_controller/sprites/Katana Run/::1771033443
-player katana run 48x48.png::CompressedTexture2D::5137554515437063139::1771033443::1771033443::1::::<><><>0<>0<>08dbf3d58eff15d64f389c0ba6f7710a<>res://.godot/imported/player katana run 48x48.png-8b550bb0f53b12f2172ab46c5f07d11d.ctex::
-::res://addons/bluebrains_character_controller/sprites/Katana Run Attack/::1771033443
-player katana running attack (upper body).png::CompressedTexture2D::2666062114140025580::1771033443::1771033443::1::::<><><>0<>0<>f42f31b637ecc8de9614dc2485fc1d48<>res://.godot/imported/player katana running attack (upper body).png-0dda00e02aef1bd9f5d7b3012b5aa71a.ctex::
-::res://addons/bluebrains_character_controller/sprites/Katana walk/::1771033443
-katana walk.png::CompressedTexture2D::4328695810910720750::1771033443::1771033443::1::::<><><>0<>0<>0e53a81864f0db4fcd90cdbee6efaa94<>res://.godot/imported/katana walk.png-fd3beae33e3caeded7f4a9ad679d41a0.ctex::
-::res://addons/bluebrains_character_controller/sprites/Land/::1771033443
-player land 48x48.png::CompressedTexture2D::2952144593603895525::1771033443::1771033443::1::::<><><>0<>0<>ffddfadab56f14524a5a76f42add6bfa<>res://.godot/imported/player land 48x48.png-cae2c47784332d3735b1113546cd2d6e.ctex::
-::res://addons/bluebrains_character_controller/sprites/Ledge Grab-Climb/::1771033443
-player ledge climb 48x48.png::CompressedTexture2D::2425337917224586236::1771033443::1771033443::1::::<><><>0<>0<>a2433fc3e817168d19328140e3767a3d<>res://.godot/imported/player ledge climb 48x48.png-3c11d12b8fffa0aab1656678c0b08a5e.ctex::
-::res://addons/bluebrains_character_controller/sprites/Pull/::1771033443
-Player Pull 48x48.png::CompressedTexture2D::5821271114286736842::1771033443::1771033443::1::::<><><>0<>0<>6a3394403ed4000c2f545e649fceda76<>res://.godot/imported/Player Pull 48x48.png-480f786f780cdd9e082d97103ff5eb32.ctex::
-::res://addons/bluebrains_character_controller/sprites/Punch/::1771033443
-Player Punch 64x64.png::CompressedTexture2D::7595680756958496472::1771033443::1771033443::1::::<><><>0<>0<>d2b4388ab6c9e75d7a1d1c390a1d2b7d<>res://.godot/imported/Player Punch 64x64.png-ebe7d3cb7a813887d28d0716e74746d4.ctex::
-::res://addons/bluebrains_character_controller/sprites/Punch Cross/::1771033443
-Player Punch Cross 64x64.png::CompressedTexture2D::2882456218968836352::1771033443::1771033443::1::::<><><>0<>0<>df7b17ff9f254c1527db4489546448f6<>res://.godot/imported/Player Punch Cross 64x64.png-9e57e2c04516dcf092f7f7a01063c60f.ctex::
-::res://addons/bluebrains_character_controller/sprites/Punch Jab/::1771033443
-Player Jab 48x48.png::CompressedTexture2D::5060651620320165919::1771033443::1771033443::1::::<><><>0<>0<>dd8177097145d33369fa2499207d99ee<>res://.godot/imported/Player Jab 48x48.png-4938824150b192c43d55aef187c62e15.ctex::
-::res://addons/bluebrains_character_controller/sprites/Push/::1771033443
-player push 48x48.png::CompressedTexture2D::4820459004371770817::1771033443::1771033443::1::::<><><>0<>0<>d86560528e9659f172b853b3427ddef9<>res://.godot/imported/player push 48x48.png-170c2a4ffe3096fe798ecd37d3894fa4.ctex::
-::res://addons/bluebrains_character_controller/sprites/PushPull (idle state)/::1771033443
-player push idle 48x48.png::CompressedTexture2D::4266935269521458009::1771033443::1771033443::1::::<><><>0<>0<>e2ba47f1a893a044b50e2eb43f502f5b<>res://.godot/imported/player push idle 48x48.png-8861cf0ccf6ad406adacf513c3a5b52e.ctex::
-::res://addons/bluebrains_character_controller/sprites/Roll/::1771033443
-Player Roll 48x48.png::CompressedTexture2D::8839391905716864991::1771033443::1771033443::1::::<><><>0<>0<>d533f5fec39215132827dc81403cf36b<>res://.godot/imported/Player Roll 48x48.png-da4f9eadcbe31c3f6a80cf856c477a4f.ctex::
-::res://addons/bluebrains_character_controller/sprites/Run/::1771033443
-player run 48x48.png::CompressedTexture2D::3215241553842130810::1771033443::1771033443::1::::<><><>0<>0<>74bb4a17fdb70ac895c51eea608e57ce<>res://.godot/imported/player run 48x48.png-3e62a4cdae10501bda59ada490e9ae61.ctex::
-::res://addons/bluebrains_character_controller/sprites/Shooting (running and aiming)/::1771033443
-Player Running Aiming 48x48.png::CompressedTexture2D::6810092915480021616::1771033443::1771033443::1::::<><><>0<>0<>f60f7d8531bd8a89454a1beaf4c3a99d<>res://.godot/imported/Player Running Aiming 48x48.png-c2e813c936f463efe69e1a76518d8bf8.ctex::
-Player Running Shooting 48x48.png::CompressedTexture2D::2224023681854681385::1771033443::1771033443::1::::<><><>0<>0<>82d77b05151d57203be0d9d8dfc5db93<>res://.godot/imported/Player Running Shooting 48x48.png-bc046dc4097d99a6e0fb23d28af9089e.ctex::
-::res://addons/bluebrains_character_controller/sprites/Shooting (two-handed)/::1771033443
-player shoot 2H 48x48.png::CompressedTexture2D::4845660636715713352::1771033443::1771033443::1::::<><><>0<>0<>d85d7297ac4d6d1920b02cd0635fe38b<>res://.godot/imported/player shoot 2H 48x48.png-0855f976bc0f9143570acd58d6dbe931.ctex::
-::res://addons/bluebrains_character_controller/sprites/Slide/::1771033443
-Player Slide 48x48.png::CompressedTexture2D::7107122990525656960::1771033443::1771033443::1::::<><><>0<>0<>d38f75ad8e514d83f803d7d2aa53081a<>res://.godot/imported/Player Slide 48x48.png-47d45a3ecbdb2252fc155cefa75f854b.ctex::
-::res://addons/bluebrains_character_controller/sprites/Sword Attack/::1771033443
-player sword atk 64x64.png::CompressedTexture2D::3023933456638513305::1771033443::1771033443::1::::<><><>0<>0<>6b3fcaf1a7320a771e5e1ea0d80b0fac<>res://.godot/imported/player sword atk 64x64.png-0972e458b4ed5e5ea959e154920c6034.ctex::
-::res://addons/bluebrains_character_controller/sprites/Sword Idle/::1771033443
-Player Sword Idle 48x48.png::CompressedTexture2D::7225133507340888975::1771033443::1771033443::1::::<><><>0<>0<>91358dafe6faf527bf057edd840e38cf<>res://.godot/imported/Player Sword Idle 48x48.png-dcb3e83216c418cb380ed0764db435fe.ctex::
-::res://addons/bluebrains_character_controller/sprites/Sword Run/::1771033443
-Player Sword Run 48x48.png::CompressedTexture2D::1904154199227826278::1771033443::1771033443::1::::<><><>0<>0<>fa95606dfbc90d454281be71f64ddb69<>res://.godot/imported/Player Sword Run 48x48.png-8ac686b5982d1c7696408e5fe2257d1b.ctex::
-::res://addons/bluebrains_character_controller/sprites/Sword Stab/::1771033443
-Player Sword Stab 96x48.png::CompressedTexture2D::7652764283933809746::1771033443::1771033443::1::::<><><>0<>0<>7fce5dfb7bee2dcf5875f1e4db2836ae<>res://.godot/imported/Player Sword Stab 96x48.png-2024b4aba7ef99410a61f816541e9961.ctex::
-::res://addons/bluebrains_character_controller/sprites/Walk/::1771033443
-PlayerWalk 48x48.png::CompressedTexture2D::1536171127651128420::1771033443::1771033443::1::::<><><>0<>0<>8f7d775c5190070a52654aec00068954<>res://.godot/imported/PlayerWalk 48x48.png-d48b0764562e1a8eb6dc4893bde8b96e.ctex::
-::res://addons/bluebrains_character_controller/sprites/Wall Land/::1771033443
-player wall land 48x48.png::CompressedTexture2D::1914734219636591608::1771033443::1771033443::1::::<><><>0<>0<>2f57571702a5e845df9497f518120abc<>res://.godot/imported/player wall land 48x48.png-03492e5483b21ac5afa200dbe9faf806.ctex::
-Player Wall Land (left) 48x48.png::CompressedTexture2D::5221471358213213097::1771033443::1771033443::1::::<><><>0<>0<>7abe68534fcdaf1523a16d3c5aa45755<>res://.godot/imported/Player Wall Land (left) 48x48.png-36941ba6e50eda0d2db788329b9be060.ctex::
-::res://addons/bluebrains_character_controller/sprites/Wall Slide/::1771033443
-player wall slide 48x48.png::CompressedTexture2D::7897473322815985215::1771033443::1771033443::1::::<><><>0<>0<>a8321d6f3e36d25e0c1a396590a6b903<>res://.godot/imported/player wall slide 48x48.png-f5ad0279eb5dae4c123a87b93746ddf2.ctex::
-player wall slide (left) 48x48.png::CompressedTexture2D::2824218819971067591::1771033443::1771033443::1::::<><><>0<>0<>edb0bcef5a1f54319a169e81db07efb3<>res://.godot/imported/player wall slide (left) 48x48.png-4c5eb77d547884f21d36dfafdbf7ee35.ctex::
-::res://Assets/::1771033732
-astro.png::CompressedTexture2D::106645105334485013::1771033732::1771033732::1::::<><><>0<>0<>f31c8277f8f935f9876c234efccf92d8<>res://.godot/imported/astro.png-6009457c70288682fc2712aa6eb26cfb.ctex::
-bar_round_gloss_large.svg::CompressedTexture2D::7763558158387351984::1771033443::1771033573::1::::<><><>0<>0<>50f1765fee458ab6971a026683ce44db<>res://.godot/imported/bar_round_gloss_large.svg-41f812e6ac63ae505896f5037c598ceb.ctex::
-bar_shadow_round_large.svg::CompressedTexture2D::2129841429404699824::1771033443::1771033573::1::::<><><>0<>0<>63bcabc82e52517aeae6bad7f66011c2<>res://.godot/imported/bar_shadow_round_large.svg-84bfcafaad76750f1c6b4073092f7474.ctex::
-control-table-spacecraft.jpg::CompressedTexture2D::4342642295774228877::1771033443::1771033443::1::::<><><>0<>0<>e56fa6aed3c0b70d1cd0cbd3505c89f3<>res://.godot/imported/control-table-spacecraft.jpg-22b059a5b4ac7fef576c0c701f430bf8.ctex::
-Platform.png::CompressedTexture2D::9145759778172632085::1771033443::1771033443::1::::<><><>0<>0<>d7b220a10cb9082ce0be698c5b548e9b<>res://.godot/imported/Platform.png-2b239903e86a1977464c3e1f2fea1274.ctex::
-Stars-64x64.jpg::CompressedTexture2D::688980600488759364::1771033443::1771033573::1::::<><><>0<>0<>ef560173a153fe82e57d5aee3f4fb63c<>res://.godot/imported/Stars-64x64.jpg-3608fe54a0fd324f8b02740a1ed8cd15.ctex::
-station1.png::CompressedTexture2D::3230373456799225091::1771033443::1771033443::1::::<><><>0<>0<>270e517c62f7c4988480fc4c0d220bef<>res://.godot/imported/station1.png-0b2aaa0782076ebac9905288ed66a1df.ctex::
-station2.png::CompressedTexture2D::8509046645816459307::1771033443::1771033443::1::::<><><>0<>0<>c6a98a3cf447d9e1d3162f4add42a0f6<>res://.godot/imported/station2.png-f01c09365fc08de52a499ed099b84ba8.ctex::
-TileSet_v1.0.png::CompressedTexture2D::1814982272785447956::1771033443::1771033573::1::::<><><>0<>0<>63d10af169460e00480b4aa89c9cdb0f<>res://.godot/imported/TileSet_v1.0.png-5833d239f8f299443b4ca2d268dc62c1.ctex::
-::res://Game Over/::1771635011
-Game Over Explosion.webp::CompressedTexture2D::2420736047525396293::1771033443::1771033573::1::::<><><>0<>0<>bdec62baf4bdae3f12fffae0a6727441<>res://.godot/imported/Game Over Explosion.webp-3a70bac49066854d805a0e7373c917ed.ctex::
-game_over.gd::GDScript::5509264814833515626::1771033443::0::1::::<>Control<><>0<>0<><>::
-game_over.tscn::PackedScene::2027217019687735815::1771033443::0::1::::<><><>0<>0<><>::uid://ckqy10kaby36m::::res://Game Over/game_over.gd<>uid://baqvf0nriksy4::::res://Game Over/Game Over Explosion.webp<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
-::res://Game State/::1771033443
-game_state_manager.gd::GDScript::5212493652343919426::1771033443::0::1::::<>Node<><>0<>0<><>::
-::res://Game State/Meltdown/::1771033443
-meltdown_timer.tscn::PackedScene::3063031347107838764::1771033443::0::1::::<><><>0<>0<><>::
-meltdown_ui.tscn::PackedScene::553857381139320218::1771033443::0::1::::<><><>0<>0<><>::uid://5lyga2o0atvk::::res://Assets/bar_shadow_round_large.svg<>uid://diuywy5um0yrg::::res://Assets/bar_round_gloss_large.svg
-::res://Game State/Stations/::1771033443
-::res://Game State/Stations/Controls/::1771033443
-station1.tscn::PackedScene::1145171832659290507::1771033443::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://dth30w4ik4smd::::res://Assets/station2.png<>uid://cyfvaf0q10yp7::::res://Game State/Stations/Engine/interactable.tscn
-::res://Game State/Stations/Engine/::1771033443
-interactable.gd::GDScript::5974264426253389930::1771033443::0::1::::<>Area2D<><>0<>0<><>::
-interactable.tscn::PackedScene::6468970862316957478::1771033443::0::1::::<><><>0<>0<><>::uid://crd8i6fpmmite::::res://Game State/Stations/Engine/interactable.gd
-interacting_component.gd::GDScript::3144964373422885364::1771033443::0::1::::<>Node2D<><>0<>0<><>::
-interacting_component.tscn::PackedScene::643285140591541613::1771033443::0::1::::<><><>0<>0<><>::uid://bk2pdr6uqqxgm::::res://Game State/Stations/Engine/interacting_component.gd
-station2.gd::GDScript::3913746946434960147::1771033443::0::1::::<>StaticBody2D<><>0<>0<><>::
-station2.tscn::PackedScene::2554525582916568835::1771033443::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://bma21qmybmael::::res://Assets/station1.png<>uid://cyfvaf0q10yp7::::res://Game State/Stations/Engine/interactable.tscn
-::res://Main_Menu/::1771033574
-Button_Theme.tres::Theme::7348606947542597483::1771033443::0::1::::<><><>0<>0<><>::
-main_menu.gd::GDScript::5755916443098860325::1771033443::0::1::::<>Control<><>0<>0<><>::
-main_menu.tscn::PackedScene::5260228439448990881::1771033443::0::1::::<><><>0<>0<><>::uid://ddp0o8wifrrid::::res://Main_Menu/MilkyWayPlaceHolder.jpg<>uid://coahdq6edvik0::::res://Main_Menu/main_menu.gd<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
-MilkyWayPlaceHolder.jpg::CompressedTexture2D::7402338941865232175::1771033443::1771033574::1::::<><><>0<>0<>0c6a9a7de9f4774cffa013bdb72b4e43<>res://.godot/imported/MilkyWayPlaceHolder.jpg-6abed295275b1bb1e8a335b7f986d1d3.ctex::
-::res://Sounds/::1771815310
-398937__softdistortionfx__metal-footsteps.mp3::AudioStreamMP3::4432120499156901101::1771635184::1771635208::1::::<><><>0<>0<>69a0524c4efc0e5aaf53a96c953027e5<>res://.godot/imported/398937__softdistortionfx__metal-footsteps.mp3-1efe5a203649a97f2997944d2c443313.mp3str::
-metal_walk.ogg::AudioStreamOggVorbis::8332401097257156309::1771815310::1771815310::1::::<><><>0<>0<>f9bf4f0e62c00efc5d4ea757198e4abc<>res://.godot/imported/metal_walk.ogg-1382920cffdc2062fae8df7253de2e61.oggvorbisstr::
-::res://Stages/::1771033548
-::res://Stages/Prototype/::1771817196
-platform.tscn::PackedScene::4852305123884715635::1771033443::0::1::::<><><>0<>0<><>::uid://d3kjlenstws02::::res://Assets/Platform.png
-prototype_stage.tscn::PackedScene::-1::1771817196::0::1::::<><><>0<>0<><>::
-proto_platform.tscn::PackedScene::1280171002863225467::1771033443::0::1::::<><><>0<>0<><>::uid://d3kjlenstws02::::res://Assets/Platform.png
+::res://::1771819938
+4wayCharacter.tscn::PackedScene::2943396462365862532::1771819906::0::1::::<><><>0<>0<><>::uid://b1wy5ove725b4::::res://CharMov.gd<>uid://b5a2qcocvd4eq::::res://atroo.png<>uid://dknfa64rnas8h::::res://Footstep.gd
+4waymovement.tscn::PackedScene::6468386817257262634::1771819906::0::1::::<><><>0<>0<><>::
+atroo.png::CompressedTexture2D::4493754051134293044::1771819654::1771819654::1::::<><><>0<>0<>7ba0a3231f3e7be324b72d49a448a6fa<>res://.godot/imported/atroo.png-d170c0b051e7e0d9e289de0745e22b5d.ctex::
+CharMov.gd::GDScript::4258258478508195279::1771819906::0::1::::<>CharacterBody2D<><>0<>0<><>::
+default_bus_layout.tres::AudioBusLayout::918026742601527025::1771819654::0::1::::<><><>0<>0<><>::
+Footstep.gd::GDScript::7888292657039215457::1771819654::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
+game_level.gd::GDScript::4534050863927980809::1771816220::0::1::::<>Node2D<><>0<>0<><>::
+Game_Level.tscn::PackedScene::-1::1771819654::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D::8227062921787772187::1771816220::1771816220::1::::<><><>0<>0<>97a210e8ce86c784b9a6f7d1bd191078<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+templvl.tscn::PackedScene::5024762506603962617::1771819906::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>res://4wayCharacter.tscn
+Test1.tscn::PackedScene::4020148247681468160::1771033848::0::1::::<><><>0<>0<><>::uid://b24uxi4tqpeg0::::res://Assets/control-table-spacecraft.jpg<>uid://dlarb3vwv1bn7::::res://Game_Level.tscn
+Testing.tscn::PackedScene::5811252716542087252::1771819654::0::1::::<><><>0<>0<><>::
+::res://addons/::1771033804
+::res://addons/bluebrains_character_controller/::1771033804
+bluebrains_character_controller.gd::GDScript::3990685585572676345::1771033804::0::1::::<>EditorPlugin<><>0<>1<><>::
+icon.png::CompressedTexture2D::6508474833440183413::1771033804::1771033804::1::::<><><>0<>0<>8c910c4d4fbc062279f81350d5794c04<>res://.godot/imported/icon.png-c3a81f75dc9677d19b1a37107fc9f22e.ctex::
+plugin.cfg::TextFile::-1::1771033804::0::1::::<><><>0<>0<><>::
+::res://addons/bluebrains_character_controller/character_controller/::1771819654
+2d_character_controller.gd::GDScript::2858346881058662303::1771033804::0::1::::PlayerCharacterBody2D<>CharacterBody2D<><>0<>0<><>::
+2d_character_controller.tscn::PackedScene::1813640493772185566::1771033804::0::1::::<><><>0<>0<><>::uid://c3ixhnu256fxs::::res://addons/bluebrains_character_controller/sprites/sprite_frames.tres<>uid://bgyus5ghfgqd0::::res://addons/bluebrains_character_controller/character_controller/2d_character_controller.gd<>uid://cihci01qsk7vc::::res://animated_sprite_2d_tool.gd<>uid://dg5r27f36mn07::::res://addons/bluebrains_character_controller/components/ledge_detector.tscn<>uid://b4u3gi8hgjlet::::res://addons/bluebrains_character_controller/character_controller/state_machine/state_machine.gd<>uid://dl7ctbe0cv3c2::::res://addons/bluebrains_character_controller/components/input_map.gd<>uid://duwoy3nkmvy38::::res://addons/bluebrains_character_controller/components/movement_variables.gd<>uid://cwdjqvddxjqqg::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/grounded.gd<>uid://dadlfrrf4y021::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/one_shot.gd<>uid://cs6bis811k88n::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/jump_air.gd<>uid://b8ub53csc0twm::::res://addons/bluebrains_character_controller/components/state_machine_variables.gd<>uid://bnbe7mxk8wsky::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/airborne.gd<>uid://ke7ebekdcqfn::::res://addons/bluebrains_character_controller/character_controller/state_machine/input_transition.gd<>uid://cyspnbaj7tun::::res://addons/bluebrains_character_controller/character_controller/state_machine/magic_transition.gd<>uid://dukw84gcuvd3d::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/hang.gd<>uid://bdlrly1hkn1qa::::res://addons/bluebrains_character_controller/character_controller/state_machine/dynamic_data_row.gd<>uid://byfliumen4dwv::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/wall_slide.gd
+2d_character_controller_base.tscn::PackedScene::1490772616616093676::1771033804::0::1::::<><><>0<>0<><>::uid://bgyus5ghfgqd0::::res://addons/bluebrains_character_controller/character_controller/2d_character_controller.gd<>uid://dl7ctbe0cv3c2::::res://addons/bluebrains_character_controller/components/input_map.gd<>uid://b8ub53csc0twm::::res://addons/bluebrains_character_controller/components/state_machine_variables.gd<>uid://duwoy3nkmvy38::::res://addons/bluebrains_character_controller/components/movement_variables.gd<>uid://b4u3gi8hgjlet::::res://addons/bluebrains_character_controller/character_controller/state_machine/state_machine.gd<>uid://dg5r27f36mn07::::res://addons/bluebrains_character_controller/components/ledge_detector.tscn
+example_character_controller.tscn::PackedScene::1242622232217166029::1771819654::0::1::::<><><>0<>0<><>::uid://vie2pd3qfb5e::::res://addons/bluebrains_character_controller/character_controller/2d_character_controller_base.tscn<>uid://c3ixhnu256fxs::::res://addons/bluebrains_character_controller/sprites/sprite_frames.tres<>uid://cwdjqvddxjqqg::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/grounded.gd<>uid://ke7ebekdcqfn::::res://addons/bluebrains_character_controller/character_controller/state_machine/input_transition.gd<>uid://cyspnbaj7tun::::res://addons/bluebrains_character_controller/character_controller/state_machine/magic_transition.gd<>uid://bdlrly1hkn1qa::::res://addons/bluebrains_character_controller/character_controller/state_machine/dynamic_data_row.gd<>uid://dadlfrrf4y021::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/one_shot.gd<>uid://cs6bis811k88n::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/jump_air.gd<>uid://bnbe7mxk8wsky::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/airborne.gd<>uid://dukw84gcuvd3d::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/hang.gd<>uid://byfliumen4dwv::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/wall_slide.gd
+::res://addons/bluebrains_character_controller/character_controller/state_machine/::1771033804
+dynamic_data_row.gd::GDScript::2620748503569110640::1771033804::0::1::::DynamicDataRow<>Resource<><>0<>0<><>::
+input_transition.gd::GDScript::712096093501737719::1771033804::0::1::::InputStateTransition<>StateTransition<><>0<>1<><>::
+magic_transition.gd::GDScript::191043130513532881::1771033804::0::1::::MagicStateTransition<>StateTransition<><>0<>1<><>::
+state.gd::GDScript::4363396357744232197::1771033804::0::1::::CharacterControllerState<>Node<>res://addons/bluebrains_character_controller/icons/diamond-yellow.png<>0<>1<><>::
+state_machine.gd::GDScript::4464895966329905551::1771033804::0::1::::CharacterControllerStateMachine<>CharacterControllerState<>res://addons/bluebrains_character_controller/icons/multi-diamonds-yellow.png<>0<>1<><>::
+transition.gd::GDScript::1358703449678615030::1771033804::0::1::::StateTransition<>Node<>res://addons/bluebrains_character_controller/icons/jump-to-yellow.png<>0<>1<><>::
+::res://addons/bluebrains_character_controller/character_controller/state_machine/states/::1771033804
+airborne.gd::GDScript::3301240708427646836::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
+grounded.gd::GDScript::6323765194114651454::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
+hang.gd::GDScript::8585078938984680431::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
+jump.gd::GDScript::1868761230054743121::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
+jump_air.gd::GDScript::6100312264205990115::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
+one_shot.gd::GDScript::7166132919656969604::1771033804::0::1::::OneShotState<>CharacterControllerState<>res://addons/bluebrains_character_controller/icons/diamond-jump-to-yellow.png<>0<>1<><>::
+wall_slide.gd::GDScript::4081958062252761413::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
+::res://addons/bluebrains_character_controller/components/::1771033804
+input_map.gd::GDScript::7997554843139282103::1771033804::0::1::::InputMapNode<>Node<><>0<>0<><>::
+ledge_detector.gd::GDScript::6467932707580828766::1771033804::0::1::::LedgeDetector<>Node2D<><>0<>0<><>::
+ledge_detector.tscn::PackedScene::7643408540627085366::1771033804::0::1::::<><><>0<>0<><>::uid://cyfd53fuwelk5::::res://addons/bluebrains_character_controller/components/ledge_detector.gd
+movement_variables.gd::GDScript::8609349622589219745::1771033804::0::1::::MovementVariables<>Node<><>0<>0<><>::
+state_machine_variables.gd::GDScript::4744055844204207084::1771033804::0::1::::BehaviourVariables<>Node<><>0<>0<><>::
+::res://addons/bluebrains_character_controller/helpers/::1771033804
+static_configuration_warning.gd::GDScript::5388576979569073463::1771033804::0::1::::ConfigurationWarningHelper<>Object<><>0<>0<><>::
+::res://addons/bluebrains_character_controller/icons/::1771033804
+diamond-jump-to-yellow.png::CompressedTexture2D::6176816225251503415::1771033804::1771033804::1::::<><><>0<>0<>4ede7146856e75bb26a4f51ef107f772<>res://.godot/imported/diamond-jump-to-yellow.png-a02003b22fbcbf077e50c5a6f2490946.ctex::
+diamond-yellow.png::CompressedTexture2D::4044719620008190239::1771033804::1771033804::1::::<><><>0<>0<>0dec4a53bca1942499dc4d84b1462118<>res://.godot/imported/diamond-yellow.png-4c1ea4c0e4acf749791d289b4771da84.ctex::
+jump-to-yellow.png::CompressedTexture2D::2311711702893399650::1771033804::1771033804::1::::<><><>0<>0<>95762ae619ac3be53452063185c6b77c<>res://.godot/imported/jump-to-yellow.png-cd3ef55445c1cab82162420b366b39c8.ctex::
+multi-diamonds-yellow.png::CompressedTexture2D::8450732681527182792::1771033804::1771033804::1::::<><><>0<>0<>70875a5803a4f315c956a96423c72b2b<>res://.godot/imported/multi-diamonds-yellow.png-7897adeffb86ebffc8497b7fab0814ee.ctex::
+::res://addons/bluebrains_character_controller/sprites/::1771817430
+sprite_frames.tres::SpriteFrames::6756053717642261740::1771817430::0::1::::<><><>0<>0<><>::uid://cp0lb7sgvnpm5::::res://addons/bluebrains_character_controller/sprites/Jump/player jump 48x48.png<>uid://dga236wr4leoa::::res://addons/bluebrains_character_controller/sprites/Air Spin/player air spin 48x48.png<>uid://3a0rqs8x10g4::::res://addons/bluebrains_character_controller/sprites/Climb (facing back of player)/player climb-back 48x48.png<>uid://bwbn6hgshpgn0::::res://addons/bluebrains_character_controller/sprites/Climb (facing side of player)/Player Side-Climb 48x48.png<>uid://dmi1hlownmymv::::res://addons/bluebrains_character_controller/sprites/Crouch-Idle/Player Crouch-Idle 48x48.png<>uid://bpu8teow0xorc::::res://addons/bluebrains_character_controller/sprites/Crouch-Walk/player crouch-walk 48x48.png<>uid://bhv1gfxh4wcww::::res://addons/bluebrains_character_controller/sprites/Dash/dash 48x48.png<>uid://coc4uobfbjjt8::::res://addons/bluebrains_character_controller/sprites/Death/Player Death 64x64.png<>uid://dw027bs0tkhqy::::res://addons/bluebrains_character_controller/sprites/Hurt-Damaged/Player Hurt 48x48.png<>uid://blu2l62mh1ify::::res://addons/bluebrains_character_controller/sprites/Idle/Player Idle 48x48.png<>uid://p10lms5nki45::::res://addons/bluebrains_character_controller/sprites/Katana Air Attack/player katana air attack (upper body) 80x64.png<>uid://dulgh1l8w0eqo::::res://addons/bluebrains_character_controller/sprites/Katana Attack-Sheathe/player katana attack-sheathe 80x64.png<>uid://b2llbfocrmbnj::::res://addons/bluebrains_character_controller/sprites/Katana Continuous Attack/player katana continuous attack 80x64.png<>uid://cfgw1i0bbg2rv::::res://addons/bluebrains_character_controller/sprites/Katana Run/player katana run 48x48.png<>uid://bicbnjagbt8sv::::res://addons/bluebrains_character_controller/sprites/Land/player land 48x48.png<>uid://bas37xdb4isrc::::res://addons/bluebrains_character_controller/sprites/Ledge Grab-Climb/player ledge climb 48x48.png<>uid://co64qqm1fgy2u::::res://addons/bluebrains_character_controller/sprites/Pull/Player Pull 48x48.png<>uid://dghn0txl8ygy7::::res://addons/bluebrains_character_controller/sprites/Punch/Player Punch 64x64.png<>uid://bhcjvrrl180gi::::res://addons/bluebrains_character_controller/sprites/Punch Cross/Player Punch Cross 64x64.png<>uid://cedogs5pivk4v::::res://addons/bluebrains_character_controller/sprites/Punch Jab/Player Jab 48x48.png<>uid://caxcixnedecx2::::res://addons/bluebrains_character_controller/sprites/Push/player push 48x48.png<>uid://b1162hme440b2::::res://addons/bluebrains_character_controller/sprites/PushPull (idle state)/player push idle 48x48.png<>uid://dx64q1ge2m376::::res://addons/bluebrains_character_controller/sprites/Roll/Player Roll 48x48.png<>uid://bl2qs810s27r7::::res://addons/bluebrains_character_controller/sprites/Run/player run 48x48.png<>uid://cbbjk8cpqkcia::::res://addons/bluebrains_character_controller/sprites/Shooting (two-handed)/player shoot 2H 48x48.png<>uid://c8i0josvab7rw::::res://addons/bluebrains_character_controller/sprites/Slide/Player Slide 48x48.png<>uid://bjc20ias3p8mf::::res://addons/bluebrains_character_controller/sprites/Sword Attack/player sword atk 64x64.png<>uid://da655muyodvyt::::res://addons/bluebrains_character_controller/sprites/Sword Idle/Player Sword Idle 48x48.png<>uid://2ene2r8ix6vi::::res://addons/bluebrains_character_controller/sprites/Sword Run/Player Sword Run 48x48.png<>uid://dhbb56t2q1hre::::res://addons/bluebrains_character_controller/sprites/Sword Stab/Player Sword Stab 96x48.png<>uid://v5erqhvqlnds::::res://addons/bluebrains_character_controller/sprites/Walk/PlayerWalk 48x48.png<>uid://cgnk4uglhecbp::::res://addons/bluebrains_character_controller/sprites/Wall Land/Player Wall Land (left) 48x48.png<>uid://dkruh47lkqa68::::res://addons/bluebrains_character_controller/sprites/Wall Slide/player wall slide 48x48.png
+::res://addons/bluebrains_character_controller/sprites/Air Spin/::1771033804
+player air spin 48x48.png::CompressedTexture2D::7582086136962674100::1771033804::1771033804::1::::<><><>0<>0<>1987b91ac2f8e455a115434bf91d5999<>res://.godot/imported/player air spin 48x48.png-d305620219e44372db2d106009e0d539.ctex::
+::res://addons/bluebrains_character_controller/sprites/Climb (facing back of player)/::1771033804
+player climb-back 48x48.png::CompressedTexture2D::1966836774891689133::1771033804::1771033804::1::::<><><>0<>0<>8e3ac1e2e7d7568049db1bf0593ae392<>res://.godot/imported/player climb-back 48x48.png-cbc88a3a0719d692c6a15f4f3a8cf363.ctex::
+::res://addons/bluebrains_character_controller/sprites/Climb (facing side of player)/::1771033804
+Player Side-Climb 48x48.png::CompressedTexture2D::3933484679760955539::1771033804::1771033804::1::::<><><>0<>0<>f12413aca3a9faf32b7d6c1285320bb8<>res://.godot/imported/Player Side-Climb 48x48.png-6a66a45d2519335b308162ea87001eb3.ctex::
+::res://addons/bluebrains_character_controller/sprites/Climb (facing side of player)/old climb/::1771033804
+Player Side-Climb 48x48.png::CompressedTexture2D::8995737826598502220::1771033804::1771033804::1::::<><><>0<>0<>f20395e73f934a6dc5fa53cbc38978cb<>res://.godot/imported/Player Side-Climb 48x48.png-b24225e9e9994d2a4f0a24b83dce73ef.ctex::
+::res://addons/bluebrains_character_controller/sprites/Crouch-Idle/::1771033804
+Player Crouch-Idle 48x48.png::CompressedTexture2D::8019634939538997245::1771033804::1771033804::1::::<><><>0<>0<>0bee22de84ca81616a55d23f467fae40<>res://.godot/imported/Player Crouch-Idle 48x48.png-3ad6db0328fe9ac04f207d290fd02f62.ctex::
+::res://addons/bluebrains_character_controller/sprites/Crouch-Walk/::1771033804
+player crouch-walk 48x48.png::CompressedTexture2D::3482578716944839556::1771033804::1771033804::1::::<><><>0<>0<>0ec60100eb9da1a63ea1e2b9044792e2<>res://.godot/imported/player crouch-walk 48x48.png-8d81578ba2d5313c2e71c8e485a30107.ctex::
+::res://addons/bluebrains_character_controller/sprites/Dash/::1771033804
+dash 48x48.png::CompressedTexture2D::2922684177074862250::1771033804::1771033804::1::::<><><>0<>0<>308e075518b2ab5cdea5e5687133842b<>res://.godot/imported/dash 48x48.png-1b41a3ca504800231ef4a9e1e155e874.ctex::
+::res://addons/bluebrains_character_controller/sprites/Death/::1771033804
+Player Death 64x64.png::CompressedTexture2D::5761411179595685123::1771033804::1771033804::1::::<><><>0<>0<>39b5ff9d2bb63a7aaaa11dbf355fef71<>res://.godot/imported/Player Death 64x64.png-d845fca326e3075c68fa52451e2e7165.ctex::
+::res://addons/bluebrains_character_controller/sprites/Hurt-Damaged/::1771033804
+Player Hurt 48x48.png::CompressedTexture2D::8756722640668668532::1771033804::1771033804::1::::<><><>0<>0<>0d606f4ae3574023d4b56aec7c294a05<>res://.godot/imported/Player Hurt 48x48.png-e13a08d1c58b11bba6eaf88d04720f11.ctex::
+::res://addons/bluebrains_character_controller/sprites/Idle/::1771033804
+Player Idle 48x48.png::CompressedTexture2D::3201446191819485666::1771033804::1771033804::1::::<><><>0<>0<>293003b9677dd501f193ee661491686a<>res://.godot/imported/Player Idle 48x48.png-e3642531c85263d9576756efe7a2c1d0.ctex::
+::res://addons/bluebrains_character_controller/sprites/Jump/::1771033804
+player jump 48x48.png::CompressedTexture2D::5877954847377406698::1771033804::1771033804::1::::<><><>0<>0<>305532246031e3e51f633b7febf77eb7<>res://.godot/imported/player jump 48x48.png-c6bed5a06bfde1cba225615f1d8a45da.ctex::
+player jump left 48x48-sheet.png::CompressedTexture2D::7309213252708798664::1771033804::1771033804::1::::<><><>0<>0<>dbe35232317261bbdff996acff8558d4<>res://.godot/imported/player jump left 48x48-sheet.png-f3b4999b339ce9bb5b70b1670a29487b.ctex::
+player new jump 48x48.png::CompressedTexture2D::8421044066898055606::1771033804::1771033804::1::::<><><>0<>0<>1168f0a8958488dff14883722c0f6a82<>res://.godot/imported/player new jump 48x48.png-c5e60e8cb04c8b43b61fdc792209394a.ctex::
+::res://addons/bluebrains_character_controller/sprites/Katana Air Attack/::1771033804
+player katana air attack (upper body) 80x64.png::CompressedTexture2D::1108044704195675000::1771033804::1771033804::1::::<><><>0<>0<>915eab168eef44d02bf225f776a9cdbd<>res://.godot/imported/player katana air attack (upper body) 80x64.png-6cef4ebd332c1f0f4d6e402e7e89e667.ctex::
+::res://addons/bluebrains_character_controller/sprites/Katana Attack-Sheathe/::1771033804
+player katana attack-sheathe 80x64.png::CompressedTexture2D::8586125265778249926::1771033804::1771033804::1::::<><><>0<>0<>a25b0d09f79562b32609c1a45118dae5<>res://.godot/imported/player katana attack-sheathe 80x64.png-e3447ccf5a7c6d2ad633cd46eb846789.ctex::
+::res://addons/bluebrains_character_controller/sprites/Katana Continuous Attack/::1771033804
+player katana continuous attack 80x64.png::CompressedTexture2D::4304897574287043319::1771033804::1771033804::1::::<><><>0<>0<>a93211d3584cadf5ce2cbdb3cfc0e67e<>res://.godot/imported/player katana continuous attack 80x64.png-6fc3ee6f09f6e3c4d8b1fbf6645dcc65.ctex::
+::res://addons/bluebrains_character_controller/sprites/Katana Run/::1771033804
+player katana run 48x48.png::CompressedTexture2D::5137554515437063139::1771033804::1771033804::1::::<><><>0<>0<>08dbf3d58eff15d64f389c0ba6f7710a<>res://.godot/imported/player katana run 48x48.png-8b550bb0f53b12f2172ab46c5f07d11d.ctex::
+::res://addons/bluebrains_character_controller/sprites/Katana Run Attack/::1771033804
+player katana running attack (upper body).png::CompressedTexture2D::2666062114140025580::1771033804::1771033804::1::::<><><>0<>0<>f42f31b637ecc8de9614dc2485fc1d48<>res://.godot/imported/player katana running attack (upper body).png-0dda00e02aef1bd9f5d7b3012b5aa71a.ctex::
+::res://addons/bluebrains_character_controller/sprites/Katana walk/::1771033804
+katana walk.png::CompressedTexture2D::4328695810910720750::1771033804::1771033804::1::::<><><>0<>0<>0e53a81864f0db4fcd90cdbee6efaa94<>res://.godot/imported/katana walk.png-fd3beae33e3caeded7f4a9ad679d41a0.ctex::
+::res://addons/bluebrains_character_controller/sprites/Land/::1771033804
+player land 48x48.png::CompressedTexture2D::2952144593603895525::1771033804::1771033804::1::::<><><>0<>0<>ffddfadab56f14524a5a76f42add6bfa<>res://.godot/imported/player land 48x48.png-cae2c47784332d3735b1113546cd2d6e.ctex::
+::res://addons/bluebrains_character_controller/sprites/Ledge Grab-Climb/::1771033804
+player ledge climb 48x48.png::CompressedTexture2D::2425337917224586236::1771033804::1771033804::1::::<><><>0<>0<>a2433fc3e817168d19328140e3767a3d<>res://.godot/imported/player ledge climb 48x48.png-3c11d12b8fffa0aab1656678c0b08a5e.ctex::
+::res://addons/bluebrains_character_controller/sprites/Pull/::1771033804
+Player Pull 48x48.png::CompressedTexture2D::5821271114286736842::1771033804::1771033804::1::::<><><>0<>0<>6a3394403ed4000c2f545e649fceda76<>res://.godot/imported/Player Pull 48x48.png-480f786f780cdd9e082d97103ff5eb32.ctex::
+::res://addons/bluebrains_character_controller/sprites/Punch/::1771033804
+Player Punch 64x64.png::CompressedTexture2D::7595680756958496472::1771033804::1771033804::1::::<><><>0<>0<>d2b4388ab6c9e75d7a1d1c390a1d2b7d<>res://.godot/imported/Player Punch 64x64.png-ebe7d3cb7a813887d28d0716e74746d4.ctex::
+::res://addons/bluebrains_character_controller/sprites/Punch Cross/::1771033804
+Player Punch Cross 64x64.png::CompressedTexture2D::2882456218968836352::1771033804::1771033804::1::::<><><>0<>0<>df7b17ff9f254c1527db4489546448f6<>res://.godot/imported/Player Punch Cross 64x64.png-9e57e2c04516dcf092f7f7a01063c60f.ctex::
+::res://addons/bluebrains_character_controller/sprites/Punch Jab/::1771033804
+Player Jab 48x48.png::CompressedTexture2D::5060651620320165919::1771033804::1771033804::1::::<><><>0<>0<>dd8177097145d33369fa2499207d99ee<>res://.godot/imported/Player Jab 48x48.png-4938824150b192c43d55aef187c62e15.ctex::
+::res://addons/bluebrains_character_controller/sprites/Push/::1771033804
+player push 48x48.png::CompressedTexture2D::4820459004371770817::1771033804::1771033804::1::::<><><>0<>0<>d86560528e9659f172b853b3427ddef9<>res://.godot/imported/player push 48x48.png-170c2a4ffe3096fe798ecd37d3894fa4.ctex::
+::res://addons/bluebrains_character_controller/sprites/PushPull (idle state)/::1771033804
+player push idle 48x48.png::CompressedTexture2D::4266935269521458009::1771033804::1771033804::1::::<><><>0<>0<>e2ba47f1a893a044b50e2eb43f502f5b<>res://.godot/imported/player push idle 48x48.png-8861cf0ccf6ad406adacf513c3a5b52e.ctex::
+::res://addons/bluebrains_character_controller/sprites/Roll/::1771033804
+Player Roll 48x48.png::CompressedTexture2D::8839391905716864991::1771033804::1771033804::1::::<><><>0<>0<>d533f5fec39215132827dc81403cf36b<>res://.godot/imported/Player Roll 48x48.png-da4f9eadcbe31c3f6a80cf856c477a4f.ctex::
+::res://addons/bluebrains_character_controller/sprites/Run/::1771033804
+player run 48x48.png::CompressedTexture2D::3215241553842130810::1771033804::1771033804::1::::<><><>0<>0<>74bb4a17fdb70ac895c51eea608e57ce<>res://.godot/imported/player run 48x48.png-3e62a4cdae10501bda59ada490e9ae61.ctex::
+::res://addons/bluebrains_character_controller/sprites/Shooting (running and aiming)/::1771033804
+Player Running Aiming 48x48.png::CompressedTexture2D::6810092915480021616::1771033804::1771033804::1::::<><><>0<>0<>f60f7d8531bd8a89454a1beaf4c3a99d<>res://.godot/imported/Player Running Aiming 48x48.png-c2e813c936f463efe69e1a76518d8bf8.ctex::
+Player Running Shooting 48x48.png::CompressedTexture2D::2224023681854681385::1771033804::1771033804::1::::<><><>0<>0<>82d77b05151d57203be0d9d8dfc5db93<>res://.godot/imported/Player Running Shooting 48x48.png-bc046dc4097d99a6e0fb23d28af9089e.ctex::
+::res://addons/bluebrains_character_controller/sprites/Shooting (two-handed)/::1771033804
+player shoot 2H 48x48.png::CompressedTexture2D::4845660636715713352::1771033804::1771033804::1::::<><><>0<>0<>d85d7297ac4d6d1920b02cd0635fe38b<>res://.godot/imported/player shoot 2H 48x48.png-0855f976bc0f9143570acd58d6dbe931.ctex::
+::res://addons/bluebrains_character_controller/sprites/Slide/::1771033804
+Player Slide 48x48.png::CompressedTexture2D::7107122990525656960::1771033804::1771033804::1::::<><><>0<>0<>d38f75ad8e514d83f803d7d2aa53081a<>res://.godot/imported/Player Slide 48x48.png-47d45a3ecbdb2252fc155cefa75f854b.ctex::
+::res://addons/bluebrains_character_controller/sprites/Sword Attack/::1771033804
+player sword atk 64x64.png::CompressedTexture2D::3023933456638513305::1771033804::1771033804::1::::<><><>0<>0<>6b3fcaf1a7320a771e5e1ea0d80b0fac<>res://.godot/imported/player sword atk 64x64.png-0972e458b4ed5e5ea959e154920c6034.ctex::
+::res://addons/bluebrains_character_controller/sprites/Sword Idle/::1771033804
+Player Sword Idle 48x48.png::CompressedTexture2D::7225133507340888975::1771033804::1771033804::1::::<><><>0<>0<>91358dafe6faf527bf057edd840e38cf<>res://.godot/imported/Player Sword Idle 48x48.png-dcb3e83216c418cb380ed0764db435fe.ctex::
+::res://addons/bluebrains_character_controller/sprites/Sword Run/::1771033804
+Player Sword Run 48x48.png::CompressedTexture2D::1904154199227826278::1771033804::1771033804::1::::<><><>0<>0<>fa95606dfbc90d454281be71f64ddb69<>res://.godot/imported/Player Sword Run 48x48.png-8ac686b5982d1c7696408e5fe2257d1b.ctex::
+::res://addons/bluebrains_character_controller/sprites/Sword Stab/::1771033804
+Player Sword Stab 96x48.png::CompressedTexture2D::7652764283933809746::1771033804::1771033804::1::::<><><>0<>0<>7fce5dfb7bee2dcf5875f1e4db2836ae<>res://.godot/imported/Player Sword Stab 96x48.png-2024b4aba7ef99410a61f816541e9961.ctex::
+::res://addons/bluebrains_character_controller/sprites/Walk/::1771033804
+PlayerWalk 48x48.png::CompressedTexture2D::1536171127651128420::1771033804::1771033804::1::::<><><>0<>0<>8f7d775c5190070a52654aec00068954<>res://.godot/imported/PlayerWalk 48x48.png-d48b0764562e1a8eb6dc4893bde8b96e.ctex::
+::res://addons/bluebrains_character_controller/sprites/Wall Land/::1771033804
+player wall land 48x48.png::CompressedTexture2D::1914734219636591608::1771033804::1771033804::1::::<><><>0<>0<>2f57571702a5e845df9497f518120abc<>res://.godot/imported/player wall land 48x48.png-03492e5483b21ac5afa200dbe9faf806.ctex::
+Player Wall Land (left) 48x48.png::CompressedTexture2D::5221471358213213097::1771033804::1771033804::1::::<><><>0<>0<>7abe68534fcdaf1523a16d3c5aa45755<>res://.godot/imported/Player Wall Land (left) 48x48.png-36941ba6e50eda0d2db788329b9be060.ctex::
+::res://addons/bluebrains_character_controller/sprites/Wall Slide/::1771033804
+player wall slide 48x48.png::CompressedTexture2D::7897473322815985215::1771033804::1771033804::1::::<><><>0<>0<>a8321d6f3e36d25e0c1a396590a6b903<>res://.godot/imported/player wall slide 48x48.png-f5ad0279eb5dae4c123a87b93746ddf2.ctex::
+player wall slide (left) 48x48.png::CompressedTexture2D::2824218819971067591::1771033804::1771033804::1::::<><><>0<>0<>edb0bcef5a1f54319a169e81db07efb3<>res://.godot/imported/player wall slide (left) 48x48.png-4c5eb77d547884f21d36dfafdbf7ee35.ctex::
+::res://Assets/::1771816220
+astro.png::CompressedTexture2D::106645105334485013::1771816220::1771816220::1::::<><><>0<>0<>f31c8277f8f935f9876c234efccf92d8<>res://.godot/imported/astro.png-6009457c70288682fc2712aa6eb26cfb.ctex::
+bar_round_gloss_large.svg::CompressedTexture2D::7763558158387351984::1771816220::1771816220::1::::<><><>0<>0<>50f1765fee458ab6971a026683ce44db<>res://.godot/imported/bar_round_gloss_large.svg-41f812e6ac63ae505896f5037c598ceb.ctex::
+bar_shadow_round_large.svg::CompressedTexture2D::2129841429404699824::1771816220::1771816220::1::::<><><>0<>0<>63bcabc82e52517aeae6bad7f66011c2<>res://.godot/imported/bar_shadow_round_large.svg-84bfcafaad76750f1c6b4073092f7474.ctex::
+control-table-spacecraft.jpg::CompressedTexture2D::4342642295774228877::1771033804::1771033851::1::::<><><>0<>0<>e56fa6aed3c0b70d1cd0cbd3505c89f3<>res://.godot/imported/control-table-spacecraft.jpg-22b059a5b4ac7fef576c0c701f430bf8.ctex::
+Platform.png::CompressedTexture2D::9145759778172632085::1771816220::1771816220::1::::<><><>0<>0<>d7b220a10cb9082ce0be698c5b548e9b<>res://.godot/imported/Platform.png-2b239903e86a1977464c3e1f2fea1274.ctex::
+Stars-64x64.jpg::CompressedTexture2D::688980600488759364::1771816220::1771816220::1::::<><><>0<>0<>ef560173a153fe82e57d5aee3f4fb63c<>res://.godot/imported/Stars-64x64.jpg-3608fe54a0fd324f8b02740a1ed8cd15.ctex::
+station1.png::CompressedTexture2D::3230373456799225091::1771816220::1771816220::1::::<><><>0<>0<>270e517c62f7c4988480fc4c0d220bef<>res://.godot/imported/station1.png-0b2aaa0782076ebac9905288ed66a1df.ctex::
+station2.png::CompressedTexture2D::8509046645816459307::1771816220::1771816220::1::::<><><>0<>0<>c6a98a3cf447d9e1d3162f4add42a0f6<>res://.godot/imported/station2.png-f01c09365fc08de52a499ed099b84ba8.ctex::
+TileSet_v1.0.png::CompressedTexture2D::1814982272785447956::1771816220::1771816220::1::::<><><>0<>0<>63d10af169460e00480b4aa89c9cdb0f<>res://.godot/imported/TileSet_v1.0.png-5833d239f8f299443b4ca2d268dc62c1.ctex::
+::res://Game Over/::1771819906
+Game Over Explosion.webp::CompressedTexture2D::2420736047525396293::1771816220::1771816220::1::::<><><>0<>0<>bdec62baf4bdae3f12fffae0a6727441<>res://.godot/imported/Game Over Explosion.webp-3a70bac49066854d805a0e7373c917ed.ctex::
+game_over.gd::GDScript::5509264814833515626::1771816220::0::1::::<>Control<><>0<>0<><>::
+game_over.tscn::PackedScene::2027217019687735815::1771819906::0::1::::<><><>0<>0<><>::uid://ckqy10kaby36m::::res://Game Over/game_over.gd<>uid://baqvf0nriksy4::::res://Game Over/Game Over Explosion.webp<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
+::res://Game State/::1771816220
+game_state_manager.gd::GDScript::5212493652343919426::1771816220::0::1::::<>Node<><>0<>0<><>::
+::res://Game State/Meltdown/::1771816220
+meltdown_timer.tscn::PackedScene::3063031347107838764::1771816220::0::1::::<><><>0<>0<><>::
+meltdown_ui.tscn::PackedScene::553857381139320218::1771816220::0::1::::<><><>0<>0<><>::uid://5lyga2o0atvk::::res://Assets/bar_shadow_round_large.svg<>uid://diuywy5um0yrg::::res://Assets/bar_round_gloss_large.svg
+::res://Game State/Stations/::1771816220
+::res://Game State/Stations/Controls/::1771819906
+station1.tscn::PackedScene::1145171832659290507::1771819906::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://dth30w4ik4smd::::res://Assets/station2.png<>uid://cyfvaf0q10yp7::::res://Game State/Stations/Engine/interactable.tscn
+::res://Game State/Stations/Engine/::1771819906
+interactable.gd::GDScript::5974264426253389930::1771819906::0::1::::<>Area2D<><>0<>0<><>::
+interactable.tscn::PackedScene::6468970862316957478::1771819906::0::1::::<><><>0<>0<><>::uid://crd8i6fpmmite::::res://Game State/Stations/Engine/interactable.gd
+interacting_component.gd::GDScript::3144964373422885364::1771819906::0::1::::<>Node2D<><>0<>0<><>::
+interacting_component.tscn::PackedScene::643285140591541613::1771819906::0::1::::<><><>0<>0<><>::uid://bk2pdr6uqqxgm::::res://Game State/Stations/Engine/interacting_component.gd
+station2.gd::GDScript::3913746946434960147::1771819906::0::1::::<>StaticBody2D<><>0<>0<><>::
+station2.tscn::PackedScene::2554525582916568835::1771819906::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://bma21qmybmael::::res://Assets/station1.png<>uid://cyfvaf0q10yp7::::res://Game State/Stations/Engine/interactable.tscn
+::res://Main_Menu/::1771819906
+Button_Theme.tres::Theme::7348606947542597483::1771816220::0::1::::<><><>0<>0<><>::
+main_menu.gd::GDScript::5755916443098860325::1771816220::0::1::::<>Control<><>0<>0<><>::
+main_menu.tscn::PackedScene::5260228439448990881::1771819906::0::1::::<><><>0<>0<><>::uid://ddp0o8wifrrid::::res://Main_Menu/MilkyWayPlaceHolder.jpg<>uid://coahdq6edvik0::::res://Main_Menu/main_menu.gd<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
+MilkyWayPlaceHolder.jpg::CompressedTexture2D::7402338941865232175::1771816220::1771816220::1::::<><><>0<>0<>0c6a9a7de9f4774cffa013bdb72b4e43<>res://.godot/imported/MilkyWayPlaceHolder.jpg-6abed295275b1bb1e8a335b7f986d1d3.ctex::
+::res://Sounds/::1771819654
+398937__softdistortionfx__metal-footsteps.mp3::AudioStreamMP3::4432120499156901101::1771819654::1771819654::1::::<><><>0<>0<>69a0524c4efc0e5aaf53a96c953027e5<>res://.godot/imported/398937__softdistortionfx__metal-footsteps.mp3-1efe5a203649a97f2997944d2c443313.mp3str::
+metal_walk.ogg::AudioStreamOggVorbis::8332401097257156309::1771819654::1771819654::1::::<><><>0<>0<>f9bf4f0e62c00efc5d4ea757198e4abc<>res://.godot/imported/metal_walk.ogg-1382920cffdc2062fae8df7253de2e61.oggvorbisstr::
+::res://Stages/::1769811404
+::res://Stages/Prototype/::1771819654
+platform.tscn::PackedScene::4852305123884715635::1771033848::0::1::::<><><>0<>0<><>::uid://d3kjlenstws02::::res://Assets/Platform.png
+prototype_stage.tscn::PackedScene::-1::1771819654::0::1::::<><><>0<>0<><>::
+proto_platform.tscn::PackedScene::1280171002863225467::1771816220::0::1::::<><><>0<>0<><>::uid://d3kjlenstws02::::res://Assets/Platform.png
