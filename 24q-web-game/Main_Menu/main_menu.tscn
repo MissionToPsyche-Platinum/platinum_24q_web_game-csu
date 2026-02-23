@@ -15,7 +15,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_jht8a")
-game_scene = "res://Game_Level.tscn"
+game_scene = "res://templvl.tscn"
 
 [node name="ColorRect" type="TextureRect" parent="."]
 layout_mode = 1
