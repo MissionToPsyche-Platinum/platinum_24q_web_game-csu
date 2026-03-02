@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://h5j7kmuxvsq1"]
+[gd_scene load_steps=4 format=3 uid="uid://h5j7kmuxvsq1"]
 
 [ext_resource type="Texture2D" uid="uid://5lyga2o0atvk" path="res://Assets/bar_shadow_round_large.svg" id="1_jk82b"]
 [ext_resource type="Texture2D" uid="uid://diuywy5um0yrg" path="res://Assets/bar_round_gloss_large.svg" id="2_kj8me"]
+[ext_resource type="FontFile" uid="uid://cegol4vnox5n" path="res://Assets/Fonts/Bungee_Tint,Nosifer/Bungee_Tint/BungeeTint-Regular.ttf" id="3_kj8me"]
 
 [node name="Meltdown_UI" type="Control"]
+z_index = 3
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -12,17 +14,24 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
-layout_direction = 2
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(1100, 0)
 layout_mode = 1
-anchors_preset = 10
+anchors_preset = 15
 anchor_right = 1.0
-offset_bottom = 24.0
+anchor_bottom = 1.0
 grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_direction = 2
+layout_mode = 2
 alignment = 1
 
-[node name="Meltdown Bar" type="TextureProgressBar" parent="HBoxContainer" groups=["Meltdown_Bar"]]
+[node name="Meltdown Bar" type="TextureProgressBar" parent="VBoxContainer/HBoxContainer" groups=["Meltdown_Bar"]]
 unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(1800, 45)
 layout_mode = 2
 size_flags_horizontal = 3
 nine_patch_stretch = true
@@ -32,3 +41,12 @@ stretch_margin_right = 48
 stretch_margin_bottom = 12
 texture_under = ExtResource("1_jk82b")
 texture_progress = ExtResource("2_kj8me")
+
+[node name="Station Warning" type="Label" parent="VBoxContainer" groups=["Station_Warning_Label"]]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("3_kj8me")
+theme_override_font_sizes/font_size = 52

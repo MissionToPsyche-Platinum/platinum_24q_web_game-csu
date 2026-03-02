@@ -1,5 +1,5 @@
 extends Node2D
-@onready var interact_label: Label = $InteractLabel
+@onready var interact_label: Label = $Interact_UI/InteractLabel
 var current_interactions := []
 var can_interact := true
 func _input(event: InputEvent) -> void:

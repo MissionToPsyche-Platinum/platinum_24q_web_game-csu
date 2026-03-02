@@ -21,12 +21,22 @@ collision_mask = 2
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InteractRange"]
 shape = SubResource("CapsuleShape2D_c0ilj")
 
-[node name="InteractLabel" type="Label" parent="."]
+[node name="Interact_UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -43.0
+offset_top = -47.0
+offset_right = -3.0
+offset_bottom = -7.0
+scale = Vector2(0.25, 0.25)
+
+[node name="InteractLabel" type="Label" parent="Interact_UI"]
 z_index = 10
+layout_mode = 0
 offset_left = -572.0
-offset_top = -716.0
+offset_top = -574.0
 offset_right = 607.0
-offset_bottom = -443.0
+offset_bottom = -301.0
 size_flags_horizontal = 4
 text = "E to Interact"
 label_settings = SubResource("LabelSettings_6p3la")

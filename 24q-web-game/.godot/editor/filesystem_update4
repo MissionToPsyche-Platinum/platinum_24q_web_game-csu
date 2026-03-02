@@ -1,2 +1,10 @@
+res://Game State/Stations/Engine/station2.tscn
+res://Game State/game_state_manager.gd
+res://Game State/Stations/station_manager.gd
+res://Game State/Meltdown/meltdown_ui.tscn
 res://Game Over/game_over.tscn
-res://Main_Menu/main_menu.tscn
+res://interactions/interacting_component.tscn
+res://templvl.tscn
+res://interactions/interacting_component.gd
+res://Game_Level.tscn
+res://game_level.gd
