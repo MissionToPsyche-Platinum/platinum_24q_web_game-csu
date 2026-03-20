@@ -1,0 +1,56 @@
+[gd_scene load_steps=7 format=3 uid="uid://hgfo2nvv0xqs"]
+
+[ext_resource type="Texture2D" uid="uid://bskp0jmo3ljmo" path="res://minigames/minigames1/minigame1states/option1.png" id="1_q16p1"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sc5oi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_q16p1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mlua5"]
+size = Vector2(64, 64)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q16p1"]
+size = Vector2(64, 64)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sc5oi"]
+size = Vector2(64, 64)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xkq3b"]
+size = Vector2(64, 64)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-66, 145)
+sprite_frames = SubResource("SpriteFrames_sc5oi")
+
+[node name="Button1" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Button1"]
+position = Vector2(-56, -144)
+shape = SubResource("RectangleShape2D_mlua5")
+
+[node name="Button2" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Button2"]
+position = Vector2(32, -144)
+shape = SubResource("RectangleShape2D_q16p1")
+
+[node name="Button3" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Button3"]
+position = Vector2(120, -144)
+shape = SubResource("RectangleShape2D_sc5oi")
+
+[node name="Button4" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Button4"]
+position = Vector2(208, -144)
+shape = SubResource("RectangleShape2D_xkq3b")

@@ -1,0 +1,61 @@
+[gd_scene load_steps=7 format=3 uid="uid://cnjl15q8fycp2"]
+
+[ext_resource type="Texture2D" uid="uid://cu6mdrej8e52c" path="res://minigames/minigames1/minigame1states/option3.png" id="1_hv618"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vhk36"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_hv618")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tg7a7"]
+size = Vector2(63.991783, 63.786034)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a4ksy"]
+size = Vector2(63.78601, 64.609085)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a0bu4"]
+size = Vector2(63.99178, 63.168724)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p10nh"]
+size = Vector2(63.99177, 63.58026)
+
+[node name="Minigame1" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-189, 369)
+scale = Vector2(2.43, 2.43)
+sprite_frames = SubResource("SpriteFrames_vhk36")
+
+[node name="Button1" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="Collision1" type="CollisionShape2D" parent="AnimatedSprite2D/Button1"]
+position = Vector2(-56.27571, -144.23866)
+scale = Vector2(0.99999976, 0.99999976)
+shape = SubResource("RectangleShape2D_tg7a7")
+
+[node name="Button2" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="Collision2" type="CollisionShape2D" parent="AnimatedSprite2D/Button2"]
+position = Vector2(31.89301, -144.23866)
+scale = Vector2(0.99999976, 0.99999976)
+shape = SubResource("RectangleShape2D_a4ksy")
+
+[node name="Button3" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="Collision3" type="CollisionShape2D" parent="AnimatedSprite2D/Button3"]
+position = Vector2(119.85594, -144.34152)
+scale = Vector2(0.99999976, 0.99999976)
+shape = SubResource("RectangleShape2D_a0bu4")
+
+[node name="Button4" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="Collision4" type="CollisionShape2D" parent="AnimatedSprite2D/Button4"]
+position = Vector2(207.92178, -144.13577)
+scale = Vector2(0.99999976, 0.99999976)
+shape = SubResource("RectangleShape2D_p10nh")
