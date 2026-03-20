@@ -8,6 +8,7 @@ var meltdown_timer : Timer
 var meltdown_bar : TextureProgressBar
 var meltdown_warning_label : Label
 
+
 func start_meltdown():
 	in_meltdown = true
 

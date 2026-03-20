@@ -1,10 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1772402799
+::res://::1774039945
 CharMov.gd::GDScript::4258258478508195279::1771037906::0::1::::<>CharacterBody2D<><>0<>0<><>::
-game_level.gd::GDScript::4534050863927980809::1771816449::0::1::::<>Node2D<><>0<>0<><>::
-Game_Level.tscn::PackedScene::7932374809891956862::1771819042::0::1::::<><><>0<>0<><>::uid://desdxf2kr6vwf::::res://Stages/Prototype/prototype_stage.tscn<>uid://b5ulfjr0li130::::res://game_level.gd<>uid://bjv0xcwp8e2my::::res://Game State/Meltdown/meltdown_timer.tscn<>uid://h5j7kmuxvsq1::::res://Game State/Meltdown/meltdown_ui.tscn
+game_level.gd::GDScript::4534050863927980809::1772436360::0::1::::<>Node2D<><>0<>0<><>::
+Game_Level.tscn::PackedScene::7932374809891956862::1772435910::0::1::::<><><>0<>0<><>::uid://desdxf2kr6vwf::::res://Stages/Prototype/prototype_stage.tscn<>uid://b5ulfjr0li130::::res://game_level.gd<>uid://bjv0xcwp8e2my::::res://Game State/Meltdown/meltdown_timer.tscn<>uid://h5j7kmuxvsq1::::res://Game State/Meltdown/meltdown_ui.tscn
 icon.svg::CompressedTexture2D::8227062921787772187::1769800174::1769800174::1::::<><><>0<>0<>97a210e8ce86c784b9a6f7d1bd191078<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-templvl.tscn::PackedScene::5024762506603962617::1772402799::0::1::::<><><>0<>0<><>::uid://b5ulfjr0li130::::res://game_level.gd<>uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn<>uid://bjv0xcwp8e2my::::res://Game State/Meltdown/meltdown_timer.tscn<>uid://ceocpp4ohqlwd::::res://Game State/Stations/station_manager.gd
+templvl.tscn::PackedScene::5024762506603962617::1772436535::0::1::::<><><>0<>0<><>::uid://b5ulfjr0li130::::res://game_level.gd<>uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn<>uid://bjv0xcwp8e2my::::res://Game State/Meltdown/meltdown_timer.tscn<>uid://ceocpp4ohqlwd::::res://Game State/Stations/station_manager.gd
 Test1.tscn::PackedScene::4020148247681468160::1771037901::0::1::::<><><>0<>0<><>::uid://b24uxi4tqpeg0::::res://Assets/control-table-spacecraft.jpg<>uid://dlarb3vwv1bn7::::res://Game_Level.tscn
 ::res://addons/::1771037936
 ::res://addons/bluebrains_character_controller/::1771037936
@@ -134,13 +134,13 @@ Platform.png::CompressedTexture2D::9145759778172632085::1769800174::1769800174::
 Stars-64x64.jpg::CompressedTexture2D::688980600488759364::1771031738::1771031749::1::::<><><>0<>0<>ef560173a153fe82e57d5aee3f4fb63c<>res://.godot/imported/Stars-64x64.jpg-3608fe54a0fd324f8b02740a1ed8cd15.ctex::
 station1.png::CompressedTexture2D::3230373456799225091::1771031738::1771031749::1::::<><><>0<>0<>270e517c62f7c4988480fc4c0d220bef<>res://.godot/imported/station1.png-0b2aaa0782076ebac9905288ed66a1df.ctex::
 station2.png::CompressedTexture2D::8509046645816459307::1771031738::1771031749::1::::<><><>0<>0<>c6a98a3cf447d9e1d3162f4add42a0f6<>res://.godot/imported/station2.png-f01c09365fc08de52a499ed099b84ba8.ctex::
-TileSet_v1.0.png::CompressedTexture2D::1814982272785447956::1771637052::1771637063::1::::<><><>0<>0<>63d10af169460e00480b4aa89c9cdb0f<>res://.godot/imported/TileSet_v1.0.png-5833d239f8f299443b4ca2d268dc62c1.ctex::
+TileSet_v1.0.png::CompressedTexture2D::1814982272785447956::1771637052::1774040117::1::::<><><>0<>0<>63d10af169460e00480b4aa89c9cdb0f<>res://.godot/imported/TileSet_v1.0.png-5833d239f8f299443b4ca2d268dc62c1.ctex::
 ::res://Assets/Fonts/::1772423106
 ::res://Assets/Fonts/Bungee_Tint,Nosifer/::1772423109
-::res://Assets/Fonts/Bungee_Tint,Nosifer/Bungee_Tint/::1772423109
+::res://Assets/Fonts/Bungee_Tint,Nosifer/Bungee_Tint/::1772423141
 BungeeTint-Regular.ttf::FontFile::149025124891844997::1772423080::1772423141::1::::<><><>0<>0<>900beb0baf6a5e61b4cd8f218d3cbafc<>res://.godot/imported/BungeeTint-Regular.ttf-be586287e3646b5f8f4830e18218f0ad.fontdata::
 OFL.txt::TextFile::-1::1772423080::0::1::::<><><>0<>0<><>::
-::res://Assets/Fonts/Bungee_Tint,Nosifer/Nosifer/::1772423109
+::res://Assets/Fonts/Bungee_Tint,Nosifer/Nosifer/::1772423141
 Nosifer-Regular.ttf::FontFile::5729722681250420200::1772423080::1772423141::1::::<><><>0<>0<>9f7dc6611e662ea6c114a82e3a77799e<>res://.godot/imported/Nosifer-Regular.ttf-07e2aafcc02b63d3e56a2039e843f708.fontdata::
 OFL.txt::TextFile::-1::1772423080::0::1::::<><><>0<>0<><>::
 ::res://Assets/TileSets/::1771637051
@@ -149,23 +149,23 @@ OFL.txt::TextFile::-1::1772423080::0::1::::<><><>0<>0<><>::
 Game Over Explosion.webp::CompressedTexture2D::2420736047525396293::1771037894::1771037902::1::::<><><>0<>0<>bdec62baf4bdae3f12fffae0a6727441<>res://.godot/imported/Game Over Explosion.webp-3a70bac49066854d805a0e7373c917ed.ctex::
 game_over.gd::GDScript::5509264814833515626::1771037894::0::1::::<>Control<><>0<>0<><>::
 game_over.tscn::PackedScene::2027217019687735815::1772402421::0::1::::<><><>0<>0<><>::uid://ckqy10kaby36m::::res://Game Over/game_over.gd<>uid://baqvf0nriksy4::::res://Game Over/Game Over Explosion.webp<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
-::res://Game State/::1772402392
-game_state_manager.gd::GDScript::5212493652343919426::1772402392::0::1::::<>Node<><>0<>0<><>::
-::res://Game State/Meltdown/::1772400336
+::res://Game State/::1772436535
+game_state_manager.gd::GDScript::5212493652343919426::1772436535::0::1::::<>Node<><>0<>0<><>::
+::res://Game State/Meltdown/::1772436353
 meltdown_timer.tscn::PackedScene::3063031347107838764::1771638350::0::1::::<><><>0<>0<><>::
-meltdown_ui.tscn::PackedScene::553857381139320218::1772400336::0::1::::<><><>0<>0<><>::uid://5lyga2o0atvk::::res://Assets/bar_shadow_round_large.svg<>uid://diuywy5um0yrg::::res://Assets/bar_round_gloss_large.svg
-::res://Game State/Stations/::1772402771
-station_manager.gd::GDScript::5082647084684947723::1772402771::0::1::::<>Node<><>0<>0<><>::
+meltdown_ui.tscn::PackedScene::553857381139320218::1772436353::0::1::::<><><>0<>0<><>::uid://5lyga2o0atvk::::res://Assets/bar_shadow_round_large.svg<>uid://diuywy5um0yrg::::res://Assets/bar_round_gloss_large.svg<>uid://cegol4vnox5n::::res://Assets/Fonts/Bungee_Tint,Nosifer/Bungee_Tint/BungeeTint-Regular.ttf
+::res://Game State/Stations/::1772436807
+station_manager.gd::GDScript::5082647084684947723::1772436807::0::1::::Station_Manager<>Node<><>0<>0<><>::
 ::res://Game State/Stations/Controls/::1771639480
 station1.tscn::PackedScene::1145171832659290507::1771639480::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://dth30w4ik4smd::::res://Assets/station2.png<>uid://cyfvaf0q10yp7::::res://interactions/interactable.tscn
-::res://Game State/Stations/Engine/::1772402240
+::res://Game State/Stations/Engine/::1772436807
 station2.gd::GDScript::3913746946434960147::1771818416::0::1::::Station<>StaticBody2D<><>0<>0<><>::
-station2.tscn::PackedScene::2554525582916568835::1772402240::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://bma21qmybmael::::res://Assets/station1.png<>uid://cyfvaf0q10yp7::::res://interactions/interactable.tscn
-::res://interactions/::1772402618
+station2.tscn::PackedScene::2554525582916568835::1772436807::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://bma21qmybmael::::res://Assets/station1.png<>uid://cyfvaf0q10yp7::::res://interactions/interactable.tscn
+::res://interactions/::1772435465
 interactable.gd::GDScript::5974264426253389930::1771813254::0::1::::<>Area2D<><>0<>0<><>::
 interactable.tscn::PackedScene::6468970862316957478::1771813254::0::1::::<><><>0<>0<><>::uid://crd8i6fpmmite::::res://interactions/interactable.gd
-interacting_component.gd::GDScript::3144964373422885364::1771813254::0::1::::<>Node2D<><>0<>0<><>::
-interacting_component.tscn::PackedScene::643285140591541613::1772402618::0::1::::<><><>0<>0<><>::uid://bk2pdr6uqqxgm::::res://interactions/interacting_component.gd
+interacting_component.gd::GDScript::3144964373422885364::1772435296::0::1::::<>Node2D<><>0<>0<><>::
+interacting_component.tscn::PackedScene::643285140591541613::1772435465::0::1::::<><><>0<>0<><>::uid://bk2pdr6uqqxgm::::res://interactions/interacting_component.gd
 ::res://Main_Menu/::1771813353
 Button_Theme.tres::Theme::7348606947542597483::1771637052::0::1::::<><><>0<>0<><>::
 main_menu.gd::GDScript::5755916443098860325::1771037894::0::1::::<>Control<><>0<>0<><>::
