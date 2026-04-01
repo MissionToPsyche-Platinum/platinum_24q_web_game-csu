@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddq82okdv5d3a"]
+
+[ext_resource type="Script" uid="uid://o6hsd8ahqx7d" path="res://Minigame-Controller.gd" id="1_cnort"]
+
+[node name="MinigameConroller" type="Node"]
+script = ExtResource("1_cnort")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SubViewport" type="SubViewport" parent="CanvasLayer/Control/SubViewportContainer"]
