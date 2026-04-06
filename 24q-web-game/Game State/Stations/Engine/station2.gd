@@ -1,4 +1,10 @@
+class_name Station
 extends StaticBody2D
+
+signal station_status(name, status : bool)
+
+@export var is_fixed = false
+@export var station_name : String = "default name"
 
 @onready var interactable: Area2D = $Interactable
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
@@ -20,3 +26,8 @@ func _on_interact():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
+
+
+func station_finished():
+	is_fixed = true
+	station_status.emit(station_name, is_fixed)
