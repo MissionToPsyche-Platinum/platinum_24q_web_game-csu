@@ -1,8 +1,33 @@
-[gd_scene load_steps=22 format=3 uid="uid://bh62ksaow4ao7"]
+[gd_scene load_steps=23 format=3 uid="uid://bh62ksaow4ao7"]
 
 [ext_resource type="Script" uid="uid://b1wy5ove725b4" path="res://CharMov.gd" id="1_abhy1"]
+<<<<<<< HEAD
 [ext_resource type="Texture2D" uid="uid://b5a2qcocvd4eq" path="res://atroo.png" id="2_abhy1"]
 [ext_resource type="Script" uid="uid://dknfa64rnas8h" path="res://Footstep.gd" id="3_wvypw"]
+=======
+[ext_resource type="PackedScene" uid="uid://jfu2u84syok8" path="res://interactions/interacting_component.tscn" id="3_wvypw"]
+[ext_resource type="PackedScene" uid="uid://h5j7kmuxvsq1" path="res://Game State/Meltdown/meltdown_ui.tscn" id="4_wa6xs"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qm3qr"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(0, 0, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4rgo6"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(128, 0, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kgfhe"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(256, 0, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oe88b"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(384, 0, 128, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_abhy1"]
+atlas = ExtResource("1_6qu56")
+region = Rect2(0, 192, 128, 192)
+>>>>>>> Small_Changes_JR
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wvypw"]
 atlas = ExtResource("2_abhy1")
@@ -156,5 +181,21 @@ frame_progress = 0.43538836
 position = Vector2(533, 457)
 shape = SubResource("CapsuleShape2D_2aphb")
 
+<<<<<<< HEAD
 [node name="Walk_Sounds" type="AudioStreamPlayer2D" parent="."]
 script = ExtResource("3_wvypw")
+=======
+[node name="Interacting Component" parent="." instance=ExtResource("3_wvypw")]
+light_mask = 0
+visibility_layer = 2
+position = Vector2(530, 534)
+
+[node name="HUD_UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 40.0
+
+[node name="Meltdown_UI" parent="HUD_UI" instance=ExtResource("4_wa6xs")]
+layout_mode = 1
+>>>>>>> Small_Changes_JR
