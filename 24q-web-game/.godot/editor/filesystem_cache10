@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1774040573
+::res://::1775664515
 atroo.png::CompressedTexture2D::4493754051134293044::1772838464::1772838464::1::::<><><>0<>0<>7ba0a3231f3e7be324b72d49a448a6fa<>res://.godot/imported/atroo.png-d170c0b051e7e0d9e289de0745e22b5d.ctex::
 CharMov.gd::GDScript::4258258478508195279::1774023175::0::1::::<>CharacterBody2D<><>0<>0<><>::
 default_bus_layout.tres::AudioBusLayout::918026742601527025::1772838464::0::1::::<><><>0<>0<><>::
@@ -7,7 +7,7 @@ Footstep.gd::GDScript::7888292657039215457::1772838464::0::1::::<>AudioStreamPla
 game_level.gd::GDScript::4534050863927980809::1772838464::0::1::::<>Node2D<><>0<>0<><>::
 Game_Level.tscn::PackedScene::-1::1772838464::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::8227062921787772187::1771816220::1771816220::1::::<><><>0<>0<>97a210e8ce86c784b9a6f7d1bd191078<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-templvl.tscn::PackedScene::5024762506603962617::1772838464::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn<>uid://jfu2u84syok8::::res://interactions/interacting_component.tscn
+templvl.tscn::PackedScene::5024762506603962617::1775663850::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn<>uid://jfu2u84syok8::::res://interactions/interacting_component.tscn
 Test1.tscn::PackedScene::4020148247681468160::1771033848::0::1::::<><><>0<>0<><>::uid://b24uxi4tqpeg0::::res://Assets/control-table-spacecraft.jpg<>uid://dlarb3vwv1bn7::::res://Game_Level.tscn
 Testing.tscn::PackedScene::5811252716542087252::1772838464::0::1::::<><><>0<>0<><>::
 ::res://addons/::1771033804
@@ -151,28 +151,29 @@ meltdown_ui.tscn::PackedScene::553857381139320218::1772838464::0::1::::<><><>0<>
 ::res://Game State/Stations/::1772838464
 ::res://Game State/Stations/Controls/::1772838464
 station1.tscn::PackedScene::1145171832659290507::1772838464::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://dth30w4ik4smd::::res://Assets/station2.png<>uid://cyfvaf0q10yp7::::res://interactions/interactable.tscn
-::res://Game State/Stations/Engine/::1772838464
-station2.gd::GDScript::3913746946434960147::1772838464::0::1::::<>StaticBody2D<><>0<>0<><>::
-station2.tscn::PackedScene::2554525582916568835::1771822077::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://bma21qmybmael::::res://Assets/station1.png<>uid://cyfvaf0q10yp7::::res://interactions/interactable.tscn
-::res://interactions/::1772838464
+::res://Game State/Stations/Engine/::1775663850
+station2.gd::GDScript::3913746946434960147::1775663850::0::1::::<>StaticBody2D<><>0<>0<><>::
+station2.tscn::PackedScene::2554525582916568835::1775662614::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://bma21qmybmael::::res://Assets/station1.png<>uid://cyfvaf0q10yp7::::res://interactions/interactable.tscn
+::res://interactions/::1774045385
 interactable.gd::GDScript::5974264426253389930::1771822077::0::1::::<>Area2D<><>0<>0<><>::
 interactable.tscn::PackedScene::6468970862316957478::1771822077::0::1::::<><><>0<>0<><>::uid://crd8i6fpmmite::::res://interactions/interactable.gd
-interacting_component.gd::GDScript::3144964373422885364::1772838464::0::1::::<>Node2D<><>0<>0<><>::
+interacting_component.gd::GDScript::3144964373422885364::1774045385::0::1::::<>Node2D<><>0<>0<><>::
 interacting_component.tscn::PackedScene::643285140591541613::1772838464::0::1::::<><><>0<>0<><>::uid://bk2pdr6uqqxgm::::res://interactions/interacting_component.gd
 ::res://Main_Menu/::1771822077
 Button_Theme.tres::Theme::7348606947542597483::1771816220::0::1::::<><><>0<>0<><>::
 main_menu.gd::GDScript::5755916443098860325::1771816220::0::1::::<>Control<><>0<>0<><>::
 main_menu.tscn::PackedScene::5260228439448990881::1771822077::0::1::::<><><>0<>0<><>::uid://ddp0o8wifrrid::::res://Main_Menu/MilkyWayPlaceHolder.jpg<>uid://coahdq6edvik0::::res://Main_Menu/main_menu.gd<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
 MilkyWayPlaceHolder.jpg::CompressedTexture2D::7402338941865232175::1771816220::1771816220::1::::<><><>0<>0<>0c6a9a7de9f4774cffa013bdb72b4e43<>res://.godot/imported/MilkyWayPlaceHolder.jpg-6abed295275b1bb1e8a335b7f986d1d3.ctex::
-::res://minigames/::1774023150
-::res://minigames/minigames1/::1774026886
-minigame1a.tscn::PackedScene::5704591653953491281::1774026886::0::1::::<><><>0<>0<><>::uid://cu6mdrej8e52c::::res://minigames/minigames1/minigame1states/option3.png
-minigame1b.tscn::PackedScene::504038197265214214::1774026852::0::1::::<><><>0<>0<><>::uid://bskp0jmo3ljmo::::res://minigames/minigames1/minigame1states/option1.png
-minigame1c.tscn::PackedScene::2942356364801582014::1774026856::0::1::::<><><>0<>0<><>::uid://d27oqnw3jva8t::::res://minigames/minigames1/minigame1states/option2.png
-::res://minigames/minigames1/minigame1states/::1774024966
-option1.png::CompressedTexture2D::3671419538379161890::1774023260::1774023283::1::::<><><>0<>0<>66941cf4a69afcfc842bcb858a0a5e55<>res://.godot/imported/option1.png-e67b744cf72910654e9627fcae2ce963.ctex::
-option2.png::CompressedTexture2D::9121300246111593645::1774024962::1774024966::1::::<><><>0<>0<>f225e32fc619db1ca0a3e11f6656f40d<>res://.godot/imported/option2.png-76500c2a399b73c0e8800ec2101ac9f4.ctex::
-option3.png::CompressedTexture2D::6241348811346995936::1774018763::1774023149::1::::<><><>0<>0<>6c88a31bbd4d5ce9bf3c35587e5b85fc<>res://.godot/imported/option3.png-4e8596677d6cae04c20ad413c81ec195.ctex::
+::res://minigames/::1774041854
+::res://minigames/minigames1/::1775664104
+minigame1.gd::GDScript::5611967528805443607::1775664104::0::1::::<>Node<><>0<>0<><>::
+minigame1a.tscn::PackedScene::5704591653953491281::1775664104::0::1::::<><><>0<>0<><>::uid://cu6mdrej8e52c::::res://minigames/minigames1/minigame1states/option3.png
+minigame1b.tscn::PackedScene::504038197265214214::1774041854::0::1::::<><><>0<>0<><>::uid://bskp0jmo3ljmo::::res://minigames/minigames1/minigame1states/option1.png
+minigame1c.tscn::PackedScene::2942356364801582014::1774041854::0::1::::<><><>0<>0<><>::uid://d27oqnw3jva8t::::res://minigames/minigames1/minigame1states/option2.png
+::res://minigames/minigames1/minigame1states/::1774041854
+option1.png::CompressedTexture2D::3671419538379161890::1774041854::1774041854::1::::<><><>0<>0<>66941cf4a69afcfc842bcb858a0a5e55<>res://.godot/imported/option1.png-e67b744cf72910654e9627fcae2ce963.ctex::
+option2.png::CompressedTexture2D::9121300246111593645::1774041854::1774041854::1::::<><><>0<>0<>f225e32fc619db1ca0a3e11f6656f40d<>res://.godot/imported/option2.png-76500c2a399b73c0e8800ec2101ac9f4.ctex::
+option3.png::CompressedTexture2D::6241348811346995936::1774041854::1774041854::1::::<><><>0<>0<>6c88a31bbd4d5ce9bf3c35587e5b85fc<>res://.godot/imported/option3.png-4e8596677d6cae04c20ad413c81ec195.ctex::
 ::res://player/::1772838464
 4wayCharacter.tscn::PackedScene::2943396462365862532::1772838464::0::1::::<><><>0<>0<><>::uid://b1wy5ove725b4::::res://CharMov.gd<>uid://b5a2qcocvd4eq::::res://atroo.png<>uid://dknfa64rnas8h::::res://Footstep.gd
 4waymovement.tscn::PackedScene::6468386817257262634::1771822077::0::1::::<><><>0<>0<><>::

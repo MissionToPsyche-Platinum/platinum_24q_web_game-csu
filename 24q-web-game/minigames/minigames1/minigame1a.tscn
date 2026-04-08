@@ -1,5 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://cnjl15q8fycp2"]
+[gd_scene load_steps=8 format=3 uid="uid://cnjl15q8fycp2"]
 
+[ext_resource type="Script" uid="uid://cl7qjx1w47fhf" path="res://minigames/minigames1/minigame1.gd" id="1_8sy5w"]
 [ext_resource type="Texture2D" uid="uid://cu6mdrej8e52c" path="res://minigames/minigames1/minigame1states/option3.png" id="1_hv618"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_vhk36"]
@@ -26,10 +27,11 @@ size = Vector2(63.99178, 63.168724)
 size = Vector2(63.99177, 63.58026)
 
 [node name="Minigame1" type="Node2D"]
+script = ExtResource("1_8sy5w")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-189, 369)
-scale = Vector2(2.43, 2.43)
+position = Vector2(397, 728.00006)
+scale = Vector2(2.2887502, 2.2987502)
 sprite_frames = SubResource("SpriteFrames_vhk36")
 
 [node name="Button1" type="Area2D" parent="AnimatedSprite2D"]
@@ -54,8 +56,14 @@ scale = Vector2(0.99999976, 0.99999976)
 shape = SubResource("RectangleShape2D_a0bu4")
 
 [node name="Button4" type="Area2D" parent="AnimatedSprite2D"]
+position = Vector2(0, -2.6551452e-05)
 
 [node name="Collision4" type="CollisionShape2D" parent="AnimatedSprite2D/Button4"]
 position = Vector2(207.92178, -144.13577)
 scale = Vector2(0.99999976, 0.99999976)
 shape = SubResource("RectangleShape2D_p10nh")
+
+[connection signal="input_event" from="AnimatedSprite2D/Button1" to="." method="_on_button_1_input_event"]
+[connection signal="input_event" from="AnimatedSprite2D/Button2" to="." method="_on_button_2_input_event"]
+[connection signal="input_event" from="AnimatedSprite2D/Button3" to="." method="_on_button_3_input_event"]
+[connection signal="input_event" from="AnimatedSprite2D/Button4" to="." method="_on_button_4_input_event"]
