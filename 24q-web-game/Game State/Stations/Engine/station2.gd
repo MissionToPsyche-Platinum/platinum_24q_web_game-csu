@@ -26,7 +26,10 @@ func _on_interact():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
-
+	
+func _on_minigame_done():
+	print("Interaction complete!")
+	station_finished()
 
 func station_finished():
 	is_fixed = true

@@ -10,6 +10,7 @@ var meltdown_warning_label : Label
 
 
 func start_meltdown():
+	process_mode = Node.PROCESS_MODE_ALWAYS
 	in_meltdown = true
 
 	#For future reference: Station Manager checks if these meltdown variables are setup as a sign that this function has ran before

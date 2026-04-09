@@ -1,8 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://bcnowstwgupnn"]
+[gd_scene load_steps=9 format=3 uid="uid://bcnowstwgupnn"]
 
 [ext_resource type="Script" uid="uid://bv033trfyh41t" path="res://Game State/Stations/Engine/station2.gd" id="1_ve4gr"]
 [ext_resource type="Texture2D" uid="uid://bma21qmybmael" path="res://Assets/station1.png" id="2_k7b0o"]
 [ext_resource type="PackedScene" uid="uid://cyfvaf0q10yp7" path="res://interactions/interactable.tscn" id="3_av8mw"]
+[ext_resource type="PackedScene" uid="uid://ddq82okdv5d3a" path="res://minigames/gravity-atenna-minigame/Minigame_Controller.tscn" id="4_w4bgc"]
+[ext_resource type="PackedScene" uid="uid://dsymsp7umsn8o" path="res://minigames/gravity-atenna-minigame/minigame_gravity.tscn" id="5_agxv4"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2jd5w"]
 animations = [{
@@ -41,3 +43,6 @@ interact_name = "Work on station"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Interactable"]
 shape = SubResource("CapsuleShape2D_5bqd6")
+
+[node name="MinigameController" parent="." instance=ExtResource("4_w4bgc")]
+minigame_scene = ExtResource("5_agxv4")
