@@ -1,13 +1,31 @@
-[gd_scene load_steps=8 format=3 uid="uid://cnjl15q8fycp2"]
+[gd_scene load_steps=14 format=3 uid="uid://cnjl15q8fycp2"]
 
 [ext_resource type="Script" uid="uid://cl7qjx1w47fhf" path="res://minigames/minigames1/minigame1.gd" id="1_8sy5w"]
 [ext_resource type="Texture2D" uid="uid://cu6mdrej8e52c" path="res://minigames/minigames1/minigame1states/option3.png" id="1_hv618"]
+[ext_resource type="Texture2D" uid="uid://blo7i5v46tkts" path="res://minigames/minigames1/minigame1states/option3a.png" id="3_omh5f"]
+[ext_resource type="Texture2D" uid="uid://1pu2ah2wnqas" path="res://minigames/minigames1/minigame1states/option3b.png" id="4_pha2b"]
+[ext_resource type="Texture2D" uid="uid://dv1yo0lsjnn47" path="res://minigames/minigames1/minigame1states/option3c.png" id="5_le00t"]
+[ext_resource type="Texture2D" uid="uid://cuxu34t1f1y5w" path="res://minigames/minigames1/minigame1states/option3d.png" id="6_f5hmc"]
+[ext_resource type="Script" uid="uid://n1k7dytxmg5e" path="res://minigames/minigames1/button.gd" id="7_f5hmc"]
+[ext_resource type="Script" uid="uid://b1qiitv5pbp5u" path="res://minigames/minigames1/error.gd" id="8_hxa1i"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_vhk36"]
 animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("1_hv618")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_omh5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_pha2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_le00t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_f5hmc")
 }],
 "loop": true,
 "name": &"default",
@@ -62,6 +80,12 @@ position = Vector2(0, -2.6551452e-05)
 position = Vector2(207.92178, -144.13577)
 scale = Vector2(0.99999976, 0.99999976)
 shape = SubResource("RectangleShape2D_p10nh")
+
+[node name="click" type="AudioStreamPlayer2D" parent="."]
+script = ExtResource("7_f5hmc")
+
+[node name="error" type="AudioStreamPlayer2D" parent="."]
+script = ExtResource("8_hxa1i")
 
 [connection signal="input_event" from="AnimatedSprite2D/Button1" to="." method="_on_button_1_input_event"]
 [connection signal="input_event" from="AnimatedSprite2D/Button2" to="." method="_on_button_2_input_event"]
