@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=4 uid="uid://cdubdsvvyov0d"]
+[gd_scene load_steps=13 format=4 uid="uid://cdubdsvvyov0d"]
 
 [ext_resource type="Texture2D" uid="uid://04gq00nj7p8g" path="res://Assets/TileSet_v1.0.png" id="1_hucw8"]
 [ext_resource type="Texture2D" uid="uid://j20n60544gsq" path="res://Assets/Stars-64x64.jpg" id="2_8t5en"]
@@ -6,9 +6,6 @@
 [ext_resource type="PackedScene" uid="uid://qky2vtg0rsmt" path="res://Game State/Stations/Controls/station1.tscn" id="4_yyd5p"]
 [ext_resource type="PackedScene" uid="uid://bh62ksaow4ao7" path="res://player/4wayCharacter.tscn" id="5_yyd5p"]
 [ext_resource type="PackedScene" uid="uid://jfu2u84syok8" path="res://interactions/interacting_component.tscn" id="6_53gqp"]
-[ext_resource type="PackedScene" uid="uid://cnjl15q8fycp2" path="res://minigames/minigames1/minigame1a.tscn" id="6_a32n1"]
-[ext_resource type="PackedScene" uid="uid://hgfo2nvv0xqs" path="res://minigames/minigames1/minigame1b.tscn" id="6_rnebj"]
-[ext_resource type="PackedScene" uid="uid://bh6kgdo5lf6fa" path="res://minigames/minigames1/minigame1c.tscn" id="8_4nquw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fx4di"]
 texture = ExtResource("1_hucw8")
@@ -654,23 +651,6 @@ scale = Vector2(0.24, 0.24)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(539, 529)
-
-[node name="minigame1b" parent="CharacterBody2D/Camera2D" instance=ExtResource("6_rnebj")]
-light_mask = 0
-visibility_layer = 2
-position = Vector2(-4.7539063, -79.68494)
-scale = Vector2(5.7, 5.7)
-
-[node name="minigame1a" parent="CharacterBody2D/Camera2D" instance=ExtResource("6_a32n1")]
-light_mask = 0
-visibility_layer = 2
-position = Vector2(-1.5, -83.166626)
-scale = Vector2(2.44, 2.44)
-
-[node name="minigame1c" parent="CharacterBody2D/Camera2D" instance=ExtResource("8_4nquw")]
-light_mask = 0
-visibility_layer = 2
-scale = Vector2(6.005, 6.005)
 
 [node name="Interacting Component" parent="CharacterBody2D" instance=ExtResource("6_53gqp")]
 position = Vector2(534.2465, 449.31503)
