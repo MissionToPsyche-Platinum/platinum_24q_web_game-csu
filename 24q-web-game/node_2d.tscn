@@ -1,0 +1,75 @@
+[gd_scene load_steps=5 format=3 uid="uid://oxowrtj2yc8"]
+
+[ext_resource type="Script" uid="uid://d00ijt37uv0ll" path="res://SolarGame.gd" id="1_0hol4"]
+[ext_resource type="Texture2D" uid="uid://k4ot5dqb732e" path="res://minigames/minigames_solar/blacksquare.jpg" id="1_epypp"]
+[ext_resource type="Texture2D" uid="uid://diuywy5um0yrg" path="res://Assets/bar_round_gloss_large.svg" id="2_0hol4"]
+[ext_resource type="Texture2D" uid="uid://bl3iypn8xhd60" path="res://minigames/minigames_solar/sun.jpg" id="3_q6r6c"]
+
+[node name="SolarGame" type="Node2D"]
+script = ExtResource("1_0hol4")
+
+[node name="Background" type="Node2D" parent="."]
+
+[node name="Satellite" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Satellite"]
+scale = Vector2(0.2546388, 0.25024417)
+texture = ExtResource("1_epypp")
+
+[node name="SolarPanels" type="Node2D" parent="Satellite"]
+position = Vector2(-3, -2)
+
+[node name="LeftPanel" type="Node2D" parent="Satellite/SolarPanels"]
+position = Vector2(-130, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Satellite/SolarPanels/LeftPanel"]
+position = Vector2(-260.5, 0)
+scale = Vector2(3.7395833, 1)
+texture = ExtResource("2_0hol4")
+
+[node name="RightPanel" type="Node2D" parent="Satellite/SolarPanels"]
+position = Vector2(130, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Satellite/SolarPanels/RightPanel"]
+position = Vector2(260.99994, 0)
+scale = Vector2(3.7291665, 1)
+texture = ExtResource("2_0hol4")
+
+[node name="Sun" type="Node2D" parent="."]
+position = Vector2(6, -291)
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Sun"]
+position = Vector2(-5.9604645e-08, -3.5762787e-07)
+scale = Vector2(0.18062502, 0.17175572)
+texture = ExtResource("3_q6r6c")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -580.0
+offset_top = -327.0
+offset_right = 583.0
+offset_bottom = 322.0
+
+[node name="Button" type="Button" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 707.0
+offset_top = 598.0
+offset_right = 716.0
+offset_bottom = 606.0
+
+[node name="HSlider" type="HSlider" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 499.0
+offset_top = 561.0
+offset_right = 682.0
+offset_bottom = 577.0
+min_value = -30.0
+max_value = 30.0
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[connection signal="value_changed" from="CanvasLayer/Control/HSlider" to="." method="_on_h_slider_value_changed"]
