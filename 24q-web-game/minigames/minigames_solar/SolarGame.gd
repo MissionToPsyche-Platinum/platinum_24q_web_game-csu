@@ -20,6 +20,7 @@ var alignment_threshold = 0.6
 # 1=ping pong effect, 0 = full 360
 var pp = 1
 var low_power_alert = false
+signal solarMinigameDone
 
 func _ready():
 	power_bar.min_value = 0
@@ -70,7 +71,8 @@ func _process(delta):
 	beam.update_beam(panels.global_position, sun.global_position, alignment)
 
 func _on_fully_charged():
-	power_bar.modulate = Color.CYAN 
+	power_bar.modulate = Color.CYAN
+	emit_signal("solarMinigameDone")
 	print("full power")
 	
 func _on_low_power():

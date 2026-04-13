@@ -9,6 +9,7 @@ extends Node
 @onready var i = 0
 @onready var click = $click
 @onready var error = $error
+signal minigameDone
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass
@@ -34,6 +35,7 @@ func _on_button_1_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 		print(answerArray)
 		if answerArray == correctArray:
 			#This is when the minigame is done
+			emit_signal("minigameDone")
 			print('done')
 		
 
@@ -54,6 +56,7 @@ func _on_button_2_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 		print(answerArray)
 		if answerArray == correctArray:
 			#This is when the minigame is done
+			emit_signal("minigameDone")
 			print('done')
 
 
@@ -73,6 +76,7 @@ func _on_button_3_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 		print(answerArray)
 		if answerArray == correctArray:
 			#This is when the minigame is done
+			emit_signal("minigameDone")
 			print('done')
 
 
@@ -92,4 +96,8 @@ func _on_button_4_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 		print(answerArray)
 		if answerArray == correctArray:
 			#This is when the minigame is done
+			emit_signal("minigameDone")
 			print('done')
+
+	
+	

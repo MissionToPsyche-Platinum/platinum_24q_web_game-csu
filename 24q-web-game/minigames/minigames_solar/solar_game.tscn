@@ -53,6 +53,9 @@ position = Vector2(-5.9604645e-08, -3.5762787e-07)
 scale = Vector2(0.18062502, 0.17175572)
 texture = ExtResource("4_fcbm0")
 
+[node name="Beam" type="Node2D" parent="."]
+script = ExtResource("5_hncxl")
+
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Control" type="Control" parent="CanvasLayer"]
@@ -83,9 +86,6 @@ offset_left = 10.0
 offset_top = 10.0
 offset_right = 502.0
 offset_bottom = 37.0
-
-[node name="Beam" type="Node2D" parent="."]
-script = ExtResource("5_hncxl")
 
 [connection signal="pressed" from="CanvasLayer/Control/Button" to="." method="_on_button_pressed"]
 [connection signal="value_changed" from="CanvasLayer/Control/HSlider" to="." method="_on_h_slider_value_changed"]

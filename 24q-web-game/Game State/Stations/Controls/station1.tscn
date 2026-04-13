@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://qky2vtg0rsmt"]
 
-[ext_resource type="Script" uid="uid://bv033trfyh41t" path="res://Game State/Stations/Engine/station2.gd" id="1_kqq4a"]
+[ext_resource type="Script" uid="uid://dpaage8hremd2" path="res://Game State/Stations/Controls/station1.gd" id="1_kqq4a"]
 [ext_resource type="Texture2D" uid="uid://dth30w4ik4smd" path="res://Assets/station2.png" id="2_kqq4a"]
 [ext_resource type="PackedScene" uid="uid://cyfvaf0q10yp7" path="res://interactions/interactable.tscn" id="3_pq5o4"]
 
