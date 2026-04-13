@@ -1,39 +1,40 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1771822340
-atroo.png::CompressedTexture2D::4493754051134293044::1771821967::1771821967::1::::<><><>0<>0<>7ba0a3231f3e7be324b72d49a448a6fa<>res://.godot/imported/atroo.png-d170c0b051e7e0d9e289de0745e22b5d.ctex::
-CharMov.gd::GDScript::4258258478508195279::1771822102::0::1::::<>CharacterBody2D<><>0<>0<><>::
-default_bus_layout.tres::AudioBusLayout::918026742601527025::1771821967::0::1::::<><><>0<>0<><>::
-Footstep.gd::GDScript::7888292657039215457::1771821967::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
-game_level.gd::GDScript::4534050863927980809::1771816220::0::1::::<>Node2D<><>0<>0<><>::
-Game_Level.tscn::PackedScene::-1::1771821967::0::1::::<><><>0<>0<><>::
+::res://::1776114772
+atroo.png::CompressedTexture2D::4493754051134293044::1772838464::1772838464::1::::<><><>0<>0<>7ba0a3231f3e7be324b72d49a448a6fa<>res://.godot/imported/atroo.png-d170c0b051e7e0d9e289de0745e22b5d.ctex::
+CharMov.gd::GDScript::4258258478508195279::1775928833::0::1::::<>CharacterBody2D<><>0<>0<><>::
+default_bus_layout.tres::AudioBusLayout::918026742601527025::1772838464::0::1::::<><><>0<>0<><>::
+Footstep.gd::GDScript::7888292657039215457::1772838464::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
+game_level.gd::GDScript::4534050863927980809::1772838464::0::1::::<>Node2D<><>0<>0<><>::
+Game_Level.tscn::PackedScene::-1::1772838464::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::8227062921787772187::1771816220::1771816220::1::::<><><>0<>0<>97a210e8ce86c784b9a6f7d1bd191078<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-templvl.tscn::PackedScene::5024762506603962617::1771822077::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn
+templvl.tscn::PackedScene::5024762506603962617::1776114600::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn<>uid://jfu2u84syok8::::res://interactions/interacting_component.tscn
 Test1.tscn::PackedScene::4020148247681468160::1771033848::0::1::::<><><>0<>0<><>::uid://b24uxi4tqpeg0::::res://Assets/control-table-spacecraft.jpg<>uid://dlarb3vwv1bn7::::res://Game_Level.tscn
-Testing.tscn::PackedScene::5811252716542087252::1771821967::0::1::::<><><>0<>0<><>::
+Testing.tscn::PackedScene::5811252716542087252::1772838464::0::1::::<><><>0<>0<><>::
+wire.gd::GDScript::9015867296448838158::1776114763::0::1::::<>Node2D<><>0<>0<><>::
 ::res://addons/::1771033804
 ::res://addons/bluebrains_character_controller/::1771033804
 bluebrains_character_controller.gd::GDScript::3990685585572676345::1771033804::0::1::::<>EditorPlugin<><>0<>1<><>::
 icon.png::CompressedTexture2D::6508474833440183413::1771033804::1771033804::1::::<><><>0<>0<>8c910c4d4fbc062279f81350d5794c04<>res://.godot/imported/icon.png-c3a81f75dc9677d19b1a37107fc9f22e.ctex::
 plugin.cfg::TextFile::-1::1771033804::0::1::::<><><>0<>0<><>::
-::res://addons/bluebrains_character_controller/character_controller/::1771821967
+::res://addons/bluebrains_character_controller/character_controller/::1772838464
 2d_character_controller.gd::GDScript::2858346881058662303::1771033804::0::1::::PlayerCharacterBody2D<>CharacterBody2D<><>0<>0<><>::
 2d_character_controller.tscn::PackedScene::1813640493772185566::1771033804::0::1::::<><><>0<>0<><>::uid://c3ixhnu256fxs::::res://addons/bluebrains_character_controller/sprites/sprite_frames.tres<>uid://bgyus5ghfgqd0::::res://addons/bluebrains_character_controller/character_controller/2d_character_controller.gd<>uid://cihci01qsk7vc::::res://animated_sprite_2d_tool.gd<>uid://dg5r27f36mn07::::res://addons/bluebrains_character_controller/components/ledge_detector.tscn<>uid://b4u3gi8hgjlet::::res://addons/bluebrains_character_controller/character_controller/state_machine/state_machine.gd<>uid://dl7ctbe0cv3c2::::res://addons/bluebrains_character_controller/components/input_map.gd<>uid://duwoy3nkmvy38::::res://addons/bluebrains_character_controller/components/movement_variables.gd<>uid://cwdjqvddxjqqg::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/grounded.gd<>uid://dadlfrrf4y021::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/one_shot.gd<>uid://cs6bis811k88n::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/jump_air.gd<>uid://b8ub53csc0twm::::res://addons/bluebrains_character_controller/components/state_machine_variables.gd<>uid://bnbe7mxk8wsky::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/airborne.gd<>uid://ke7ebekdcqfn::::res://addons/bluebrains_character_controller/character_controller/state_machine/input_transition.gd<>uid://cyspnbaj7tun::::res://addons/bluebrains_character_controller/character_controller/state_machine/magic_transition.gd<>uid://dukw84gcuvd3d::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/hang.gd<>uid://bdlrly1hkn1qa::::res://addons/bluebrains_character_controller/character_controller/state_machine/dynamic_data_row.gd<>uid://byfliumen4dwv::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/wall_slide.gd
 2d_character_controller_base.tscn::PackedScene::1490772616616093676::1771033804::0::1::::<><><>0<>0<><>::uid://bgyus5ghfgqd0::::res://addons/bluebrains_character_controller/character_controller/2d_character_controller.gd<>uid://dl7ctbe0cv3c2::::res://addons/bluebrains_character_controller/components/input_map.gd<>uid://b8ub53csc0twm::::res://addons/bluebrains_character_controller/components/state_machine_variables.gd<>uid://duwoy3nkmvy38::::res://addons/bluebrains_character_controller/components/movement_variables.gd<>uid://b4u3gi8hgjlet::::res://addons/bluebrains_character_controller/character_controller/state_machine/state_machine.gd<>uid://dg5r27f36mn07::::res://addons/bluebrains_character_controller/components/ledge_detector.tscn
-example_character_controller.tscn::PackedScene::1242622232217166029::1771821967::0::1::::<><><>0<>0<><>::uid://vie2pd3qfb5e::::res://addons/bluebrains_character_controller/character_controller/2d_character_controller_base.tscn<>uid://c3ixhnu256fxs::::res://addons/bluebrains_character_controller/sprites/sprite_frames.tres<>uid://cwdjqvddxjqqg::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/grounded.gd<>uid://ke7ebekdcqfn::::res://addons/bluebrains_character_controller/character_controller/state_machine/input_transition.gd<>uid://cyspnbaj7tun::::res://addons/bluebrains_character_controller/character_controller/state_machine/magic_transition.gd<>uid://bdlrly1hkn1qa::::res://addons/bluebrains_character_controller/character_controller/state_machine/dynamic_data_row.gd<>uid://dadlfrrf4y021::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/one_shot.gd<>uid://cs6bis811k88n::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/jump_air.gd<>uid://bnbe7mxk8wsky::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/airborne.gd<>uid://dukw84gcuvd3d::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/hang.gd<>uid://byfliumen4dwv::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/wall_slide.gd
+example_character_controller.tscn::PackedScene::1242622232217166029::1772838464::0::1::::<><><>0<>0<><>::uid://vie2pd3qfb5e::::res://addons/bluebrains_character_controller/character_controller/2d_character_controller_base.tscn<>uid://c3ixhnu256fxs::::res://addons/bluebrains_character_controller/sprites/sprite_frames.tres<>uid://cwdjqvddxjqqg::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/grounded.gd<>uid://ke7ebekdcqfn::::res://addons/bluebrains_character_controller/character_controller/state_machine/input_transition.gd<>uid://cyspnbaj7tun::::res://addons/bluebrains_character_controller/character_controller/state_machine/magic_transition.gd<>uid://bdlrly1hkn1qa::::res://addons/bluebrains_character_controller/character_controller/state_machine/dynamic_data_row.gd<>uid://dadlfrrf4y021::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/one_shot.gd<>uid://cs6bis811k88n::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/jump_air.gd<>uid://bnbe7mxk8wsky::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/airborne.gd<>uid://dukw84gcuvd3d::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/hang.gd<>uid://byfliumen4dwv::::res://addons/bluebrains_character_controller/character_controller/state_machine/states/wall_slide.gd
 ::res://addons/bluebrains_character_controller/character_controller/state_machine/::1771033804
 dynamic_data_row.gd::GDScript::2620748503569110640::1771033804::0::1::::DynamicDataRow<>Resource<><>0<>0<><>::
 input_transition.gd::GDScript::712096093501737719::1771033804::0::1::::InputStateTransition<>StateTransition<><>0<>1<><>::
 magic_transition.gd::GDScript::191043130513532881::1771033804::0::1::::MagicStateTransition<>StateTransition<><>0<>1<><>::
-state.gd::GDScript::4363396357744232197::1771033804::0::1::::CharacterControllerState<>Node<>res://addons/bluebrains_character_controller/icons/diamond-yellow.png<>0<>1<><>::
-state_machine.gd::GDScript::4464895966329905551::1771033804::0::1::::CharacterControllerStateMachine<>CharacterControllerState<>res://addons/bluebrains_character_controller/icons/multi-diamonds-yellow.png<>0<>1<><>::
-transition.gd::GDScript::1358703449678615030::1771033804::0::1::::StateTransition<>Node<>res://addons/bluebrains_character_controller/icons/jump-to-yellow.png<>0<>1<><>::
+state.gd::GDScript::4363396357744232197::1771033804::0::1::::CharacterControllerState<>Node<><>0<>1<><>::
+state_machine.gd::GDScript::4464895966329905551::1771033804::0::1::::CharacterControllerStateMachine<>CharacterControllerState<><>0<>1<><>::
+transition.gd::GDScript::1358703449678615030::1771033804::0::1::::StateTransition<>Node<><>0<>1<><>::
 ::res://addons/bluebrains_character_controller/character_controller/state_machine/states/::1771033804
 airborne.gd::GDScript::3301240708427646836::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 grounded.gd::GDScript::6323765194114651454::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 hang.gd::GDScript::8585078938984680431::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 jump.gd::GDScript::1868761230054743121::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 jump_air.gd::GDScript::6100312264205990115::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
-one_shot.gd::GDScript::7166132919656969604::1771033804::0::1::::OneShotState<>CharacterControllerState<>res://addons/bluebrains_character_controller/icons/diamond-jump-to-yellow.png<>0<>1<><>::
+one_shot.gd::GDScript::7166132919656969604::1771033804::0::1::::OneShotState<>CharacterControllerState<><>0<>1<><>::
 wall_slide.gd::GDScript::4081958062252761413::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 ::res://addons/bluebrains_character_controller/components/::1771033804
 input_map.gd::GDScript::7997554843139282103::1771033804::0::1::::InputMapNode<>Node<><>0<>0<><>::
@@ -129,7 +130,7 @@ Player Wall Land (left) 48x48.png::CompressedTexture2D::5221471358213213097::177
 ::res://addons/bluebrains_character_controller/sprites/Wall Slide/::1771033804
 player wall slide 48x48.png::CompressedTexture2D::7897473322815985215::1771033804::1771033804::1::::<><><>0<>0<>a8321d6f3e36d25e0c1a396590a6b903<>res://.godot/imported/player wall slide 48x48.png-f5ad0279eb5dae4c123a87b93746ddf2.ctex::
 player wall slide (left) 48x48.png::CompressedTexture2D::2824218819971067591::1771033804::1771033804::1::::<><><>0<>0<>edb0bcef5a1f54319a169e81db07efb3<>res://.godot/imported/player wall slide (left) 48x48.png-4c5eb77d547884f21d36dfafdbf7ee35.ctex::
-::res://Assets/::1771816220
+::res://Assets/::1772838464
 astro.png::CompressedTexture2D::106645105334485013::1771816220::1771816220::1::::<><><>0<>0<>f31c8277f8f935f9876c234efccf92d8<>res://.godot/imported/astro.png-6009457c70288682fc2712aa6eb26cfb.ctex::
 bar_round_gloss_large.svg::CompressedTexture2D::7763558158387351984::1771816220::1771816220::1::::<><><>0<>0<>50f1765fee458ab6971a026683ce44db<>res://.godot/imported/bar_round_gloss_large.svg-41f812e6ac63ae505896f5037c598ceb.ctex::
 bar_shadow_round_large.svg::CompressedTexture2D::2129841429404699824::1771816220::1771816220::1::::<><><>0<>0<>63bcabc82e52517aeae6bad7f66011c2<>res://.godot/imported/bar_shadow_round_large.svg-84bfcafaad76750f1c6b4073092f7474.ctex::
@@ -143,35 +144,38 @@ TileSet_v1.0.png::CompressedTexture2D::1814982272785447956::1771816220::17718162
 Game Over Explosion.webp::CompressedTexture2D::2420736047525396293::1771816220::1771816220::1::::<><><>0<>0<>bdec62baf4bdae3f12fffae0a6727441<>res://.godot/imported/Game Over Explosion.webp-3a70bac49066854d805a0e7373c917ed.ctex::
 game_over.gd::GDScript::5509264814833515626::1771816220::0::1::::<>Control<><>0<>0<><>::
 game_over.tscn::PackedScene::2027217019687735815::1771822077::0::1::::<><><>0<>0<><>::uid://ckqy10kaby36m::::res://Game Over/game_over.gd<>uid://baqvf0nriksy4::::res://Game Over/Game Over Explosion.webp<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
-::res://Game State/::1771816220
-game_state_manager.gd::GDScript::5212493652343919426::1771816220::0::1::::<>Node<><>0<>0<><>::
-::res://Game State/Meltdown/::1771816220
+::res://Game State/::1772838464
+game_state_manager.gd::GDScript::5212493652343919426::1772838464::0::1::::<>Node<><>0<>0<><>::
+::res://Game State/Meltdown/::1772838464
 meltdown_timer.tscn::PackedScene::3063031347107838764::1771816220::0::1::::<><><>0<>0<><>::
-meltdown_ui.tscn::PackedScene::553857381139320218::1771816220::0::1::::<><><>0<>0<><>::uid://5lyga2o0atvk::::res://Assets/bar_shadow_round_large.svg<>uid://diuywy5um0yrg::::res://Assets/bar_round_gloss_large.svg
-::res://Game State/Stations/::1771816220
-::res://Game State/Stations/Controls/::1771822077
-station1.tscn::PackedScene::1145171832659290507::1771822077::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://dth30w4ik4smd::::res://Assets/station2.png<>uid://cyfvaf0q10yp7::::res://interactions/interactable.tscn
-::res://Game State/Stations/Engine/::1771822077
-station2.gd::GDScript::3913746946434960147::1771822077::0::1::::<>StaticBody2D<><>0<>0<><>::
-station2.tscn::PackedScene::2554525582916568835::1771822077::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://bma21qmybmael::::res://Assets/station1.png<>uid://cyfvaf0q10yp7::::res://interactions/interactable.tscn
-::res://interactions/::1771822077
+meltdown_ui.tscn::PackedScene::553857381139320218::1772838464::0::1::::<><><>0<>0<><>::uid://5lyga2o0atvk::::res://Assets/bar_shadow_round_large.svg<>uid://diuywy5um0yrg::::res://Assets/bar_round_gloss_large.svg
+::res://Game State/Stations/::1772838464
+::res://Game State/Stations/Controls/::1776114600
+station1.tscn::PackedScene::1145171832659290507::1776114600::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://dth30w4ik4smd::::res://Assets/station2.png<>uid://cyfvaf0q10yp7::::res://interactions/interactable.tscn
+::res://Game State/Stations/Engine/::1776114600
+station2.gd::GDScript::3913746946434960147::1776114600::0::1::::<>StaticBody2D<><>0<>0<><>::
+station2.tscn::PackedScene::2554525582916568835::1775665825::0::1::::<><><>0<>0<><>::uid://bv033trfyh41t::::res://Game State/Stations/Engine/station2.gd<>uid://bma21qmybmael::::res://Assets/station1.png<>uid://cyfvaf0q10yp7::::res://interactions/interactable.tscn
+::res://interactions/::1774045385
 interactable.gd::GDScript::5974264426253389930::1771822077::0::1::::<>Area2D<><>0<>0<><>::
 interactable.tscn::PackedScene::6468970862316957478::1771822077::0::1::::<><><>0<>0<><>::uid://crd8i6fpmmite::::res://interactions/interactable.gd
-interacting_component.gd::GDScript::3144964373422885364::1771822077::0::1::::<>Node2D<><>0<>0<><>::
-interacting_component.tscn::PackedScene::643285140591541613::1771822077::0::1::::<><><>0<>0<><>::uid://bk2pdr6uqqxgm::::res://interactions/interacting_component.gd
-::res://Main_Menu/::1771822077
+interacting_component.gd::GDScript::3144964373422885364::1774045385::0::1::::<>Node2D<><>0<>0<><>::
+interacting_component.tscn::PackedScene::643285140591541613::1772838464::0::1::::<><><>0<>0<><>::uid://bk2pdr6uqqxgm::::res://interactions/interacting_component.gd
+::res://Main_Menu/::1776114600
 Button_Theme.tres::Theme::7348606947542597483::1771816220::0::1::::<><><>0<>0<><>::
 main_menu.gd::GDScript::5755916443098860325::1771816220::0::1::::<>Control<><>0<>0<><>::
-main_menu.tscn::PackedScene::5260228439448990881::1771822077::0::1::::<><><>0<>0<><>::uid://ddp0o8wifrrid::::res://Main_Menu/MilkyWayPlaceHolder.jpg<>uid://coahdq6edvik0::::res://Main_Menu/main_menu.gd<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
+main_menu.tscn::PackedScene::5260228439448990881::1776114600::0::1::::<><><>0<>0<><>::uid://ddp0o8wifrrid::::res://Main_Menu/MilkyWayPlaceHolder.jpg<>uid://coahdq6edvik0::::res://Main_Menu/main_menu.gd<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
 MilkyWayPlaceHolder.jpg::CompressedTexture2D::7402338941865232175::1771816220::1771816220::1::::<><><>0<>0<>0c6a9a7de9f4774cffa013bdb72b4e43<>res://.godot/imported/MilkyWayPlaceHolder.jpg-6abed295275b1bb1e8a335b7f986d1d3.ctex::
-::res://player/::1771822332
-4wayCharacter.tscn::PackedScene::2943396462365862532::1771822332::0::1::::<><><>0<>0<><>::uid://b1wy5ove725b4::::res://CharMov.gd<>uid://b5a2qcocvd4eq::::res://atroo.png<>uid://dknfa64rnas8h::::res://Footstep.gd
+::res://minigames/::1776114600
+::res://minigames/WireMinigame/::1776114600
+wireminigame.tscn::PackedScene::8567159520290419370::1776114600::0::1::::<><><>0<>0<><>::uid://dsm3h8ka3unh5::::res://wire.gd
+::res://player/::1772838464
+4wayCharacter.tscn::PackedScene::2943396462365862532::1772838464::0::1::::<><><>0<>0<><>::uid://b1wy5ove725b4::::res://CharMov.gd<>uid://b5a2qcocvd4eq::::res://atroo.png<>uid://dknfa64rnas8h::::res://Footstep.gd
 4waymovement.tscn::PackedScene::6468386817257262634::1771822077::0::1::::<><><>0<>0<><>::
-::res://Sounds/::1771821967
-398937__softdistortionfx__metal-footsteps.mp3::AudioStreamMP3::4432120499156901101::1771821967::1771821967::1::::<><><>0<>0<>69a0524c4efc0e5aaf53a96c953027e5<>res://.godot/imported/398937__softdistortionfx__metal-footsteps.mp3-1efe5a203649a97f2997944d2c443313.mp3str::
-metal_walk.ogg::AudioStreamOggVorbis::8332401097257156309::1771821967::1771821967::1::::<><><>0<>0<>f9bf4f0e62c00efc5d4ea757198e4abc<>res://.godot/imported/metal_walk.ogg-1382920cffdc2062fae8df7253de2e61.oggvorbisstr::
+::res://Sounds/::1776114600
+398937__softdistortionfx__metal-footsteps.mp3::AudioStreamMP3::4432120499156901101::1772838464::1772838464::1::::<><><>0<>0<>69a0524c4efc0e5aaf53a96c953027e5<>res://.godot/imported/398937__softdistortionfx__metal-footsteps.mp3-1efe5a203649a97f2997944d2c443313.mp3str::
+metal_walk.ogg::AudioStreamOggVorbis::8332401097257156309::1772838464::1772838464::1::::<><><>0<>0<>f9bf4f0e62c00efc5d4ea757198e4abc<>res://.godot/imported/metal_walk.ogg-1382920cffdc2062fae8df7253de2e61.oggvorbisstr::
 ::res://Stages/::1769811404
-::res://Stages/Prototype/::1771821967
+::res://Stages/Prototype/::1772838464
 platform.tscn::PackedScene::4852305123884715635::1771033848::0::1::::<><><>0<>0<><>::uid://d3kjlenstws02::::res://Assets/Platform.png
-prototype_stage.tscn::PackedScene::-1::1771821967::0::1::::<><><>0<>0<><>::
+prototype_stage.tscn::PackedScene::-1::1772838464::0::1::::<><><>0<>0<><>::
 proto_platform.tscn::PackedScene::1280171002863225467::1771816220::0::1::::<><><>0<>0<><>::uid://d3kjlenstws02::::res://Assets/Platform.png
