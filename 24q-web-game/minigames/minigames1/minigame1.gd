@@ -36,6 +36,8 @@ func _on_button_1_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 		if answerArray == correctArray:
 			#This is when the minigame is done
 			emit_signal("minigameDone")
+			answerArray.clear()
+			sprite.set_frame_and_progress(0, 0)
 			print('done')
 		
 
@@ -57,6 +59,8 @@ func _on_button_2_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 		if answerArray == correctArray:
 			#This is when the minigame is done
 			emit_signal("minigameDone")
+			answerArray.clear()
+			sprite.set_frame_and_progress(0, 0)
 			print('done')
 
 
@@ -77,6 +81,8 @@ func _on_button_3_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 		if answerArray == correctArray:
 			#This is when the minigame is done
 			emit_signal("minigameDone")
+			answerArray.clear()
+			sprite.set_frame_and_progress(0, 0)
 			print('done')
 
 
@@ -97,6 +103,8 @@ func _on_button_4_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 		if answerArray == correctArray:
 			#This is when the minigame is done
 			emit_signal("minigameDone")
+			answerArray.clear()
+			sprite.set_frame_and_progress(0, 0)
 			print('done')
 
 	
