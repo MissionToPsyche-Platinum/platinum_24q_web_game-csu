@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://oxowrtj2yc8"]
 
-[ext_resource type="Script" uid="uid://d00ijt37uv0ll" path="res://SolarGame.gd" id="1_0hol4"]
+[ext_resource type="Script" uid="uid://d00ijt37uv0ll" path="res://minigames/minigames_solar/SolarGame.gd" id="1_0hol4"]
 [ext_resource type="Texture2D" uid="uid://k4ot5dqb732e" path="res://minigames/minigames_solar/blacksquare.jpg" id="1_epypp"]
 [ext_resource type="Texture2D" uid="uid://diuywy5um0yrg" path="res://Assets/bar_round_gloss_large.svg" id="2_0hol4"]
 [ext_resource type="Texture2D" uid="uid://bl3iypn8xhd60" path="res://minigames/minigames_solar/sun.jpg" id="3_q6r6c"]
