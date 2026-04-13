@@ -1,0 +1,91 @@
+[gd_scene load_steps=6 format=3 uid="uid://bwghj38pgom2p"]
+
+[ext_resource type="Script" uid="uid://d00ijt37uv0ll" path="res://minigames/minigames_solar/SolarGame.gd" id="1_enk4i"]
+[ext_resource type="Texture2D" uid="uid://k4ot5dqb732e" path="res://minigames/minigames_solar/blacksquare.jpg" id="2_hncxl"]
+[ext_resource type="Texture2D" uid="uid://diuywy5um0yrg" path="res://Assets/bar_round_gloss_large.svg" id="3_jdgya"]
+[ext_resource type="Texture2D" uid="uid://bl3iypn8xhd60" path="res://minigames/minigames_solar/sun.jpg" id="4_fcbm0"]
+[ext_resource type="Script" uid="uid://3wpaw56qx0dy" path="res://beam.gd" id="5_hncxl"]
+
+[node name="SolarGame" type="Node2D"]
+script = ExtResource("1_enk4i")
+
+[node name="Background" type="Node2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Background"]
+offset_right = 512.0
+offset_bottom = 512.0
+color = Color(0.3797949, 0.32059595, 0.3934818, 1)
+
+[node name="Satellite" type="Node2D" parent="."]
+position = Vector2(256, 380)
+scale = Vector2(0.05, 0.05)
+
+[node name="Sprite2D" type="Sprite2D" parent="Satellite"]
+texture = ExtResource("2_hncxl")
+
+[node name="SolarPanels" type="Node2D" parent="Satellite"]
+
+[node name="LeftPanel" type="Node2D" parent="Satellite/SolarPanels"]
+position = Vector2(-800, 0)
+scale = Vector2(3, 3)
+
+[node name="Sprite2D" type="Sprite2D" parent="Satellite/SolarPanels/LeftPanel"]
+position = Vector2(-180.5, 0)
+scale = Vector2(3.7395833, 1)
+texture = ExtResource("3_jdgya")
+
+[node name="RightPanel" type="Node2D" parent="Satellite/SolarPanels"]
+position = Vector2(800, 0)
+scale = Vector2(3, 3)
+
+[node name="Sprite2D" type="Sprite2D" parent="Satellite/SolarPanels/RightPanel"]
+position = Vector2(181, 0)
+scale = Vector2(3.7291665, 1)
+texture = ExtResource("3_jdgya")
+
+[node name="Sun" type="Node2D" parent="."]
+position = Vector2(256, 100)
+scale = Vector2(0.25, 0.25)
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Sun"]
+position = Vector2(-5.9604645e-08, -3.5762787e-07)
+scale = Vector2(0.18062502, 0.17175572)
+texture = ExtResource("4_fcbm0")
+
+[node name="Beam" type="Node2D" parent="."]
+script = ExtResource("5_hncxl")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 512.0
+offset_bottom = 512.0
+
+[node name="Button" type="Button" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 389.0
+offset_top = 446.0
+offset_right = 398.0
+offset_bottom = 454.0
+
+[node name="HSlider" type="HSlider" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 166.0
+offset_top = 440.0
+offset_right = 349.0
+offset_bottom = 456.0
+min_value = -30.0
+max_value = 30.0
+
+[node name="ProgressBar" type="ProgressBar" parent="CanvasLayer/Control"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 502.0
+offset_bottom = 37.0
+
+[connection signal="pressed" from="CanvasLayer/Control/Button" to="." method="_on_button_pressed"]
+[connection signal="value_changed" from="CanvasLayer/Control/HSlider" to="." method="_on_h_slider_value_changed"]

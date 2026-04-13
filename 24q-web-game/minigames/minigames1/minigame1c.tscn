@@ -1,0 +1,88 @@
+[gd_scene load_steps=14 format=3 uid="uid://bh6kgdo5lf6fa"]
+
+[ext_resource type="Script" uid="uid://bacq4diogckam" path="res://minigames/minigames1/minigame3.gd" id="1_uov82"]
+[ext_resource type="Texture2D" uid="uid://d27oqnw3jva8t" path="res://minigames/minigames1/minigame1states/option2.png" id="1_v0ajn"]
+[ext_resource type="Texture2D" uid="uid://crrq1kjwcyux5" path="res://minigames/minigames1/minigame1states/option2a.png" id="3_nwl7q"]
+[ext_resource type="Texture2D" uid="uid://c04to2dyfwwxm" path="res://minigames/minigames1/minigame1states/option2b.png" id="4_r3sp3"]
+[ext_resource type="Texture2D" uid="uid://deb7w6s5ybe3k" path="res://minigames/minigames1/minigame1states/option2c.png" id="5_le6d0"]
+[ext_resource type="Texture2D" uid="uid://bqe4suiqnrkgp" path="res://minigames/minigames1/minigame1states/option2d.png" id="6_vu218"]
+[ext_resource type="Script" uid="uid://n1k7dytxmg5e" path="res://minigames/minigames1/button.gd" id="7_le6d0"]
+[ext_resource type="Script" uid="uid://b1qiitv5pbp5u" path="res://minigames/minigames1/error.gd" id="8_vu218"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uov82"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_v0ajn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_nwl7q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_r3sp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_le6d0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_vu218")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ounhv"]
+size = Vector2(64, 64)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lwmuq"]
+size = Vector2(64, 64)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t2cyp"]
+size = Vector2(64, 64)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nwl7q"]
+size = Vector2(64, 64)
+
+[node name="Minigame3" type="Node2D"]
+script = ExtResource("1_uov82")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(438.99994, 618)
+scale = Vector2(1.80625, 1.80625)
+sprite_frames = SubResource("SpriteFrames_uov82")
+
+[node name="Button1" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Button1"]
+position = Vector2(-56, -144)
+shape = SubResource("RectangleShape2D_ounhv")
+
+[node name="Button2" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Button2"]
+position = Vector2(32, -144)
+shape = SubResource("RectangleShape2D_lwmuq")
+
+[node name="Button3" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Button3"]
+position = Vector2(120, -144)
+shape = SubResource("RectangleShape2D_t2cyp")
+
+[node name="Button4" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Button4"]
+position = Vector2(208, -144)
+shape = SubResource("RectangleShape2D_nwl7q")
+
+[node name="click" type="AudioStreamPlayer2D" parent="."]
+script = ExtResource("7_le6d0")
+
+[node name="error" type="AudioStreamPlayer2D" parent="."]
+script = ExtResource("8_vu218")
+
+[connection signal="input_event" from="AnimatedSprite2D/Button1" to="." method="_on_button_1_input_event"]
+[connection signal="input_event" from="AnimatedSprite2D/Button2" to="." method="_on_button_2_input_event"]
+[connection signal="input_event" from="AnimatedSprite2D/Button3" to="." method="_on_button_3_input_event"]
+[connection signal="input_event" from="AnimatedSprite2D/Button4" to="." method="_on_button_4_input_event"]
