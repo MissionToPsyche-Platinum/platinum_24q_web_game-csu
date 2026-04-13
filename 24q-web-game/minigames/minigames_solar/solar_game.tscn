@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://bwghj38pgom2p"]
+[gd_scene load_steps=7 format=3 uid="uid://bwghj38pgom2p"]
 
 [ext_resource type="Script" uid="uid://d00ijt37uv0ll" path="res://minigames/minigames_solar/SolarGame.gd" id="1_enk4i"]
-[ext_resource type="Texture2D" uid="uid://k4ot5dqb732e" path="res://minigames/minigames_solar/blacksquare.jpg" id="2_hncxl"]
-[ext_resource type="Texture2D" uid="uid://diuywy5um0yrg" path="res://Assets/bar_round_gloss_large.svg" id="3_jdgya"]
-[ext_resource type="Texture2D" uid="uid://bl3iypn8xhd60" path="res://minigames/minigames_solar/sun.jpg" id="4_fcbm0"]
+[ext_resource type="Texture2D" uid="uid://c8xmo4cw2nd40" path="res://minigames/minigames_solar/Stolen.jpg" id="2_3ie1h"]
+[ext_resource type="Texture2D" uid="uid://fwdxtenqqgu8" path="res://minigames/minigames_solar/Sat.png" id="2_qfucp"]
+[ext_resource type="Texture2D" uid="uid://besnhw2fv6edk" path="res://minigames/minigames_solar/Solar Panel.png" id="3_qfucp"]
+[ext_resource type="Texture2D" uid="uid://cpw5v2r1hdur2" path="res://minigames/minigames_solar/Sun.png" id="4_qfucp"]
 [ext_resource type="Script" uid="uid://3wpaw56qx0dy" path="res://beam.gd" id="5_hncxl"]
 
 [node name="SolarGame" type="Node2D"]
@@ -16,42 +17,48 @@ offset_right = 512.0
 offset_bottom = 512.0
 color = Color(0.3797949, 0.32059595, 0.3934818, 1)
 
+[node name="Sprite2D" type="Sprite2D" parent="Background/ColorRect"]
+position = Vector2(389, 256)
+scale = Vector2(1.1449488, 1.4277778)
+texture = ExtResource("2_3ie1h")
+
 [node name="Satellite" type="Node2D" parent="."]
 position = Vector2(256, 380)
 scale = Vector2(0.05, 0.05)
 
 [node name="Sprite2D" type="Sprite2D" parent="Satellite"]
-texture = ExtResource("2_hncxl")
+position = Vector2(75, -443)
+scale = Vector2(13, 13)
+texture = ExtResource("2_qfucp")
 
 [node name="SolarPanels" type="Node2D" parent="Satellite"]
 
 [node name="LeftPanel" type="Node2D" parent="Satellite/SolarPanels"]
-position = Vector2(-800, 0)
+position = Vector2(-520, 0)
 scale = Vector2(3, 3)
 
 [node name="Sprite2D" type="Sprite2D" parent="Satellite/SolarPanels/LeftPanel"]
-position = Vector2(-180.5, 0)
-scale = Vector2(3.7395833, 1)
-texture = ExtResource("3_jdgya")
+position = Vector2(-228.33325, -26.666748)
+scale = Vector2(1.4599994, 1)
+texture = ExtResource("3_qfucp")
 
 [node name="RightPanel" type="Node2D" parent="Satellite/SolarPanels"]
-position = Vector2(800, 0)
+position = Vector2(519.999, 0)
 scale = Vector2(3, 3)
 
 [node name="Sprite2D" type="Sprite2D" parent="Satellite/SolarPanels/RightPanel"]
-position = Vector2(181, 0)
-scale = Vector2(3.7291665, 1)
-texture = ExtResource("3_jdgya")
+position = Vector2(229.40332, 26.66455)
+rotation = 3.1415927
+scale = Vector2(1.463, 1)
+texture = ExtResource("3_qfucp")
 
 [node name="Sun" type="Node2D" parent="."]
 position = Vector2(256, 100)
-scale = Vector2(0.25, 0.25)
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="Sun"]
-position = Vector2(-5.9604645e-08, -3.5762787e-07)
-scale = Vector2(0.18062502, 0.17175572)
-texture = ExtResource("4_fcbm0")
+position = Vector2(0, 13)
+texture = ExtResource("4_qfucp")
 
 [node name="Beam" type="Node2D" parent="."]
 script = ExtResource("5_hncxl")
@@ -61,8 +68,9 @@ script = ExtResource("5_hncxl")
 [node name="Control" type="Control" parent="CanvasLayer"]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 512.0
-offset_bottom = 512.0
+offset_left = -1.0
+offset_right = 506.0
+offset_bottom = 520.0
 
 [node name="Button" type="Button" parent="CanvasLayer/Control"]
 layout_mode = 0

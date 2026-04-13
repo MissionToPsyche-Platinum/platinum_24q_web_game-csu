@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bl3iypn8xhd60"
-path="res://.godot/imported/sun.jpg-2c17fc5b39ebdb265380fe8c5d1d58be.ctex"
+uid="uid://cpw5v2r1hdur2"
+path="res://.godot/imported/Sun.png-d648107271a73923240fe02fb448d934.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://minigames/minigames_solar/sun.jpg"
-dest_files=["res://.godot/imported/sun.jpg-2c17fc5b39ebdb265380fe8c5d1d58be.ctex"]
+source_file="res://minigames/minigames_solar/Sun.png"
+dest_files=["res://.godot/imported/Sun.png-d648107271a73923240fe02fb448d934.ctex"]
 
 [params]
 
