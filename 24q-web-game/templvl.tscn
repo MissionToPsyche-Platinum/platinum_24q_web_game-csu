@@ -653,6 +653,7 @@ scale = Vector2(0.24, 0.24)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(539, 529)
+zoom = Vector2(1.5, 1.5)
 
 [node name="buttonLayer" type="CanvasLayer" parent="CharacterBody2D/Camera2D"]
 
@@ -676,6 +677,8 @@ offset_right = 1905.144
 offset_bottom = 128.71999
 
 [node name="SubViewport" type="SubViewport" parent="CharacterBody2D/Camera2D/solarLayer/SubViewportContainer"]
+handle_input_locally = false
+render_target_update_mode = 4
 
 [node name="SolarGame" parent="CharacterBody2D/Camera2D/solarLayer/SubViewportContainer/SubViewport" instance=ExtResource("7_yrr2p")]
 
