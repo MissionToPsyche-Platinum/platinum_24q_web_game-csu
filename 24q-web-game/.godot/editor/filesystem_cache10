@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1776705833
+::res://::1776876065
 atroo.png::CompressedTexture2D::4493754051134293044::1772838464::1772838464::1::::<><><>0<>0<>7ba0a3231f3e7be324b72d49a448a6fa<>res://.godot/imported/atroo.png-d170c0b051e7e0d9e289de0745e22b5d.ctex::
 beam.gd::GDScript::2011615890634366970::1776114928::0::1::::<>Node2D<><>0<>0<><>::
 CharMov.gd::GDScript::4258258478508195279::1775928833::0::1::::<>CharacterBody2D<><>0<>0<><>::
@@ -9,7 +9,7 @@ game_level.gd::GDScript::4534050863927980809::1772838464::0::1::::<>Node2D<><>0<
 Game_Level.tscn::PackedScene::-1::1772838464::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::8227062921787772187::1771816220::1771816220::1::::<><><>0<>0<>97a210e8ce86c784b9a6f7d1bd191078<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 node_2d.tscn::PackedScene::30323963156901453::1776114928::0::1::::<><><>0<>0<><>::uid://d00ijt37uv0ll::::res://minigames/minigames_solar/SolarGame.gd<>uid://k4ot5dqb732e::::res://minigames/minigames_solar/blacksquare.jpg<>uid://diuywy5um0yrg::::res://Assets/bar_round_gloss_large.svg<>uid://bl3iypn8xhd60::::res://minigames/minigames_solar/sun.jpg
-templvl.tscn::PackedScene::5024762506603962617::1776705833::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn<>uid://jfu2u84syok8::::res://interactions/interacting_component.tscn<>uid://cnjl15q8fycp2::::res://minigames/minigames1/minigame1a.tscn<>uid://bwghj38pgom2p::::res://minigames/minigames_solar/solar_game.tscn
+templvl.tscn::PackedScene::5024762506603962617::1776708439::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn<>uid://jfu2u84syok8::::res://interactions/interacting_component.tscn<>uid://cnjl15q8fycp2::::res://minigames/minigames1/minigame1a.tscn<>uid://bwghj38pgom2p::::res://minigames/minigames_solar/solar_game.tscn
 Test1.tscn::PackedScene::4020148247681468160::1771033848::0::1::::<><><>0<>0<><>::uid://b24uxi4tqpeg0::::res://Assets/control-table-spacecraft.jpg<>uid://dlarb3vwv1bn7::::res://Game_Level.tscn
 Testing.tscn::PackedScene::5811252716542087252::1772838464::0::1::::<><><>0<>0<><>::
 ::res://addons/::1771033804
@@ -26,16 +26,16 @@ example_character_controller.tscn::PackedScene::1242622232217166029::1772838464:
 dynamic_data_row.gd::GDScript::2620748503569110640::1771033804::0::1::::DynamicDataRow<>Resource<><>0<>0<><>::
 input_transition.gd::GDScript::712096093501737719::1771033804::0::1::::InputStateTransition<>StateTransition<><>0<>1<><>::
 magic_transition.gd::GDScript::191043130513532881::1771033804::0::1::::MagicStateTransition<>StateTransition<><>0<>1<><>::
-state.gd::GDScript::4363396357744232197::1771033804::0::1::::CharacterControllerState<>Node<><>0<>1<><>::
-state_machine.gd::GDScript::4464895966329905551::1771033804::0::1::::CharacterControllerStateMachine<>CharacterControllerState<><>0<>1<><>::
-transition.gd::GDScript::1358703449678615030::1771033804::0::1::::StateTransition<>Node<><>0<>1<><>::
+state.gd::GDScript::4363396357744232197::1771033804::0::1::::CharacterControllerState<>Node<>res://addons/bluebrains_character_controller/icons/diamond-yellow.png<>0<>1<><>::
+state_machine.gd::GDScript::4464895966329905551::1771033804::0::1::::CharacterControllerStateMachine<>CharacterControllerState<>res://addons/bluebrains_character_controller/icons/multi-diamonds-yellow.png<>0<>1<><>::
+transition.gd::GDScript::1358703449678615030::1771033804::0::1::::StateTransition<>Node<>res://addons/bluebrains_character_controller/icons/jump-to-yellow.png<>0<>1<><>::
 ::res://addons/bluebrains_character_controller/character_controller/state_machine/states/::1771033804
 airborne.gd::GDScript::3301240708427646836::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 grounded.gd::GDScript::6323765194114651454::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 hang.gd::GDScript::8585078938984680431::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 jump.gd::GDScript::1868761230054743121::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 jump_air.gd::GDScript::6100312264205990115::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
-one_shot.gd::GDScript::7166132919656969604::1771033804::0::1::::OneShotState<>CharacterControllerState<><>0<>1<><>::
+one_shot.gd::GDScript::7166132919656969604::1771033804::0::1::::OneShotState<>CharacterControllerState<>res://addons/bluebrains_character_controller/icons/diamond-jump-to-yellow.png<>0<>1<><>::
 wall_slide.gd::GDScript::4081958062252761413::1771033804::0::1::::<>CharacterControllerState<><>0<>1<><>::
 ::res://addons/bluebrains_character_controller/components/::1771033804
 input_map.gd::GDScript::7997554843139282103::1771033804::0::1::::InputMapNode<>Node<><>0<>0<><>::
@@ -168,16 +168,16 @@ main_menu.gd::GDScript::5755916443098860325::1771816220::0::1::::<>Control<><>0<
 main_menu.tscn::PackedScene::5260228439448990881::1776114928::0::1::::<><><>0<>0<><>::uid://ddp0o8wifrrid::::res://Main_Menu/MilkyWayPlaceHolder.jpg<>uid://coahdq6edvik0::::res://Main_Menu/main_menu.gd<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
 MilkyWayPlaceHolder.jpg::CompressedTexture2D::7402338941865232175::1771816220::1771816220::1::::<><><>0<>0<>0c6a9a7de9f4774cffa013bdb72b4e43<>res://.godot/imported/MilkyWayPlaceHolder.jpg-6abed295275b1bb1e8a335b7f986d1d3.ctex::
 ::res://minigames/::1776117823
-::res://minigames/minigames1/::1776708014
+::res://minigames/minigames1/::1776708439
 button.gd::GDScript::966793299772441288::1776114928::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
 error.gd::GDScript::4244861716407981252::1776114928::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
-minigame1.gd::GDScript::5611967528805443607::1776707835::0::1::::<>Node<><>0<>0<><>::
-minigame1a.tscn::PackedScene::5704591653953491281::1776708014::0::1::::<><><>0<>0<><>::uid://cl7qjx1w47fhf::::res://minigames/minigames1/minigame1.gd<>uid://cu6mdrej8e52c::::res://minigames/minigames1/minigame1states/option3.png<>uid://blo7i5v46tkts::::res://minigames/minigames1/minigame1states/option3a.png<>uid://1pu2ah2wnqas::::res://minigames/minigames1/minigame1states/option3b.png<>uid://dv1yo0lsjnn47::::res://minigames/minigames1/minigame1states/option3c.png<>uid://cuxu34t1f1y5w::::res://minigames/minigames1/minigame1states/option3d.png<>uid://n1k7dytxmg5e::::res://minigames/minigames1/button.gd<>uid://b1qiitv5pbp5u::::res://minigames/minigames1/error.gd<>uid://0osh1d6eerch::::res://minigames/minigames1/success.gd
+minigame1.gd::GDScript::5611967528805443607::1776708439::0::1::::<>Node<><>0<>0<><>::
+minigame1a.tscn::PackedScene::5704591653953491281::1776708439::0::1::::<><><>0<>0<><>::uid://cl7qjx1w47fhf::::res://minigames/minigames1/minigame1.gd<>uid://cu6mdrej8e52c::::res://minigames/minigames1/minigame1states/option3.png<>uid://blo7i5v46tkts::::res://minigames/minigames1/minigame1states/option3a.png<>uid://1pu2ah2wnqas::::res://minigames/minigames1/minigame1states/option3b.png<>uid://dv1yo0lsjnn47::::res://minigames/minigames1/minigame1states/option3c.png<>uid://cuxu34t1f1y5w::::res://minigames/minigames1/minigame1states/option3d.png<>uid://n1k7dytxmg5e::::res://minigames/minigames1/button.gd<>uid://b1qiitv5pbp5u::::res://minigames/minigames1/error.gd<>uid://0osh1d6eerch::::res://minigames/minigames1/success.gd
 minigame1b.tscn::PackedScene::504038197265214214::1776114928::0::1::::<><><>0<>0<><>::uid://bskp0jmo3ljmo::::res://minigames/minigames1/minigame1states/option1.png<>uid://bhbkp7d411jir::::res://minigames/minigames1/minigame2.gd<>uid://bol4e0u550ibn::::res://minigames/minigames1/minigame1states/option1a.png<>uid://clras0xxsm4qd::::res://minigames/minigames1/minigame1states/option1b.png<>uid://dkaaos7wurcep::::res://minigames/minigames1/minigame1states/option1c.png<>uid://mm22uk5csmxu::::res://minigames/minigames1/minigame1states/option1d.png<>uid://n1k7dytxmg5e::::res://minigames/minigames1/button.gd<>uid://b1qiitv5pbp5u::::res://minigames/minigames1/error.gd
 minigame1c.tscn::PackedScene::2942356364801582014::1776114928::0::1::::<><><>0<>0<><>::uid://bacq4diogckam::::res://minigames/minigames1/minigame3.gd<>uid://d27oqnw3jva8t::::res://minigames/minigames1/minigame1states/option2.png<>uid://crrq1kjwcyux5::::res://minigames/minigames1/minigame1states/option2a.png<>uid://c04to2dyfwwxm::::res://minigames/minigames1/minigame1states/option2b.png<>uid://deb7w6s5ybe3k::::res://minigames/minigames1/minigame1states/option2c.png<>uid://bqe4suiqnrkgp::::res://minigames/minigames1/minigame1states/option2d.png<>uid://n1k7dytxmg5e::::res://minigames/minigames1/button.gd<>uid://b1qiitv5pbp5u::::res://minigames/minigames1/error.gd
 minigame2.gd::GDScript::2880442610484648085::1776114928::0::1::::<>Node2D<><>0<>0<><>::
 minigame3.gd::GDScript::2391572869681415908::1776114928::0::1::::<>Node2D<><>0<>0<><>::
-success.gd::GDScript::1784729157590314511::1776707894::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
+success.gd::GDScript::1784729157590314511::1776708439::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
 ::res://minigames/minigames1/minigame1states/::1776114928
 option1.png::CompressedTexture2D::3671419538379161890::1776114928::1776114928::1::::<><><>0<>0<>66941cf4a69afcfc842bcb858a0a5e55<>res://.godot/imported/option1.png-e67b744cf72910654e9627fcae2ce963.ctex::
 option1a.png::CompressedTexture2D::3393541931270045623::1776114928::1776114928::1::::<><><>0<>0<>2d4f74188d728c6a3c7b931bc1c52031<>res://.godot/imported/option1a.png-fce51011ca71aef6353bd422bf9073b3.ctex::
@@ -207,12 +207,12 @@ wireminigame.tscn::PackedScene::8567159520290419370::1776117823::0::1::::<><><>0
 ::res://player/::1772838464
 4wayCharacter.tscn::PackedScene::2943396462365862532::1772838464::0::1::::<><><>0<>0<><>::uid://b1wy5ove725b4::::res://CharMov.gd<>uid://b5a2qcocvd4eq::::res://atroo.png<>uid://dknfa64rnas8h::::res://Footstep.gd
 4waymovement.tscn::PackedScene::6468386817257262634::1771822077::0::1::::<><><>0<>0<><>::
-::res://Sounds/::1776708141
+::res://Sounds/::1776708439
 398937__softdistortionfx__metal-footsteps.mp3::AudioStreamMP3::4432120499156901101::1772838464::1772838464::1::::<><><>0<>0<>69a0524c4efc0e5aaf53a96c953027e5<>res://.godot/imported/398937__softdistortionfx__metal-footsteps.mp3-1efe5a203649a97f2997944d2c443313.mp3str::
 button_push.mp3::AudioStreamMP3::5275373490130128850::1776114928::1776114928::1::::<><><>0<>0<>f4c75e983c26da441290cf4082e349ed<>res://.godot/imported/button_push.mp3-86a28ca7ccbee42b7099008896c4c776.mp3str::
 error.mp3::AudioStreamMP3::6348007824967972500::1776114928::1776114928::1::::<><><>0<>0<>d34756eb37f9f9595082c48508df2b8b<>res://.godot/imported/error.mp3-9923ba391f15827f41d528d1d2d1ffb7.mp3str::
 metal_walk.ogg::AudioStreamOggVorbis::8332401097257156309::1772838464::1772838464::1::::<><><>0<>0<>f9bf4f0e62c00efc5d4ea757198e4abc<>res://.godot/imported/metal_walk.ogg-1382920cffdc2062fae8df7253de2e61.oggvorbisstr::
-success.mp3::AudioStreamMP3::1914734658956261461::1776708119::1776708145::1::::<><><>0<>0<>616344d52f4c531d56407b61c7aa2e72<>res://.godot/imported/success.mp3-fc348fa081c283ea1f05e7ac52a269ef.mp3str::
+success.mp3::AudioStreamMP3::1914734658956261461::1776708439::1776708439::1::::<><><>0<>0<>616344d52f4c531d56407b61c7aa2e72<>res://.godot/imported/success.mp3-fc348fa081c283ea1f05e7ac52a269ef.mp3str::
 ::res://Stages/::1769811404
 ::res://Stages/Prototype/::1772838464
 platform.tscn::PackedScene::4852305123884715635::1771033848::0::1::::<><><>0<>0<><>::uid://d3kjlenstws02::::res://Assets/Platform.png
