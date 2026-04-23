@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1776876065
+::res://::1776904568
 atroo.png::CompressedTexture2D::4493754051134293044::1772838464::1772838464::1::::<><><>0<>0<>7ba0a3231f3e7be324b72d49a448a6fa<>res://.godot/imported/atroo.png-d170c0b051e7e0d9e289de0745e22b5d.ctex::
 beam.gd::GDScript::2011615890634366970::1776114928::0::1::::<>Node2D<><>0<>0<><>::
 CharMov.gd::GDScript::4258258478508195279::1775928833::0::1::::<>CharacterBody2D<><>0<>0<><>::
@@ -9,7 +9,7 @@ game_level.gd::GDScript::4534050863927980809::1772838464::0::1::::<>Node2D<><>0<
 Game_Level.tscn::PackedScene::-1::1772838464::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::8227062921787772187::1771816220::1771816220::1::::<><><>0<>0<>97a210e8ce86c784b9a6f7d1bd191078<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 node_2d.tscn::PackedScene::30323963156901453::1776114928::0::1::::<><><>0<>0<><>::uid://d00ijt37uv0ll::::res://minigames/minigames_solar/SolarGame.gd<>uid://k4ot5dqb732e::::res://minigames/minigames_solar/blacksquare.jpg<>uid://diuywy5um0yrg::::res://Assets/bar_round_gloss_large.svg<>uid://bl3iypn8xhd60::::res://minigames/minigames_solar/sun.jpg
-templvl.tscn::PackedScene::5024762506603962617::1776708439::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn<>uid://jfu2u84syok8::::res://interactions/interacting_component.tscn<>uid://cnjl15q8fycp2::::res://minigames/minigames1/minigame1a.tscn<>uid://bwghj38pgom2p::::res://minigames/minigames_solar/solar_game.tscn
+templvl.tscn::PackedScene::5024762506603962617::1776876622::0::1::::<><><>0<>0<><>::uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn<>uid://jfu2u84syok8::::res://interactions/interacting_component.tscn<>uid://cnjl15q8fycp2::::res://minigames/minigames1/minigame1a.tscn<>uid://bwghj38pgom2p::::res://minigames/minigames_solar/solar_game.tscn
 Test1.tscn::PackedScene::4020148247681468160::1771033848::0::1::::<><><>0<>0<><>::uid://b24uxi4tqpeg0::::res://Assets/control-table-spacecraft.jpg<>uid://dlarb3vwv1bn7::::res://Game_Level.tscn
 Testing.tscn::PackedScene::5811252716542087252::1772838464::0::1::::<><><>0<>0<><>::
 ::res://addons/::1771033804
@@ -207,9 +207,10 @@ wireminigame.tscn::PackedScene::8567159520290419370::1776117823::0::1::::<><><>0
 ::res://player/::1772838464
 4wayCharacter.tscn::PackedScene::2943396462365862532::1772838464::0::1::::<><><>0<>0<><>::uid://b1wy5ove725b4::::res://CharMov.gd<>uid://b5a2qcocvd4eq::::res://atroo.png<>uid://dknfa64rnas8h::::res://Footstep.gd
 4waymovement.tscn::PackedScene::6468386817257262634::1771822077::0::1::::<><><>0<>0<><>::
-::res://Sounds/::1776708439
+::res://Sounds/::1776904551
 398937__softdistortionfx__metal-footsteps.mp3::AudioStreamMP3::4432120499156901101::1772838464::1772838464::1::::<><><>0<>0<>69a0524c4efc0e5aaf53a96c953027e5<>res://.godot/imported/398937__softdistortionfx__metal-footsteps.mp3-1efe5a203649a97f2997944d2c443313.mp3str::
 button_push.mp3::AudioStreamMP3::5275373490130128850::1776114928::1776114928::1::::<><><>0<>0<>f4c75e983c26da441290cf4082e349ed<>res://.godot/imported/button_push.mp3-86a28ca7ccbee42b7099008896c4c776.mp3str::
+Cephalopod.mp3::AudioStreamMP3::2092367032310689597::1776904543::1776904568::1::::<><><>0<>0<>4a815ccd7301fe3969f17d83cf1b4563<>res://.godot/imported/Cephalopod.mp3-ae66f2c4c58c96a77f24b9643c5e501d.mp3str::
 error.mp3::AudioStreamMP3::6348007824967972500::1776114928::1776114928::1::::<><><>0<>0<>d34756eb37f9f9595082c48508df2b8b<>res://.godot/imported/error.mp3-9923ba391f15827f41d528d1d2d1ffb7.mp3str::
 metal_walk.ogg::AudioStreamOggVorbis::8332401097257156309::1772838464::1772838464::1::::<><><>0<>0<>f9bf4f0e62c00efc5d4ea757198e4abc<>res://.godot/imported/metal_walk.ogg-1382920cffdc2062fae8df7253de2e61.oggvorbisstr::
 success.mp3::AudioStreamMP3::1914734658956261461::1776708439::1776708439::1::::<><><>0<>0<>616344d52f4c531d56407b61c7aa2e72<>res://.godot/imported/success.mp3-fc348fa081c283ea1f05e7ac52a269ef.mp3str::

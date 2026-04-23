@@ -1,3 +1,4 @@
+AudioStreamPlayer2D      - Matches the "sound" keyword.
 AudioStreamPlayer2D
 Label      - Matches the "text" keyword.
 TextureRect
@@ -5,7 +6,6 @@ SubViewport
 SubViewportContainer
 Label
 CanvasLayer
-AudioStreamPlayer2D      - Matches the "sound" keyword.
 CollisionShape2D
 Area2D
 AnimatedSprite2D
