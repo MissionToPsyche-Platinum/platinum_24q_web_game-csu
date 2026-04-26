@@ -7,12 +7,12 @@ const COLORS = [
 	Color(0.608, 0.561, 0.961),
 ]
 const PLUG_R = 14.0
+const SYMBOLS = ["circle", "square", "triangle", "cross"]
 
 var spacing : float
 var left_x  : float
 var right_x : float
 var start_y : float
-
 var right_order : Array = []
 var dragging    : int   = -1
 var connected   : Array = []
@@ -50,18 +50,51 @@ func rpos(ci: int) -> Vector2:
 func _draw():
 	var vp = get_viewport_rect().size
 	draw_rect(Rect2(0, 0, vp.x, vp.y), Color(0.04, 0.04, 0.06), true)
-
 	for ci in 4:
 		var done = ci in connected
 		var col: Color = COLORS[ci]
 		col.a = 0.35 if done else 1.0
-
 		draw_circle(lpos(ci), PLUG_R, col)
 		draw_circle(rpos(ci), PLUG_R, col)
-
 		if not done:
 			draw_circle(lpos(ci) + Vector2(-3, -3), PLUG_R * 0.35, Color(1, 1, 1, 0.2))
 			draw_circle(rpos(ci) + Vector2(-3, -3), PLUG_R * 0.35, Color(1, 1, 1, 0.2))
+		_draw_symbol(lpos(ci), ci, done)
+		_draw_symbol(rpos(ci), ci, done)
+
+func _draw_symbol(center: Vector2, ci: int, faded: bool):
+	var sym_col := Color(1, 1, 1, 0.3 if faded else 0.9)
+	var s       := PLUG_R * 0.52   # symbol scale
+
+	match SYMBOLS[ci]:
+		"circle":
+			# hollow inner circle
+			draw_arc(center, s, 0, TAU, 20, sym_col, 2.0)
+
+		"square":
+			var half := s * 0.82
+			var pts  := PackedVector2Array([
+				center + Vector2(-half, -half),
+				center + Vector2( half, -half),
+				center + Vector2( half,  half),
+				center + Vector2(-half,  half),
+				center + Vector2(-half, -half),   # close
+			])
+			draw_polyline(pts, sym_col, 2.0)
+
+		"triangle":
+			var h    := s * 1.1
+			var pts  := PackedVector2Array([
+				center + Vector2(0,       -h),
+				center + Vector2( h * 0.9, h * 0.6),
+				center + Vector2(-h * 0.9, h * 0.6),
+				center + Vector2(0,       -h),    # close
+			])
+			draw_polyline(pts, sym_col, 2.0)
+
+		"cross":
+			draw_line(center + Vector2(-s,  0), center + Vector2( s, 0), sym_col, 2.0)
+			draw_line(center + Vector2( 0, -s), center + Vector2( 0, s), sym_col, 2.0)
 
 func _input(event: InputEvent):
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
@@ -104,15 +137,12 @@ func _draw_wire(ci: int):
 	line.default_color   = COLORS[ci]
 	line.begin_cap_mode  = Line2D.LINE_CAP_ROUND
 	line.end_cap_mode    = Line2D.LINE_CAP_ROUND
-
 	var a  := lpos(ci)
 	var b  := rpos(ci)
 	var c1 := a + Vector2((b.x - a.x) * 0.4, 20)
 	var c2 := b + Vector2((a.x - b.x) * 0.4, 20)
-
 	for i in 25:
 		var t := float(i) / 24.0
 		var u := 1.0 - t
 		line.add_point(u*u*u*a + 3*u*u*t*c1 + 3*u*t*t*c2 + t*t*t*b)
-
 	add_child(line)
