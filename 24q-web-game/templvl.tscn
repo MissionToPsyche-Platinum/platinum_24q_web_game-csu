@@ -1,5 +1,6 @@
 [gd_scene load_steps=17 format=4 uid="uid://cdubdsvvyov0d"]
 
+[ext_resource type="Script" uid="uid://bxxqrddi8cdhq" path="res://templvl.gd" id="1_4nquw"]
 [ext_resource type="Texture2D" uid="uid://04gq00nj7p8g" path="res://Assets/TileSet_v1.0.png" id="1_hucw8"]
 [ext_resource type="Texture2D" uid="uid://bfx40lia77igs" path="res://minigames/minigames_solar/823503.jpg" id="1_rnebj"]
 [ext_resource type="Texture2D" uid="uid://j20n60544gsq" path="res://Assets/Stars-64x64.jpg" id="2_8t5en"]
@@ -844,6 +845,8 @@ terrain_set_0/terrain_0/name = "Walls"
 terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)
 sources/1 = SubResource("TileSetAtlasSource_iy3js")
 
+[sub_resource type="AudioStreamMP3" id="AudioStreamMP3_4nquw"]
+
 [node name="Interior" type="Node2D"]
 position = Vector2(-4, 1)
 
@@ -869,8 +872,10 @@ scale = Vector2(0.24, 0.24)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(539, 529)
+zoom = Vector2(1.5, 1.5)
 
 [node name="buttonLayer" type="CanvasLayer" parent="CharacterBody2D/Camera2D"]
+visible = false
 
 [node name="Minigame1" parent="CharacterBody2D/Camera2D/buttonLayer" instance=ExtResource("7_a32n1")]
 visible = false
@@ -879,6 +884,7 @@ position = Vector2(70, 25.000002)
 scale = Vector2(0.9999998, 0.9999998)
 
 [node name="solarLayer" type="CanvasLayer" parent="CharacterBody2D/Camera2D"]
+visible = false
 follow_viewport_scale = 6.0
 
 [node name="Minigame2" parent="CharacterBody2D/Camera2D/solarLayer" instance=ExtResource("7_yrr2p")]
@@ -908,4 +914,3 @@ scale = Vector2(1, 1.4232614)
 texture = ExtResource("10_4nquw")
 
 [connection signal="minigameDone" from="CharacterBody2D/Camera2D/buttonLayer/Minigame1" to="station2" method="_on_minigame_1_minigame_done"]
-[connection signal="minigame2Done" from="CharacterBody2D/Camera2D/solarLayer/Minigame2" to="station1" method="_on_minigame_2_minigame_2_done"]

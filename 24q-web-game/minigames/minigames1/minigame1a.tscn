@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://cnjl15q8fycp2"]
+[gd_scene load_steps=17 format=3 uid="uid://cnjl15q8fycp2"]
 
 [ext_resource type="Script" uid="uid://cl7qjx1w47fhf" path="res://minigames/minigames1/minigame1.gd" id="1_8sy5w"]
 [ext_resource type="Texture2D" uid="uid://cu6mdrej8e52c" path="res://minigames/minigames1/minigame1states/option3.png" id="1_hv618"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://cuxu34t1f1y5w" path="res://minigames/minigames1/minigame1states/option3d.png" id="6_f5hmc"]
 [ext_resource type="Script" uid="uid://n1k7dytxmg5e" path="res://minigames/minigames1/button.gd" id="7_f5hmc"]
 [ext_resource type="Script" uid="uid://b1qiitv5pbp5u" path="res://minigames/minigames1/error.gd" id="8_hxa1i"]
+[ext_resource type="Script" uid="uid://0osh1d6eerch" path="res://minigames/minigames1/success.gd" id="9_b2jv1"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_vhk36"]
 animations = [{
@@ -35,6 +36,15 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tg7a7"]
 size = Vector2(63.991783, 63.786034)
 
+[sub_resource type="LabelSettings" id="LabelSettings_hxa1i"]
+font_size = 30
+outline_size = 4
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_b2jv1"]
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_a4ksy"]
 size = Vector2(63.78601, 64.609085)
 
@@ -59,6 +69,31 @@ position = Vector2(-56.27571, -144.23866)
 scale = Vector2(0.99999976, 0.99999976)
 shape = SubResource("RectangleShape2D_tg7a7")
 
+[node name="A" type="Label" parent="AnimatedSprite2D/Button1"]
+offset_left = -87.38394
+offset_top = -176.18271
+offset_right = -24.904434
+offset_bottom = -112.234924
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_constants/shadow_outline_size = 10
+theme_override_font_sizes/font_size = 20
+text = "A"
+label_settings = SubResource("LabelSettings_hxa1i")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="A2" type="Label" parent="AnimatedSprite2D/Button1"]
+offset_left = 86.94702
+offset_top = -287.9826
+offset_right = 122.774445
+offset_bottom = -256.22623
+text = "A"
+label_settings = SubResource("LabelSettings_b2jv1")
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="Button2" type="Area2D" parent="AnimatedSprite2D"]
 
 [node name="Collision2" type="CollisionShape2D" parent="AnimatedSprite2D/Button2"]
@@ -66,12 +101,62 @@ position = Vector2(31.89301, -144.23866)
 scale = Vector2(0.99999976, 0.99999976)
 shape = SubResource("RectangleShape2D_a4ksy")
 
+[node name="B" type="Label" parent="AnimatedSprite2D/Button2"]
+offset_left = 0.43692017
+offset_top = -176.18272
+offset_right = 62.916428
+offset_bottom = -112.23494
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_constants/shadow_outline_size = 10
+theme_override_font_sizes/font_size = 20
+text = "B"
+label_settings = SubResource("LabelSettings_hxa1i")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="B2" type="Label" parent="AnimatedSprite2D/Button2"]
+offset_left = -8.738403
+offset_top = -287.9826
+offset_right = 27.08902
+offset_bottom = -256.22623
+text = "B"
+label_settings = SubResource("LabelSettings_b2jv1")
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="Button3" type="Area2D" parent="AnimatedSprite2D"]
 
 [node name="Collision3" type="CollisionShape2D" parent="AnimatedSprite2D/Button3"]
 position = Vector2(119.85594, -144.34152)
 scale = Vector2(0.99999976, 0.99999976)
 shape = SubResource("RectangleShape2D_a0bu4")
+
+[node name="C" type="Label" parent="AnimatedSprite2D/Button3"]
+offset_left = 88.257774
+offset_top = -175.31268
+offset_right = 150.73727
+offset_bottom = -111.3649
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_constants/shadow_outline_size = 10
+theme_override_font_sizes/font_size = 20
+text = "C"
+label_settings = SubResource("LabelSettings_hxa1i")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="C2" type="Label" parent="AnimatedSprite2D/Button3"]
+offset_left = 134.13434
+offset_top = -287.54758
+offset_right = 169.96176
+offset_bottom = -255.7912
+text = "C"
+label_settings = SubResource("LabelSettings_b2jv1")
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Button4" type="Area2D" parent="AnimatedSprite2D"]
 position = Vector2(0, -2.6551452e-05)
@@ -81,11 +166,39 @@ position = Vector2(207.92178, -144.13577)
 scale = Vector2(0.99999976, 0.99999976)
 shape = SubResource("RectangleShape2D_p10nh")
 
+[node name="D" type="Label" parent="AnimatedSprite2D/Button4"]
+offset_left = 176.51555
+offset_top = -175.74768
+offset_right = 238.99506
+offset_bottom = -111.7999
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_constants/shadow_outline_size = 10
+theme_override_font_sizes/font_size = 20
+text = "D"
+label_settings = SubResource("LabelSettings_hxa1i")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="D2" type="Label" parent="AnimatedSprite2D/Button4"]
+offset_left = 39.322784
+offset_top = -287.54752
+offset_right = 75.15021
+offset_bottom = -255.79114
+text = "D"
+label_settings = SubResource("LabelSettings_b2jv1")
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="click" type="AudioStreamPlayer2D" parent="."]
 script = ExtResource("7_f5hmc")
 
 [node name="error" type="AudioStreamPlayer2D" parent="."]
 script = ExtResource("8_hxa1i")
+
+[node name="success" type="AudioStreamPlayer2D" parent="."]
+script = ExtResource("9_b2jv1")
 
 [connection signal="input_event" from="AnimatedSprite2D/Button1" to="." method="_on_button_1_input_event"]
 [connection signal="input_event" from="AnimatedSprite2D/Button2" to="." method="_on_button_2_input_event"]
