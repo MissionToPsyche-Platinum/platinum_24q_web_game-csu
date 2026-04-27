@@ -1,0 +1,63 @@
+[gd_scene load_steps=3 format=3 uid="uid://dp5eu2oklgv4x"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_47det"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_wn038"]
+
+[node name="Tut" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(512, 512)
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+top_level = true
+layout_mode = 0
+offset_right = 512.0
+offset_bottom = 60.0
+text = "Solar Charge
+"
+label_settings = SubResource("LabelSettings_47det")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_top = 60.0
+offset_right = 512.0
+offset_bottom = 300.0
+
+[node name="Label3" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_top = 275.0
+offset_right = 512.0
+offset_bottom = 454.0
+text = "	How it works:
+		The sun moves across the sky
+		Stand in the light beam to charge
+		Stay aligned to reach 100%
+
+	Win condition:
+		Fill the meter to 100% to complete the level."
+horizontal_alignment = 1
+
+[node name="Label4" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_top = 452.0
+offset_right = 512.0
+offset_bottom = 512.0
+text = "▶ Start"
+label_settings = SubResource("LabelSettings_wn038")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="ColorRect/Label4"]
+layout_mode = 0
+offset_left = 197.0
+offset_top = 1.0
+offset_right = 328.0
+offset_bottom = 59.0
