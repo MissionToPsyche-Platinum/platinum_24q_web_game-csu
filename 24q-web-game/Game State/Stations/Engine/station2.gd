@@ -31,6 +31,14 @@ func _on_minigame_done():
 	print("Interaction complete!")
 	station_finished()
 
+func _on_minigame_not_done():
+	print("Interaction Failed")
+	station_unfinished()
+
 func station_finished():
 	is_fixed = true
+	station_status.emit(station_name, is_fixed)
+	
+func station_unfinished():
+	is_fixed = false
 	station_status.emit(station_name, is_fixed)

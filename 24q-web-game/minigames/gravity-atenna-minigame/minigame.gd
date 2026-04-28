@@ -1,4 +1,5 @@
 class_name Minigame
-extends Node
+extends Node2D
 
 signal completed
+signal failed

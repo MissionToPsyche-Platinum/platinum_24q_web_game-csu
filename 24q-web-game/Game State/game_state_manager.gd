@@ -4,9 +4,29 @@ extends Node
 var in_meltdown:bool = false
 
 const game_over_menu = "res://Game Over/game_over.tscn"
+const victory_menu = "res://Victory/victory.tscn"
+
 var meltdown_timer : Timer
 var meltdown_bar : TextureProgressBar
 var meltdown_warning_label : Label
+
+
+var in_minigame_state : bool = false:
+	set(value):
+		var player : Player_Character = get_tree().get_first_node_in_group("Player")
+		var camera_dim : ColorRect = get_tree().get_first_node_in_group("Camera_Dim")
+		if value == true:
+			player.in_minigame = true
+			camera_dim.visible = true
+			
+		if value == false:
+			player.in_minigame = false
+			camera_dim.visible = false
+
+		in_minigame_state = value
+	
+	get:
+		return in_minigame_state
 
 
 func start_meltdown():
@@ -44,7 +64,6 @@ func resume_meltdown():
 		meltdown_bar.visible = true
 
 	
-
 func game_over() -> void:
 	print("Game Over")
 	
@@ -52,3 +71,12 @@ func game_over() -> void:
 		get_tree().change_scene_to_file.call_deferred(game_over_menu)
 	else:
 		print("Error: game_scene is not set or empty")
+
+
+func victory() -> void:
+	print("You Win!!")
+	
+	if victory_menu and not victory_menu.is_empty():
+		get_tree().change_scene_to_file.call_deferred(victory_menu)
+	else:
+		print("Error: victory_menu is not set or empty")

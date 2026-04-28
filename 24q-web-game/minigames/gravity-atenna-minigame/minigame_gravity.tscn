@@ -1,6 +1,80 @@
-[gd_scene load_steps=2 format=3 uid="uid://dsymsp7umsn8o"]
+[gd_scene load_steps=9 format=3 uid="uid://o0rdoietfmeo"]
 
 [ext_resource type="Script" uid="uid://dhokc1rq10wuq" path="res://minigames/gravity-atenna-minigame/gravity_minigame.gd" id="1_dx4is"]
+[ext_resource type="Texture2D" uid="uid://da8bbvmirx5la" path="res://Main_Menu/negative-space-crab-nebula.jpg" id="2_0kj1o"]
+[ext_resource type="PackedScene" uid="uid://dwngh0mhipart" path="res://minigames/gravity-atenna-minigame/Gravity_Circle.tscn" id="2_qe0px"]
+[ext_resource type="Script" uid="uid://cjtugsthm1u3e" path="res://minigames/gravity-atenna-minigame/m_player.gd" id="3_qe0px"]
+[ext_resource type="Script" uid="uid://cm2yqmxi38lf7" path="res://minigames/gravity-atenna-minigame/data_spawner.gd" id="4_sbpsw"]
+[ext_resource type="Texture2D" uid="uid://0dkv1j473u4n" path="res://Main_Menu/antenna_icon.png" id="5_0kj1o"]
+[ext_resource type="PackedScene" uid="uid://bb3plao83oyfb" path="res://minigames/gravity-atenna-minigame/gravity_data.tscn" id="5_85fp8"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sbpsw"]
+radius = 11.045361
 
 [node name="Minigame-Gravity" type="Node2D"]
 script = ExtResource("1_dx4is")
+
+[node name="NegativeSpaceCrabNebula" type="Sprite2D" parent="."]
+position = Vector2(553, 228.99995)
+scale = Vector2(0.36, 0.36)
+texture = ExtResource("2_0kj1o")
+
+[node name="G_Circle" parent="." instance=ExtResource("2_qe0px")]
+position = Vector2(549, 229)
+
+[node name="M_Player" type="Area2D" parent="."]
+position = Vector2(547, 217.1)
+scale = Vector2(2, 2)
+collision_mask = 3
+script = ExtResource("3_qe0px")
+speed = 300.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="M_Player"]
+shape = SubResource("CircleShape2D_sbpsw")
+
+[node name="Sprite2D" type="Sprite2D" parent="M_Player"]
+position = Vector2(1.9999999, 0.44999692)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("5_0kj1o")
+
+[node name="Data_Spawner" type="Node2D" parent="."]
+script = ExtResource("4_sbpsw")
+data_scene = ExtResource("5_85fp8")
+
+[node name="Data_Container" type="Node2D" parent="Data_Spawner"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control"]
+layout_mode = 0
+offset_left = 145.0
+offset_top = 411.0
+offset_right = 944.0
+offset_bottom = 532.0
+
+[node name="DataCounter" type="Label" parent="Control/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Data Collected: 0/10"
+
+[node name="FactsLabel" type="Label" parent="Control/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 32
+text = "Collect Data without hitting the edge"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(547, 274)
+limit_left = 0
+limit_top = 0
+limit_right = 1152
+limit_bottom = 648
