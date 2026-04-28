@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dub84owngpfmg"]
+
+[ext_resource type="Script" uid="uid://d1pmat2t45sda" path="res://minigames/WireMinigame/wire.gd" id="1_gdk4v"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_gdk4v")
+
+[node name="DragLine" type="Line2D" parent="."]

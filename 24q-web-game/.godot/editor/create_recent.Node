@@ -1,13 +1,21 @@
+<<<<<<< HEAD
 SubViewport
 SubViewportContainer
 Control
 CanvasLayer
 Node
+=======
+AudioStreamPlayer2D      - Matches the "sound" keyword.
+AudioStreamPlayer2D
+Label      - Matches the "text" keyword.
+TextureRect
+SubViewport
+SubViewportContainer
+Label
+CanvasLayer
+>>>>>>> master
 CollisionShape2D
 Area2D
 AnimatedSprite2D
-AudioStreamPlayer2D
-Label
 CharacterBody2D
-TextureRect
 TextEdit

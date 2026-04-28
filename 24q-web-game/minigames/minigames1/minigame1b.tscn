@@ -1,12 +1,31 @@
-[gd_scene load_steps=7 format=3 uid="uid://hgfo2nvv0xqs"]
+[gd_scene load_steps=14 format=3 uid="uid://hgfo2nvv0xqs"]
 
 [ext_resource type="Texture2D" uid="uid://bskp0jmo3ljmo" path="res://minigames/minigames1/minigame1states/option1.png" id="1_q16p1"]
+[ext_resource type="Script" uid="uid://bhbkp7d411jir" path="res://minigames/minigames1/minigame2.gd" id="1_sc5oi"]
+[ext_resource type="Texture2D" uid="uid://bol4e0u550ibn" path="res://minigames/minigames1/minigame1states/option1a.png" id="3_1t1cp"]
+[ext_resource type="Texture2D" uid="uid://clras0xxsm4qd" path="res://minigames/minigames1/minigame1states/option1b.png" id="4_kp6tq"]
+[ext_resource type="Texture2D" uid="uid://dkaaos7wurcep" path="res://minigames/minigames1/minigame1states/option1c.png" id="5_vojg0"]
+[ext_resource type="Texture2D" uid="uid://mm22uk5csmxu" path="res://minigames/minigames1/minigame1states/option1d.png" id="6_l8yfg"]
+[ext_resource type="Script" uid="uid://n1k7dytxmg5e" path="res://minigames/minigames1/button.gd" id="7_vojg0"]
+[ext_resource type="Script" uid="uid://b1qiitv5pbp5u" path="res://minigames/minigames1/error.gd" id="8_l8yfg"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_sc5oi"]
 animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("1_q16p1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_1t1cp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_kp6tq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_vojg0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_l8yfg")
 }],
 "loop": true,
 "name": &"default",
@@ -25,10 +44,12 @@ size = Vector2(64, 64)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xkq3b"]
 size = Vector2(64, 64)
 
-[node name="Node2D" type="Node2D"]
+[node name="Minigame2" type="Node2D"]
+script = ExtResource("1_sc5oi")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-66, 145)
+position = Vector2(452, 672.00006)
+scale = Vector2(2.02875, 2.02875)
 sprite_frames = SubResource("SpriteFrames_sc5oi")
 
 [node name="Button1" type="Area2D" parent="AnimatedSprite2D"]
@@ -54,3 +75,14 @@ shape = SubResource("RectangleShape2D_sc5oi")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Button4"]
 position = Vector2(208, -144)
 shape = SubResource("RectangleShape2D_xkq3b")
+
+[node name="click" type="AudioStreamPlayer2D" parent="."]
+script = ExtResource("7_vojg0")
+
+[node name="error" type="AudioStreamPlayer2D" parent="."]
+script = ExtResource("8_l8yfg")
+
+[connection signal="input_event" from="AnimatedSprite2D/Button1" to="." method="_on_button_1_input_event"]
+[connection signal="input_event" from="AnimatedSprite2D/Button2" to="." method="_on_button_2_input_event"]
+[connection signal="input_event" from="AnimatedSprite2D/Button3" to="." method="_on_button_3_input_event"]
+[connection signal="input_event" from="AnimatedSprite2D/Button4" to="." method="_on_button_4_input_event"]
