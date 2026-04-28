@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=3 uid="uid://o0rdoietfmeo"]
+
+[ext_resource type="Script" uid="uid://dhokc1rq10wuq" path="res://minigames/gravity-atenna-minigame/gravity_minigame.gd" id="1_dx4is"]
+[ext_resource type="PackedScene" uid="uid://dwngh0mhipart" path="res://minigames/gravity-atenna-minigame/Gravity_Circle.tscn" id="2_qe0px"]
+[ext_resource type="Script" uid="uid://cjtugsthm1u3e" path="res://minigames/gravity-atenna-minigame/m_player.gd" id="3_qe0px"]
+[ext_resource type="Script" uid="uid://cm2yqmxi38lf7" path="res://minigames/gravity-atenna-minigame/data_spawner.gd" id="4_sbpsw"]
+[ext_resource type="PackedScene" uid="uid://bb3plao83oyfb" path="res://minigames/gravity-atenna-minigame/gravity_data.tscn" id="5_85fp8"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sbpsw"]
+
+[node name="Minigame-Gravity" type="Node2D"]
+script = ExtResource("1_dx4is")
+goal = null
+gravity_min = null
+gravity_max = null
+gravity_burst_time = null
+gravity_interval_min = null
+gravity_interval_max = null
+
+[node name="G_Circle" parent="." instance=ExtResource("2_qe0px")]
+
+[node name="M_Player" type="Area2D" parent="."]
+script = ExtResource("3_qe0px")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="M_Player"]
+shape = SubResource("CircleShape2D_sbpsw")
+
+[node name="Data_Spawner" type="Node2D" parent="."]
+script = ExtResource("4_sbpsw")
+data_scene = ExtResource("5_85fp8")
+
+[node name="Data_Container" type="Node2D" parent="Data_Spawner"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0

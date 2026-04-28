@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bb3plao83oyfb"]
+
+[ext_resource type="Script" uid="uid://cheernkp50b8b" path="res://minigames/gravity-atenna-minigame/gravity_data.gd" id="1_w2uvn"]
+[ext_resource type="Texture2D" uid="uid://cgx5mfhlqbht3" path="res://Main_Menu/chip-icon.png" id="2_os8en"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w2uvn"]
+
+[node name="Gravity_Data" type="Area2D"]
+script = ExtResource("1_w2uvn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.09, 0.09)
+texture = ExtResource("2_os8en")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_w2uvn")
+
+[connection signal="area_entered" from="." to="." method="_on_entered"]

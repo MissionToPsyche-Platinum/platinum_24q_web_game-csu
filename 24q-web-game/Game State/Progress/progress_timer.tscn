@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvkd1wsapiqn0"]
+
+[ext_resource type="Script" uid="uid://i705lqacb1vd" path="res://Game State/Progress/progress_timer.gd" id="1_7881v"]
+
+[node name="Progress Timer" type="Timer"]
+wait_time = 120.0
+one_shot = true
+script = ExtResource("1_7881v")
+duration = 10.0
