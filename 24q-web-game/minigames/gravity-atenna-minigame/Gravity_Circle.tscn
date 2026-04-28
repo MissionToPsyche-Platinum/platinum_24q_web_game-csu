@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://dwngh0mhipart"]
+
+[ext_resource type="Script" uid="uid://otdmmlhyrol8" path="res://minigames/gravity-atenna-minigame/gravity_circle.gd" id="1_fjtd7"]
+[ext_resource type="Texture2D" uid="uid://bdhblkedm6tr3" path="res://Main_Menu/psyche-asteroid-illustration-pia24472.webp" id="2_4m3ad"]
+[ext_resource type="Texture2D" uid="uid://bo5k4mvk4rful" path="res://Main_Menu/Radar_Perimeter.png" id="3_4m3ad"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fjtd7"]
+radius = 205.0
+
+[node name="Circle" type="Node2D"]
+script = ExtResource("1_fjtd7")
+
+[node name="PsycheAsteroidIllustrationPia24472" type="Sprite2D" parent="."]
+position = Vector2(-2, 1)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("2_4m3ad")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.29411766)
+scale = Vector2(2, 2)
+texture = ExtResource("3_4m3ad")
+
+[node name="CircleShape" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_fjtd7")
+disabled = true

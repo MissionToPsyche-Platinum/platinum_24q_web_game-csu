@@ -1,0 +1,77 @@
+[gd_scene load_steps=5 format=3 uid="uid://hnr08oqb6k62"]
+
+[ext_resource type="Script" uid="uid://bcuue3g1qwx35" path="res://Victory/victory.gd" id="1_15vr3"]
+[ext_resource type="Texture2D" uid="uid://baqvf0nriksy4" path="res://Game Over/Game Over Explosion.webp" id="2_k2qxy"]
+[ext_resource type="Theme" uid="uid://dcxyqodh1whod" path="res://Main_Menu/Button_Theme.tres" id="3_6l5of"]
+
+[sub_resource type="Theme" id="Theme_f24yl"]
+default_font_size = 58
+
+[node name="Victory" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_15vr3")
+main_menu = "res://Main_Menu/main_menu.tscn"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_k2qxy")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -134.5
+offset_top = -124.5
+offset_right = 134.5
+offset_bottom = 124.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 12
+
+[node name="Main Menu" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+theme = ExtResource("3_6l5of")
+text = "Main Menu"
+
+[node name="Credits" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("3_6l5of")
+text = "Credits
+"
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("3_6l5of")
+theme_override_font_sizes/font_size = 48
+text = "Quit"
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -26.0
+offset_top = 115.0
+offset_right = 14.0
+offset_bottom = 138.0
+grow_horizontal = 2
+theme = SubResource("Theme_f24yl")
+text = "Victory!!"
+
+[connection signal="pressed" from="VBoxContainer/Main Menu" to="." method="_on_main_menu_pressed"]
+[connection signal="pressed" from="VBoxContainer/Credits" to="." method="_on_credits_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
