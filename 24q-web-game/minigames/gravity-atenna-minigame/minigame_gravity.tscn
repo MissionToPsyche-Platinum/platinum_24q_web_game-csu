@@ -59,7 +59,7 @@ layout_mode = 0
 offset_left = 145.0
 offset_top = 411.0
 offset_right = 944.0
-offset_bottom = 532.0
+offset_bottom = 1635.0
 
 [node name="DataCounter" type="Label" parent="Control/VBoxContainer"]
 layout_mode = 2
@@ -68,10 +68,10 @@ text = "Data Collected: 0/10"
 
 [node name="FactsLabel" type="Label" parent="Control/VBoxContainer"]
 layout_mode = 2
-size_flags_horizontal = 4
 size_flags_vertical = 1
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 20
 text = "Collect Data without hitting the edge"
+autowrap_mode = 3
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(547, 274)

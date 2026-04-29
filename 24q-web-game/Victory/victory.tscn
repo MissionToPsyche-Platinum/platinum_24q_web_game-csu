@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://hnr08oqb6k62"]
 
 [ext_resource type="Script" uid="uid://bcuue3g1qwx35" path="res://Victory/victory.gd" id="1_15vr3"]
-[ext_resource type="Texture2D" uid="uid://baqvf0nriksy4" path="res://Game Over/Game Over Explosion.webp" id="2_k2qxy"]
+[ext_resource type="Texture2D" uid="uid://4rdkdbv7bgh" path="res://Victory/_20231013_nid_pysche_asteroid.jpg" id="2_15vr3"]
 [ext_resource type="Theme" uid="uid://dcxyqodh1whod" path="res://Main_Menu/Button_Theme.tres" id="3_6l5of"]
 
 [sub_resource type="Theme" id="Theme_f24yl"]
@@ -24,7 +24,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_k2qxy")
+texture = ExtResource("2_15vr3")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1

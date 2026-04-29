@@ -13,16 +13,12 @@ var center := Vector2.ZERO
 
 var fact_index := 0
 var facts := [
-	"Satellites orbit Earth at ~28,000 km/h.",
-	"RAM is volatile memory.",
-	"Binary uses base-2.",
-	"Packet switching powers the internet.",
-	"CPUs execute billions of instructions per second.",
-	"SSD storage has no moving parts.",
-	"IPv4 uses 32-bit addresses.",
-	"Machine code is the lowest-level programming language.",
-	"GPUs are optimized for parallel processing.",
-	"Cloud computing uses remote servers."
+	"Psyche could be part of the metal-rich interior of a planetesimal, a building block of a rocky planet.",
+	"The spacecraft’s multispectral imager will provide information about the mineral composition of Psyche as well as its topography.",
+	"By analyzing the X-band radio waves the spacecraft communicates with, scientists can measure how Psyche affects the spacecraft’s orbit.",
+	"The full flight system, including the spacecraft’s twin five-panel solar arrays, is about the size of a singles tennis court",
+	"The asteroid is most likely a survivor of multiple violent hit-and-run collisions, common when the solar system was forming.",
+	"The shape of the asteroid Psyche is irregular and potatolike. If it were sliced in half horizontally at the equator – picture a squished oval – the asteroid would measure 173 miles across at its widest point.",
 	]
 
 @onready var player = $M_Player

@@ -1,18 +1,18 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1777417475
+::res://::1777422920
 atroo.png::CompressedTexture2D::4493754051134293044::1775896348::1775896353::1::::<><><>0<>0<>7ba0a3231f3e7be324b72d49a448a6fa<>res://.godot/imported/atroo.png-d170c0b051e7e0d9e289de0745e22b5d.ctex::
 beam.gd::GDScript::-1::1777390558::0::1::::<>Node2D<><>0<>0<><>::
 CharMov.gd::GDScript::4258258478508195279::1777390675::0::1::::Player_Character<>CharacterBody2D<><>0<>0<><>::
 default_bus_layout.tres::AudioBusLayout::918026742601527025::1777390675::0::1::::<><><>0<>0<><>::
 Footstep.gd::GDScript::-1::1775896348::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
-game_level.gd::GDScript::4534050863927980809::1777390675::0::1::::<>Node2D<><>0<>0<><>::
+game_level.gd::GDScript::4534050863927980809::1777422920::0::1::::<>Node2D<><>0<>0<><>::
 Game_Level.tscn::PackedScene::7932374809891956862::1775896348::0::1::::<><><>0<>0<><>::uid://desdxf2kr6vwf::::res://Stages/Prototype/prototype_stage.tscn<>uid://b5ulfjr0li130::::res://game_level.gd<>uid://bjv0xcwp8e2my::::res://Game State/Meltdown/meltdown_timer.tscn<>uid://h5j7kmuxvsq1::::res://Game State/Meltdown/meltdown_ui.tscn
 icon.svg::CompressedTexture2D::8227062921787772187::1769800174::1769800174::1::::<><><>0<>0<>97a210e8ce86c784b9a6f7d1bd191078<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 Minigame-Controller.gd::GDScript::1047096893106566863::1777417475::0::1::::Minigame_Controller<>Node2D<><>0<>0<><>::
 music.gd::GDScript::-1::1777390558::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
 node_2d.tscn::PackedScene::30323963156901453::1777408239::0::1::::<><><>0<>0<><>::uid://d00ijt37uv0ll::::res://minigames/minigames_solar/SolarGame.gd<>uid://k4ot5dqb732e::::res://minigames/minigames_solar/blacksquare.jpg<>uid://diuywy5um0yrg::::res://Assets/bar_round_gloss_large.svg<>uid://bl3iypn8xhd60::::res://minigames/minigames_solar/sun.jpg
 templvl.gd::GDScript::-1::1777390558::0::1::::<>Node2D<><>0<>0<><>::
-templvl.tscn::PackedScene::5024762506603962617::1777414745::0::1::::<><><>0<>0<><>::uid://b5ulfjr0li130::::res://game_level.gd<>uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://wu2hlhlxrnrp::::res://minigames/negative-space-crab-nebula.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://c2v4rfubeajxb::::res://Game State/Meltdown/meltdown_ui.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn<>uid://cxoxjms43xeww::::res://Game State/Progress/progress_ui.tscn<>uid://bjv0xcwp8e2my::::res://Game State/Meltdown/meltdown_timer.tscn<>uid://ceocpp4ohqlwd::::res://Game State/Stations/station_manager.gd<>uid://cjhrcsnir2bsm::::res://minigames/minigames1/minigame1a.tscn<>uid://dvkd1wsapiqn0::::res://Game State/Progress/progress_timer.tscn<>uid://dub84owngpfmg::::res://minigames/WireMinigame/wireminigame.tscn
+templvl.tscn::PackedScene::5024762506603962617::1777422920::0::1::::<><><>0<>0<><>::uid://b5ulfjr0li130::::res://game_level.gd<>uid://04gq00nj7p8g::::res://Assets/TileSet_v1.0.png<>uid://j20n60544gsq::::res://Assets/Stars-64x64.jpg<>uid://wu2hlhlxrnrp::::res://minigames/negative-space-crab-nebula.jpg<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn<>uid://c2v4rfubeajxb::::res://Game State/Meltdown/meltdown_ui.tscn<>uid://bh62ksaow4ao7::::res://player/4wayCharacter.tscn<>uid://cxoxjms43xeww::::res://Game State/Progress/progress_ui.tscn<>uid://bjv0xcwp8e2my::::res://Game State/Meltdown/meltdown_timer.tscn<>uid://ceocpp4ohqlwd::::res://Game State/Stations/station_manager.gd<>uid://cjhrcsnir2bsm::::res://minigames/minigames1/minigame1a.tscn<>uid://dvkd1wsapiqn0::::res://Game State/Progress/progress_timer.tscn<>uid://dub84owngpfmg::::res://minigames/WireMinigame/wireminigame.tscn<>uid://42s8kdli2tld::::res://Sounds/Cephalopod.mp3
 Test1.tscn::PackedScene::4020148247681468160::1771037901::0::1::::<><><>0<>0<><>::uid://b24uxi4tqpeg0::::res://Assets/control-table-spacecraft.jpg<>uid://dlarb3vwv1bn7::::res://Game_Level.tscn
 Testing.tscn::PackedScene::5811252716542087252::1777390675::0::1::::<><><>0<>0<><>::
 ::res://addons/::1771037936
@@ -165,9 +165,9 @@ game_over.gd::GDScript::5509264814833515626::1771037894::0::1::::<>Control<><>0<
 game_over.tscn::PackedScene::2027217019687735815::1772402421::0::1::::<><><>0<>0<><>::uid://ckqy10kaby36m::::res://Game Over/game_over.gd<>uid://baqvf0nriksy4::::res://Game Over/Game Over Explosion.webp<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
 ::res://Game State/::1777417692
 game_state_manager.gd::GDScript::5212493652343919426::1777417692::0::1::::<>Node<><>0<>0<><>::
-::res://Game State/Meltdown/::1777390675
+::res://Game State/Meltdown/::1777469502
 meltdown_timer.tscn::PackedScene::3063031347107838764::1775672701::0::1::::<><><>0<>0<><>::
-meltdown_ui.tscn::PackedScene::6713083523298573459::1777390675::0::1::::<><><>0<>0<><>::uid://5lyga2o0atvk::::res://Assets/bar_shadow_round_large.svg<>uid://diuywy5um0yrg::::res://Assets/bar_round_gloss_large.svg<>uid://cegol4vnox5n::::res://Assets/Fonts/Bungee_Tint,Nosifer/Bungee_Tint/BungeeTint-Regular.ttf
+meltdown_ui.tscn::PackedScene::6713083523298573459::1777469502::0::1::::<><><>0<>0<><>::uid://5lyga2o0atvk::::res://Assets/bar_shadow_round_large.svg<>uid://diuywy5um0yrg::::res://Assets/bar_round_gloss_large.svg<>uid://cegol4vnox5n::::res://Assets/Fonts/Bungee_Tint,Nosifer/Bungee_Tint/BungeeTint-Regular.ttf
 ::res://Game State/Progress/::1777390675
 progress_timer.gd::GDScript::629142938346945373::1777390675::0::1::::Progress_Timer<>Timer<><>0<>0<><>::
 progress_timer.tscn::PackedScene::8654101309978968771::1777390675::0::1::::<><><>0<>0<><>::uid://i705lqacb1vd::::res://Game State/Progress/progress_timer.gd
@@ -185,14 +185,14 @@ interactable.gd::GDScript::5974264426253389930::1771813254::0::1::::<>Area2D<><>
 interactable.tscn::PackedScene::6468970862316957478::1771813254::0::1::::<><><>0<>0<><>::uid://crd8i6fpmmite::::res://interactions/interactable.gd
 interacting_component.gd::GDScript::3144964373422885364::1777390675::0::1::::<>Node2D<><>0<>0<><>::
 interacting_component.tscn::PackedScene::643285140591541613::1777390675::0::1::::<><><>0<>0<><>::uid://bk2pdr6uqqxgm::::res://interactions/interacting_component.gd
-::res://Main_Menu/::1777390675
+::res://Main_Menu/::1777423300
 1-removebg-preview.png::CompressedTexture2D::3004578777599998395::1777390675::1777390675::1::::<><><>0<>0<>8dbe655eac1539c3715e35939d9bbe26<>res://.godot/imported/1-removebg-preview.png-5943da05770fe68a5abc0e41a8cd6146.ctex::
 1.png::CompressedTexture2D::4012887380333683769::1777390675::1777390675::1::::<><><>0<>0<>59ca5d5cc875f9a1fb0fc393b2a8c9d2<>res://.godot/imported/1.png-f586fe1298247b3a6b99b0a4acfbe88e.ctex::
 antenna_icon.png::CompressedTexture2D::1761560276684514551::1777390675::1777390675::1::::<><><>0<>0<>989805f8c6f5c001baf762b080116ef3<>res://.godot/imported/antenna_icon.png-769da896c6145e2bdcdebb396cf1111c.ctex::
 Button_Theme.tres::Theme::7348606947542597483::1771637052::0::1::::<><><>0<>0<><>::
 chip-icon.png::CompressedTexture2D::5243298330819224678::1777390675::1777390675::1::::<><><>0<>0<>cbb987f74ba4efa0730a55f2e62b4f14<>res://.godot/imported/chip-icon.png-8758c1568fdddda207eb2f8f17c35c1c.ctex::
 main_menu.gd::GDScript::5755916443098860325::1771037894::0::1::::<>Control<><>0<>0<><>::
-main_menu.tscn::PackedScene::5260228439448990881::1777390558::0::1::::<><><>0<>0<><>::uid://ddp0o8wifrrid::::res://Main_Menu/MilkyWayPlaceHolder.jpg<>uid://coahdq6edvik0::::res://Main_Menu/main_menu.gd<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
+main_menu.tscn::PackedScene::5260228439448990881::1777423300::0::1::::<><><>0<>0<><>::uid://ddp0o8wifrrid::::res://Main_Menu/MilkyWayPlaceHolder.jpg<>uid://coahdq6edvik0::::res://Main_Menu/main_menu.gd<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
 MilkyWayPlaceHolder.jpg::CompressedTexture2D::7402338941865232175::1771037894::1771037902::1::::<><><>0<>0<>0c6a9a7de9f4774cffa013bdb72b4e43<>res://.godot/imported/MilkyWayPlaceHolder.jpg-6abed295275b1bb1e8a335b7f986d1d3.ctex::
 negative-space-crab-nebula.jpg::CompressedTexture2D::7227450141665093302::1777390675::1777390675::1::::<><><>0<>0<>c8e0d47fda3ef1ac638dc87d0adfdeb2<>res://.godot/imported/negative-space-crab-nebula.jpg-8c03b8193721c27af787b877465b8e03.ctex::
 psyche-asteroid-illustration-pia24472.webp::CompressedTexture2D::2611518751177639362::1777390675::1777390675::1::::<><><>0<>0<>176305e7f15443b0429042b3205a6571<>res://.godot/imported/psyche-asteroid-illustration-pia24472.webp-557b602c1e8c52213d652f9c69862ea2.ctex::
@@ -201,22 +201,22 @@ Untitled design.png::CompressedTexture2D::8210988490738496440::1777390675::17773
 ::res://minigames/::1777408239
 negative-space-crab-nebula.jpg::CompressedTexture2D::1587094563581628445::1777390675::1777390675::1::::<><><>0<>0<>33ed921739996d2b175ca145a3054a58<>res://.godot/imported/negative-space-crab-nebula.jpg-b82aa6493bc04729583f15487145c2b3.ctex::
 tut.tscn::PackedScene::8274306062347776741::1777408239::0::1::::<><><>0<>0<><>::
-::res://minigames/gravity-atenna-minigame/::1777418156
+::res://minigames/gravity-atenna-minigame/::1777423057
 data_spawner.gd::GDScript::5672332137143992190::1777390675::0::1::::<>Node2D<><>0<>0<><>::
 gravity_circle.gd::GDScript::1022071216388602359::1777390675::0::1::::<>Node2D<><>0<>0<><>::
 Gravity_Circle.tscn::PackedScene::8730631656383461165::1777390675::0::1::::<><><>0<>0<><>::uid://otdmmlhyrol8::::res://minigames/gravity-atenna-minigame/gravity_circle.gd<>uid://bdhblkedm6tr3::::res://Main_Menu/psyche-asteroid-illustration-pia24472.webp<>uid://bo5k4mvk4rful::::res://Main_Menu/Radar_Perimeter.png
 gravity_data.gd::GDScript::5272694709310319343::1777390675::0::1::::Gravity_Data<>Area2D<><>0<>0<><>::
 gravity_data.tscn::PackedScene::2515342526233884379::1777390675::0::1::::<><><>0<>0<><>::uid://cheernkp50b8b::::res://minigames/gravity-atenna-minigame/gravity_data.gd<>uid://cgx5mfhlqbht3::::res://Main_Menu/chip-icon.png
-gravity_minigame.gd::GDScript::7680097379249340216::1777414469::0::1::::<>Minigame<><>0<>0<><>::
+gravity_minigame.gd::GDScript::7680097379249340216::1777423057::0::1::::<>Minigame<><>0<>0<><>::
 minigame.gd::GDScript::4747065296110802583::1777390675::0::1::::Minigame<>Node2D<><>0<>0<><>::
 Minigame_Controller.tscn::PackedScene::802798520409067962::1777418156::0::1::::<><><>0<>0<><>::uid://o6hsd8ahqx7d::::res://Minigame-Controller.gd
-minigame_gravity.tscn::PackedScene::1035291548935372318::1777414469::0::1::::<><><>0<>0<><>::uid://dhokc1rq10wuq::::res://minigames/gravity-atenna-minigame/gravity_minigame.gd<>uid://da8bbvmirx5la::::res://Main_Menu/negative-space-crab-nebula.jpg<>uid://dwngh0mhipart::::res://minigames/gravity-atenna-minigame/Gravity_Circle.tscn<>uid://cjtugsthm1u3e::::res://minigames/gravity-atenna-minigame/m_player.gd<>uid://cm2yqmxi38lf7::::res://minigames/gravity-atenna-minigame/data_spawner.gd<>uid://0dkv1j473u4n::::res://Main_Menu/antenna_icon.png<>uid://bb3plao83oyfb::::res://minigames/gravity-atenna-minigame/gravity_data.tscn
+minigame_gravity.tscn::PackedScene::1035291548935372318::1777422155::0::1::::<><><>0<>0<><>::uid://dhokc1rq10wuq::::res://minigames/gravity-atenna-minigame/gravity_minigame.gd<>uid://da8bbvmirx5la::::res://Main_Menu/negative-space-crab-nebula.jpg<>uid://dwngh0mhipart::::res://minigames/gravity-atenna-minigame/Gravity_Circle.tscn<>uid://cjtugsthm1u3e::::res://minigames/gravity-atenna-minigame/m_player.gd<>uid://cm2yqmxi38lf7::::res://minigames/gravity-atenna-minigame/data_spawner.gd<>uid://0dkv1j473u4n::::res://Main_Menu/antenna_icon.png<>uid://bb3plao83oyfb::::res://minigames/gravity-atenna-minigame/gravity_data.tscn<>uid://dvekrd1hx843n::::res://Sounds/success_short.mp3
 m_player.gd::GDScript::5444990167181104444::1777390675::0::1::::Minigame_Character<>Area2D<><>0<>0<><>::
-::res://minigames/minigames1/::1777418620
+::res://minigames/minigames1/::1777423057
 button.gd::GDScript::-1::1777390558::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
 error.gd::GDScript::-1::1777390558::0::1::::<>AudioStreamPlayer2D<><>0<>0<><>::
-minigame1.gd::GDScript::5611967528805443607::1777418620::0::1::::<>Minigame<><>0<>0<><>::
-minigame1a.tscn::PackedScene::5420028330761775772::1777418620::0::1::::<><><>0<>0<><>::uid://cl7qjx1w47fhf::::res://minigames/minigames1/minigame1.gd<>uid://cu6mdrej8e52c::::res://minigames/minigames1/minigame1states/option3.png<>uid://blo7i5v46tkts::::res://minigames/minigames1/minigame1states/option3a.png<>uid://1pu2ah2wnqas::::res://minigames/minigames1/minigame1states/option3b.png<>uid://dv1yo0lsjnn47::::res://minigames/minigames1/minigame1states/option3c.png<>uid://cuxu34t1f1y5w::::res://minigames/minigames1/minigame1states/option3d.png<>res://minigames/minigames1/button.gd<>res://minigames/minigames1/error.gd<>res://minigames/minigames1/success.gd<>uid://42s8kdli2tld::::res://Sounds/Cephalopod.mp3
+minigame1.gd::GDScript::5611967528805443607::1777422972::0::1::::<>Minigame<><>0<>0<><>::
+minigame1a.tscn::PackedScene::5420028330761775772::1777423057::0::1::::<><><>0<>0<><>::uid://cl7qjx1w47fhf::::res://minigames/minigames1/minigame1.gd<>uid://cu6mdrej8e52c::::res://minigames/minigames1/minigame1states/option3.png<>uid://blo7i5v46tkts::::res://minigames/minigames1/minigame1states/option3a.png<>uid://1pu2ah2wnqas::::res://minigames/minigames1/minigame1states/option3b.png<>uid://dv1yo0lsjnn47::::res://minigames/minigames1/minigame1states/option3c.png<>uid://cuxu34t1f1y5w::::res://minigames/minigames1/minigame1states/option3d.png<>res://minigames/minigames1/button.gd<>res://minigames/minigames1/error.gd<>uid://dvekrd1hx843n::::res://Sounds/success_short.mp3<>uid://42s8kdli2tld::::res://Sounds/Cephalopod.mp3
 minigame1b.tscn::PackedScene::4839105795892957755::1777411451::0::1::::<><><>0<>0<><>::uid://bskp0jmo3ljmo::::res://minigames/minigames1/minigame1states/option1.png<>uid://bhbkp7d411jir::::res://minigames/minigames1/minigame2.gd<>uid://bol4e0u550ibn::::res://minigames/minigames1/minigame1states/option1a.png<>uid://clras0xxsm4qd::::res://minigames/minigames1/minigame1states/option1b.png<>uid://dkaaos7wurcep::::res://minigames/minigames1/minigame1states/option1c.png<>uid://mm22uk5csmxu::::res://minigames/minigames1/minigame1states/option1d.png<>res://minigames/minigames1/button.gd<>res://minigames/minigames1/error.gd
 minigame1c.tscn::PackedScene::2942356364801582014::1777411436::0::1::::<><><>0<>0<><>::uid://bacq4diogckam::::res://minigames/minigames1/minigame3.gd<>uid://d27oqnw3jva8t::::res://minigames/minigames1/minigame1states/option2.png<>uid://crrq1kjwcyux5::::res://minigames/minigames1/minigame1states/option2a.png<>uid://c04to2dyfwwxm::::res://minigames/minigames1/minigame1states/option2b.png<>uid://deb7w6s5ybe3k::::res://minigames/minigames1/minigame1states/option2c.png<>uid://bqe4suiqnrkgp::::res://minigames/minigames1/minigame1states/option2d.png<>res://minigames/minigames1/button.gd<>res://minigames/minigames1/error.gd
 minigame2.gd::GDScript::2880442610484648085::1777411301::0::1::::<>Minigame<><>0<>0<><>::
@@ -238,22 +238,22 @@ option3a.png::CompressedTexture2D::3189358091889269928::1777390558::1777408241::
 option3b.png::CompressedTexture2D::1857138169260816314::1777390558::1777408241::1::::<><><>0<>0<>3d64db6eb3280d21eb85a6e29a1f404d<>res://.godot/imported/option3b.png-4c330fd79d2d72750cf7ba289df25bbe.ctex::
 option3c.png::CompressedTexture2D::8688385128931594918::1777390558::1777408241::1::::<><><>0<>0<>cbaa8aa4e68995f78219483d836c868d<>res://.godot/imported/option3c.png-29b9888baf0a10fa1b5ed60795021281.ctex::
 option3d.png::CompressedTexture2D::6225364824292382482::1777390558::1777408241::1::::<><><>0<>0<>eb221aedc6a4f47893aff0da877d860a<>res://.godot/imported/option3d.png-40ef7e843ddf80373891e4cc6cf501d0.ctex::
-::res://minigames/minigames_solar/::1777419023
+::res://minigames/minigames_solar/::1777422492
 823503.jpg::CompressedTexture2D::2786651618023804542::1777390558::1777408242::1::::<><><>0<>0<>83d7efea946bf7b650b010885de4f6a4<>res://.godot/imported/823503.jpg-6c48d727262e2f294935a3ab0641d7ca.ctex::
 Sat.png::CompressedTexture2D::396584757753137793::1777390558::1777408241::1::::<><><>0<>0<>1be1819da27e51484542f42fabb6e78f<>res://.godot/imported/Sat.png-aaf4e9160eda78f7e61cbfb0061a01ba.ctex::
 Solar Panel.png::CompressedTexture2D::2705137876761490600::1777390558::1777408241::1::::<><><>0<>0<>4cf9261e074cd9c76adb65d7059fcded<>res://.godot/imported/Solar Panel.png-b50528a9102e1b625460f2601600c290.ctex::
-SolarGame.gd::GDScript::8966095436648574285::1777419022::0::1::::<>Minigame<><>0<>0<><>::
-solar_game.tscn::PackedScene::3943404123671145669::1777419022::0::1::::<><><>0<>0<><>::uid://d00ijt37uv0ll::::res://minigames/minigames_solar/SolarGame.gd<>uid://c8xmo4cw2nd40::::res://minigames/minigames_solar/Stolen.jpg<>uid://fwdxtenqqgu8::::res://minigames/minigames_solar/Sat.png<>uid://besnhw2fv6edk::::res://minigames/minigames_solar/Solar Panel.png<>uid://cpw5v2r1hdur2::::res://minigames/minigames_solar/Sun.png<>res://beam.gd
+SolarGame.gd::GDScript::8966095436648574285::1777422492::0::1::::<>Minigame<><>0<>0<><>::
+solar_game.tscn::PackedScene::3943404123671145669::1777422492::0::1::::<><><>0<>0<><>::uid://d00ijt37uv0ll::::res://minigames/minigames_solar/SolarGame.gd<>uid://c8xmo4cw2nd40::::res://minigames/minigames_solar/Stolen.jpg<>uid://fwdxtenqqgu8::::res://minigames/minigames_solar/Sat.png<>uid://besnhw2fv6edk::::res://minigames/minigames_solar/Solar Panel.png<>uid://cpw5v2r1hdur2::::res://minigames/minigames_solar/Sun.png<>res://beam.gd<>uid://dvekrd1hx843n::::res://Sounds/success_short.mp3
 spanel.jpg::CompressedTexture2D::7346353806980693522::1777390558::1777408241::1::::<><><>0<>0<>a8c7f157e8cf301ba51676503fb1bfbe<>res://.godot/imported/spanel.jpg-7571d5ba2974c206d1d924f8d8c16486.ctex::
 Stolen.jpg::CompressedTexture2D::7137309028115450583::1777390558::1777408241::1::::<><><>0<>0<>bf400f8cbd2206d19b8ae4df1a60e784<>res://.godot/imported/Stolen.jpg-2e88964b00f266f16a02c45bb57bbbb2.ctex::
 Sun.png::CompressedTexture2D::5872950789583945653::1777390558::1777408241::1::::<><><>0<>0<>47216e4235192549bf9867fe0ebb8d4b<>res://.godot/imported/Sun.png-d648107271a73923240fe02fb448d934.ctex::
-::res://minigames/WireMinigame/::1777409386
-wire.gd::GDScript::9015867296448838158::1777409386::0::1::::<>Minigame<><>0<>0<><>::
-wireminigame.tscn::PackedScene::8567159520290419370::1777409386::0::1::::<><><>0<>0<><>::uid://d1pmat2t45sda::::res://minigames/WireMinigame/wire.gd
+::res://minigames/WireMinigame/::1777421919
+wire.gd::GDScript::9015867296448838158::1777421858::0::1::::<>Minigame<><>0<>0<><>::
+wireminigame.tscn::PackedScene::8567159520290419370::1777421919::0::1::::<><><>0<>0<><>::uid://d1pmat2t45sda::::res://minigames/WireMinigame/wire.gd<>uid://dvekrd1hx843n::::res://Sounds/success_short.mp3
 ::res://player/::1777417692
 4wayCharacter.tscn::PackedScene::2943396462365862532::1777417692::0::1::::<><><>0<>0<><>::uid://b1wy5ove725b4::::res://CharMov.gd<>res://Footstep.gd<>uid://jfu2u84syok8::::res://interactions/interacting_component.tscn<>uid://b5a2qcocvd4eq::::res://atroo.png
 4waymovement.tscn::PackedScene::6468386817257262634::1771637059::0::1::::<><><>0<>0<><>::
-::res://Sounds/::1777420400
+::res://Sounds/::1777420415
 398937__softdistortionfx__metal-footsteps.mp3::AudioStreamMP3::4432120499156901101::1775896348::1775896352::1::::<><><>0<>0<>69a0524c4efc0e5aaf53a96c953027e5<>res://.godot/imported/398937__softdistortionfx__metal-footsteps.mp3-1efe5a203649a97f2997944d2c443313.mp3str::
 button_push.mp3::AudioStreamMP3::5275373490130128850::1777390558::1777408241::1::::<><><>0<>0<>f4c75e983c26da441290cf4082e349ed<>res://.godot/imported/button_push.mp3-86a28ca7ccbee42b7099008896c4c776.mp3str::
 Cephalopod.mp3::AudioStreamMP3::2092367032310689597::1777390558::1777408241::1::::<><><>0<>0<>4a815ccd7301fe3969f17d83cf1b4563<>res://.godot/imported/Cephalopod.mp3-ae66f2c4c58c96a77f24b9643c5e501d.mp3str::
@@ -266,6 +266,7 @@ success_short.mp3::AudioStreamMP3::8642123005003350673::1777420382::1777420415::
 platform.tscn::PackedScene::4852305123884715635::1771037902::0::1::::<><><>0<>0<><>::uid://d3kjlenstws02::::res://Assets/Platform.png
 prototype_stage.tscn::PackedScene::7477399754247406029::1775896348::0::1::::<><><>0<>0<><>::uid://sieh2fvg3wln::::res://Stages/Prototype/proto_platform.tscn<>uid://bcnowstwgupnn::::res://Game State/Stations/Engine/station2.tscn<>uid://qky2vtg0rsmt::::res://Game State/Stations/Controls/station1.tscn
 proto_platform.tscn::PackedScene::1280171002863225467::1769800174::0::1::::<><><>0<>0<><>::uid://d3kjlenstws02::::res://Assets/Platform.png
-::res://Victory/::1777390675
+::res://Victory/::1777469804
+_20231013_nid_pysche_asteroid.jpg::CompressedTexture2D::60905031069150343::1777469804::1777469807::1::::<><><>0<>0<>9da418e04a7c547dbbd0e3caf5b79b0d<>res://.godot/imported/_20231013_nid_pysche_asteroid.jpg-c301968f0b3a993df948e9b0f4671ef9.ctex::
 victory.gd::GDScript::2569308890207535394::1777390675::0::1::::<>Control<><>0<>0<><>::
 victory.tscn::PackedScene::519237405621006825::1777390675::0::1::::<><><>0<>0<><>::uid://bcuue3g1qwx35::::res://Victory/victory.gd<>uid://baqvf0nriksy4::::res://Game Over/Game Over Explosion.webp<>uid://dcxyqodh1whod::::res://Main_Menu/Button_Theme.tres
