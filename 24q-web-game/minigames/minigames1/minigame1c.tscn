@@ -6,8 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://c04to2dyfwwxm" path="res://minigames/minigames1/minigame1states/option2b.png" id="4_r3sp3"]
 [ext_resource type="Texture2D" uid="uid://deb7w6s5ybe3k" path="res://minigames/minigames1/minigame1states/option2c.png" id="5_le6d0"]
 [ext_resource type="Texture2D" uid="uid://bqe4suiqnrkgp" path="res://minigames/minigames1/minigame1states/option2d.png" id="6_vu218"]
-[ext_resource type="Script" uid="uid://n1k7dytxmg5e" path="res://minigames/minigames1/button.gd" id="7_le6d0"]
-[ext_resource type="Script" uid="uid://b1qiitv5pbp5u" path="res://minigames/minigames1/error.gd" id="8_vu218"]
+[ext_resource type="Script" path="res://minigames/minigames1/button.gd" id="7_le6d0"]
+[ext_resource type="Script" path="res://minigames/minigames1/error.gd" id="8_vu218"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_uov82"]
 animations = [{
@@ -81,6 +81,11 @@ script = ExtResource("7_le6d0")
 
 [node name="error" type="AudioStreamPlayer2D" parent="."]
 script = ExtResource("8_vu218")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(580.9999, 320.99988)
+scale = Vector2(1.80625, 1.80625)
+zoom = Vector2(0.8, 0.8)
 
 [connection signal="input_event" from="AnimatedSprite2D/Button1" to="." method="_on_button_1_input_event"]
 [connection signal="input_event" from="AnimatedSprite2D/Button2" to="." method="_on_button_2_input_event"]

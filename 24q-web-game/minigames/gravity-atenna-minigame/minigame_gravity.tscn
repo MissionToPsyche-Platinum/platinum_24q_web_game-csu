@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://o0rdoietfmeo"]
+[gd_scene load_steps=10 format=3 uid="uid://o0rdoietfmeo"]
 
 [ext_resource type="Script" uid="uid://dhokc1rq10wuq" path="res://minigames/gravity-atenna-minigame/gravity_minigame.gd" id="1_dx4is"]
 [ext_resource type="Texture2D" uid="uid://da8bbvmirx5la" path="res://Main_Menu/negative-space-crab-nebula.jpg" id="2_0kj1o"]
@@ -7,6 +7,7 @@
 [ext_resource type="Script" uid="uid://cm2yqmxi38lf7" path="res://minigames/gravity-atenna-minigame/data_spawner.gd" id="4_sbpsw"]
 [ext_resource type="Texture2D" uid="uid://0dkv1j473u4n" path="res://Main_Menu/antenna_icon.png" id="5_0kj1o"]
 [ext_resource type="PackedScene" uid="uid://bb3plao83oyfb" path="res://minigames/gravity-atenna-minigame/gravity_data.tscn" id="5_85fp8"]
+[ext_resource type="AudioStream" uid="uid://dvekrd1hx843n" path="res://Sounds/success_short.mp3" id="8_8yeg1"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_sbpsw"]
 radius = 11.045361
@@ -78,3 +79,6 @@ limit_left = 0
 limit_top = 0
 limit_right = 1152
 limit_bottom = 648
+
+[node name="success" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_8yeg1")

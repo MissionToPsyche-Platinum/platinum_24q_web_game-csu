@@ -80,3 +80,7 @@ func victory() -> void:
 		get_tree().change_scene_to_file.call_deferred(victory_menu)
 	else:
 		print("Error: victory_menu is not set or empty")
+
+func stop_walking_sound():
+	var walk_sound : AudioStreamPlayer2D = get_tree().get_first_node_in_group("Walk_Sound") 
+	walk_sound.stop()

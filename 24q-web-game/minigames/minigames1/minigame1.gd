@@ -1,4 +1,5 @@
-extends Node
+extends Minigame
+
 @onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
 @onready var button1: Area2D = $AnimatedSprite2D/Button1
 @onready var button2: Area2D = $AnimatedSprite2D/Button2
@@ -12,12 +13,18 @@ extends Node
 @onready var correctArray = [2, 4, 1, 3]
 @onready var answerArray = []
 @onready var i = 0
-@onready var click = $click
-@onready var error = $error
-@onready var success = $success
+@onready var click : AudioStreamPlayer2D = $click
+@onready var error : AudioStreamPlayer2D = $error
+@onready var success : AudioStreamPlayer2D = $success
+@onready var music : AudioStreamPlayer2D = $MUSIC
+
 signal minigameDone
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	#print("button1: ", button1.global_position, button1.position)
+	#print("button2: ", button2.global_position, button2.position)
+	#print("button3: ", button3.global_position, button3.position)
+	#print("button4: ", button4.global_position, button4.position)
 	pass
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -27,6 +34,7 @@ func _process(delta: float) -> void:
 
 func _on_button_1_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 	if event is InputEventMouseButton and event.is_pressed():
+		#print(event)
 		answerArray.append(1)
 		if answerArray[i] != correctArray[i]:
 			#If the wrong button is pressed
@@ -43,12 +51,14 @@ func _on_button_1_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 		print(answerArray)
 		if answerArray == correctArray:
 			#This is when the minigame is done
-			emit_signal("minigameDone")
+			emit_signal("completed")
 			answerArray.clear()
 			sprite.set_frame_and_progress(0, 0)
 			show_all_labels()
 			i = 0
 			success.play()
+			await success.finished
+			emit_signal("completed")
 			print('done')
 		
 
@@ -77,6 +87,8 @@ func _on_button_2_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 			show_all_labels()
 			i = 0
 			success.play()
+			#await success.finished
+			emit_signal("completed")
 
 			print('done')
 
@@ -105,6 +117,8 @@ func _on_button_3_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 			show_all_labels()
 			i = 0
 			success.play()
+			#await success.finished
+			emit_signal("completed")
 			print('done')
 
 
@@ -132,12 +146,11 @@ func _on_button_4_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 			show_all_labels()
 			i = 0
 			success.play()
+			#await success.finished
+			emit_signal("completed")
 			print('done')
 			
 			
 func show_all_labels() -> void:
 	for label in labelArray:
 		label.show()
-
-	
-	

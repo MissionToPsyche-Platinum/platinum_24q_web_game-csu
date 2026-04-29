@@ -9,10 +9,15 @@ signal minigame_completed
 @onready var container = $CanvasLayer/SubViewportContainer
 
 
-var current_minigame = null
+var current_minigame : Minigame = null
+
+#func _unhandled_input(event):
+	#print(event)
+	#viewport.push_input(event)
 
 func start_minigame():
 	process_mode = Node.PROCESS_MODE_ALWAYS
+	Game_State_Manager.stop_walking_sound()
 	
 	if minigame_scene == null:
 		push_error("No minigame assigned!")
@@ -28,7 +33,9 @@ func start_minigame():
 	current_minigame = minigame_scene.instantiate()
 	viewport.add_child(current_minigame)
 
-	current_minigame.setup(container.custom_minimum_size)
+	if current_minigame.has_method("setup"):
+		current_minigame.setup(container.custom_minimum_size)
+	
 
 	# Connect signal
 	if current_minigame is Minigame:

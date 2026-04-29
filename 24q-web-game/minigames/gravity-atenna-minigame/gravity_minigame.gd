@@ -31,6 +31,7 @@ var facts := [
 @onready var ui = $Control/VBoxContainer/DataCounter
 @onready var facts_label = $Control/VBoxContainer/FactsLabel
 @onready var data_spawner = $Data_Spawner
+@onready var success: AudioStreamPlayer = $success
 
 
 func setup(size: Vector2):
@@ -86,6 +87,8 @@ func _on_collected():
 
 
 func complete():
+	success.play()
+	await success.finished
 	emit_signal("completed")
 
 

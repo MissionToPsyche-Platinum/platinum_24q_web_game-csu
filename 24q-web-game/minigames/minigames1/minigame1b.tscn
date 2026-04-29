@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://hgfo2nvv0xqs"]
+[gd_scene load_steps=14 format=3 uid="uid://ca7dmop5hhu7d"]
 
 [ext_resource type="Texture2D" uid="uid://bskp0jmo3ljmo" path="res://minigames/minigames1/minigame1states/option1.png" id="1_q16p1"]
 [ext_resource type="Script" uid="uid://bhbkp7d411jir" path="res://minigames/minigames1/minigame2.gd" id="1_sc5oi"]
@@ -6,8 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://clras0xxsm4qd" path="res://minigames/minigames1/minigame1states/option1b.png" id="4_kp6tq"]
 [ext_resource type="Texture2D" uid="uid://dkaaos7wurcep" path="res://minigames/minigames1/minigame1states/option1c.png" id="5_vojg0"]
 [ext_resource type="Texture2D" uid="uid://mm22uk5csmxu" path="res://minigames/minigames1/minigame1states/option1d.png" id="6_l8yfg"]
-[ext_resource type="Script" uid="uid://n1k7dytxmg5e" path="res://minigames/minigames1/button.gd" id="7_vojg0"]
-[ext_resource type="Script" uid="uid://b1qiitv5pbp5u" path="res://minigames/minigames1/error.gd" id="8_l8yfg"]
+[ext_resource type="Script" path="res://minigames/minigames1/button.gd" id="7_vojg0"]
+[ext_resource type="Script" path="res://minigames/minigames1/error.gd" id="8_l8yfg"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_sc5oi"]
 animations = [{
@@ -81,6 +81,10 @@ script = ExtResource("7_vojg0")
 
 [node name="error" type="AudioStreamPlayer2D" parent="."]
 script = ExtResource("8_l8yfg")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(578, 325)
+zoom = Vector2(0.8, 0.8)
 
 [connection signal="input_event" from="AnimatedSprite2D/Button1" to="." method="_on_button_1_input_event"]
 [connection signal="input_event" from="AnimatedSprite2D/Button2" to="." method="_on_button_2_input_event"]

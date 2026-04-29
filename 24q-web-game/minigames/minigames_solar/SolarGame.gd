@@ -1,10 +1,11 @@
-extends Node2D
+extends Minigame
 
 @onready var sun = $Sun
 @onready var satellite = $Satellite
 @onready var panels = $Satellite/SolarPanels
 @onready var power_bar = $CanvasLayer/Control/ProgressBar
 @onready var beam = $Beam
+@onready var success: AudioStreamPlayer2D = $success
 
 var angle = 0.0
 var speed = 0.2
@@ -72,8 +73,12 @@ func _process(delta):
 
 func _on_fully_charged():
 	power_bar.modulate = Color.CYAN
-	emit_signal("solarMinigameDone")
 	print("full power")
+	emit_signal("completed")
+	success.play()
+	await success.finished
+	
+	
 	
 func _on_low_power():
 	power_bar.modulate = Color.ORANGE

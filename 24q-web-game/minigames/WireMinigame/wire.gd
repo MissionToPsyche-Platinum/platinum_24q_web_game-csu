@@ -1,4 +1,5 @@
-extends Node2D
+extends Minigame
+@onready var success : AudioStreamPlayer2D = $success
 
 const COLORS = [
 	Color(0.886, 0.294, 0.290),
@@ -130,6 +131,7 @@ func _connect(ci: int):
 	connected.append(ci)
 	_draw_wire(ci)
 	queue_redraw()
+	complete_check()
 
 func _draw_wire(ci: int):
 	var line            := Line2D.new()
@@ -146,3 +148,10 @@ func _draw_wire(ci: int):
 		var u := 1.0 - t
 		line.add_point(u*u*u*a + 3*u*u*t*c1 + 3*u*t*t*c2 + t*t*t*b)
 	add_child(line)
+
+func complete_check():
+	#print(connected)
+	if connected.has(0) and connected.has(1) and connected.has(2) and connected.has(3):
+		success.play()
+		await success.finished
+		emit_signal("completed")

@@ -1,4 +1,5 @@
-extends Node2D
+extends Minigame
+
 @onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
 @onready var button1: Area2D = $AnimatedSprite2D/Button1
 @onready var button2: Area2D = $AnimatedSprite2D/Button2

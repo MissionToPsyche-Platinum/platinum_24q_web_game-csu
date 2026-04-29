@@ -1,3 +1,5 @@
+AudioStreamPlayer2D
+Camera2D
 SubViewport
 SubViewportContainer
 Control
@@ -6,7 +8,6 @@ Node
 CollisionShape2D
 Area2D
 AnimatedSprite2D
-AudioStreamPlayer2D
 Label
 CharacterBody2D
 TextureRect

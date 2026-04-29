@@ -1,10 +1,10 @@
 [gd_scene load_steps=9 format=3 uid="uid://qky2vtg0rsmt"]
 
-[ext_resource type="Script" uid="uid://dpaage8hremd2" path="res://Game State/Stations/Controls/station1.gd" id="1_kqq4a"]
+[ext_resource type="Script" uid="uid://bv033trfyh41t" path="res://Game State/Stations/Engine/station2.gd" id="1_pq5o4"]
 [ext_resource type="Texture2D" uid="uid://dth30w4ik4smd" path="res://Assets/station2.png" id="2_kqq4a"]
 [ext_resource type="PackedScene" uid="uid://cyfvaf0q10yp7" path="res://interactions/interactable.tscn" id="3_pq5o4"]
-[ext_resource type="PackedScene" uid="uid://ddq82okdv5d3a" path="res://minigames/gravity-atenna-minigame/Minigame_Controller.tscn" id="4_usy35"]
-[ext_resource type="PackedScene" uid="uid://dsymsp7umsn8o" path="res://minigames/gravity-atenna-minigame/minigame_gravity.tscn" id="5_pq5o4"]
+[ext_resource type="PackedScene" uid="uid://lo48elqxvhu5" path="res://minigames/gravity-atenna-minigame/Minigame_Controller.tscn" id="4_usy35"]
+[ext_resource type="PackedScene" uid="uid://o0rdoietfmeo" path="res://minigames/gravity-atenna-minigame/minigame_gravity.tscn" id="5_pq5o4"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2jd5w"]
 animations = [{
@@ -26,7 +26,7 @@ radius = 42.0
 height = 132.0
 
 [node name="station1" type="StaticBody2D"]
-script = ExtResource("1_kqq4a")
+script = ExtResource("1_pq5o4")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(4, 3.963)

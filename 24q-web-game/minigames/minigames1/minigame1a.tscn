@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://cnjl15q8fycp2"]
+[gd_scene load_steps=18 format=3 uid="uid://cjhrcsnir2bsm"]
 
 [ext_resource type="Script" uid="uid://cl7qjx1w47fhf" path="res://minigames/minigames1/minigame1.gd" id="1_8sy5w"]
 [ext_resource type="Texture2D" uid="uid://cu6mdrej8e52c" path="res://minigames/minigames1/minigame1states/option3.png" id="1_hv618"]
@@ -6,9 +6,10 @@
 [ext_resource type="Texture2D" uid="uid://1pu2ah2wnqas" path="res://minigames/minigames1/minigame1states/option3b.png" id="4_pha2b"]
 [ext_resource type="Texture2D" uid="uid://dv1yo0lsjnn47" path="res://minigames/minigames1/minigame1states/option3c.png" id="5_le00t"]
 [ext_resource type="Texture2D" uid="uid://cuxu34t1f1y5w" path="res://minigames/minigames1/minigame1states/option3d.png" id="6_f5hmc"]
-[ext_resource type="Script" uid="uid://n1k7dytxmg5e" path="res://minigames/minigames1/button.gd" id="7_f5hmc"]
-[ext_resource type="Script" uid="uid://b1qiitv5pbp5u" path="res://minigames/minigames1/error.gd" id="8_hxa1i"]
-[ext_resource type="Script" uid="uid://0osh1d6eerch" path="res://minigames/minigames1/success.gd" id="9_b2jv1"]
+[ext_resource type="Script" path="res://minigames/minigames1/button.gd" id="7_f5hmc"]
+[ext_resource type="Script" path="res://minigames/minigames1/error.gd" id="8_hxa1i"]
+[ext_resource type="AudioStream" uid="uid://dvekrd1hx843n" path="res://Sounds/success_short.mp3" id="9_0meyt"]
+[ext_resource type="AudioStream" uid="uid://42s8kdli2tld" path="res://Sounds/Cephalopod.mp3" id="10_0meyt"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_vhk36"]
 animations = [{
@@ -83,6 +84,7 @@ text = "A"
 label_settings = SubResource("LabelSettings_hxa1i")
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="A2" type="Label" parent="AnimatedSprite2D/Button1"]
 offset_left = 86.94702
@@ -93,6 +95,7 @@ text = "A"
 label_settings = SubResource("LabelSettings_b2jv1")
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="Button2" type="Area2D" parent="AnimatedSprite2D"]
 
@@ -115,6 +118,7 @@ text = "B"
 label_settings = SubResource("LabelSettings_hxa1i")
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="B2" type="Label" parent="AnimatedSprite2D/Button2"]
 offset_left = -8.738403
@@ -125,6 +129,7 @@ text = "B"
 label_settings = SubResource("LabelSettings_b2jv1")
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="Button3" type="Area2D" parent="AnimatedSprite2D"]
 
@@ -147,6 +152,7 @@ text = "C"
 label_settings = SubResource("LabelSettings_hxa1i")
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="C2" type="Label" parent="AnimatedSprite2D/Button3"]
 offset_left = 134.13434
@@ -157,6 +163,7 @@ text = "C"
 label_settings = SubResource("LabelSettings_b2jv1")
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="Button4" type="Area2D" parent="AnimatedSprite2D"]
 position = Vector2(0, -2.6551452e-05)
@@ -180,6 +187,7 @@ text = "D"
 label_settings = SubResource("LabelSettings_hxa1i")
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="D2" type="Label" parent="AnimatedSprite2D/Button4"]
 offset_left = 39.322784
@@ -190,6 +198,7 @@ text = "D"
 label_settings = SubResource("LabelSettings_b2jv1")
 horizontal_alignment = 1
 vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
 
 [node name="click" type="AudioStreamPlayer2D" parent="."]
 script = ExtResource("7_f5hmc")
@@ -198,9 +207,18 @@ script = ExtResource("7_f5hmc")
 script = ExtResource("8_hxa1i")
 
 [node name="success" type="AudioStreamPlayer2D" parent="."]
-script = ExtResource("9_b2jv1")
+stream = ExtResource("9_0meyt")
+
+[node name="MUSIC" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("10_0meyt")
+autoplay = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(578, 325)
+zoom = Vector2(0.6, 0.6)
 
 [connection signal="input_event" from="AnimatedSprite2D/Button1" to="." method="_on_button_1_input_event"]
+[connection signal="mouse_entered" from="AnimatedSprite2D/Button1" to="." method="_on_button_1_mouse_entered"]
 [connection signal="input_event" from="AnimatedSprite2D/Button2" to="." method="_on_button_2_input_event"]
 [connection signal="input_event" from="AnimatedSprite2D/Button3" to="." method="_on_button_3_input_event"]
 [connection signal="input_event" from="AnimatedSprite2D/Button4" to="." method="_on_button_4_input_event"]

@@ -55,7 +55,7 @@ animation = &"down-forward"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("11")
 
-[node name="Walk_Sounds" type="AudioStreamPlayer2D" parent="."]
+[node name="Walk_Sounds" type="AudioStreamPlayer2D" parent="." groups=["Walk_Sound"]]
 script = ExtResource("2")
 
 [node name="Interacting Component" parent="." instance=ExtResource("4")]
