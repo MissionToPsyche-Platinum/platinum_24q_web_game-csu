@@ -5,6 +5,7 @@ extends Node2D
 
 @onready var meltdown_timer = get_tree().get_first_node_in_group("Meltdown_Timer") as Timer
 @onready var meltdown_bar = get_tree().get_first_node_in_group("Meltdown_Bar") as TextureProgressBar
+@onready var music = $Music
 
 var station_manager : Station_Manager
 
@@ -16,7 +17,6 @@ func _ready() -> void:
 	
 	station_manager = get_tree().get_first_node_in_group("Station_Parent") as Station_Manager
 	station_manager.update_warning_label()
-
 
 func _process(delta):
 	

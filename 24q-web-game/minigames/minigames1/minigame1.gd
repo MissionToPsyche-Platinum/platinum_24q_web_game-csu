@@ -87,7 +87,7 @@ func _on_button_2_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 			show_all_labels()
 			i = 0
 			success.play()
-			#await success.finished
+			await success.finished
 			emit_signal("completed")
 
 			print('done')
@@ -117,7 +117,7 @@ func _on_button_3_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 			show_all_labels()
 			i = 0
 			success.play()
-			#await success.finished
+			await success.finished
 			emit_signal("completed")
 			print('done')
 
@@ -146,7 +146,7 @@ func _on_button_4_input_event(viewport: Node, event: InputEvent, shape_idx: int)
 			show_all_labels()
 			i = 0
 			success.play()
-			#await success.finished
+			await success.finished
 			emit_signal("completed")
 			print('done')
 			

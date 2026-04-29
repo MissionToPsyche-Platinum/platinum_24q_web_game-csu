@@ -31,7 +31,7 @@ var facts := [
 @onready var ui = $Control/VBoxContainer/DataCounter
 @onready var facts_label = $Control/VBoxContainer/FactsLabel
 @onready var data_spawner = $Data_Spawner
-@onready var success: AudioStreamPlayer = $success
+@onready var success: AudioStreamPlayer2D = $success
 
 
 func setup(size: Vector2):

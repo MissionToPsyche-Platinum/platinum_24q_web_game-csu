@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=4 uid="uid://cdubdsvvyov0d"]
+[gd_scene load_steps=22 format=4 uid="uid://cdubdsvvyov0d"]
 
 [ext_resource type="Script" uid="uid://b5ulfjr0li130" path="res://game_level.gd" id="1_a32n1"]
 [ext_resource type="Texture2D" uid="uid://04gq00nj7p8g" path="res://Assets/TileSet_v1.0.png" id="1_hucw8"]
@@ -14,6 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://cjhrcsnir2bsm" path="res://minigames/minigames1/minigame1a.tscn" id="7_a32n1"]
 [ext_resource type="PackedScene" uid="uid://dvkd1wsapiqn0" path="res://Game State/Progress/progress_timer.tscn" id="8_oqpvj"]
 [ext_resource type="PackedScene" uid="uid://dub84owngpfmg" path="res://minigames/WireMinigame/wireminigame.tscn" id="12_ylhxj"]
+[ext_resource type="AudioStream" uid="uid://42s8kdli2tld" path="res://Sounds/Cephalopod.mp3" id="15_cjunt"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fx4di"]
 texture = ExtResource("1_hucw8")
@@ -945,6 +946,10 @@ minigame_scene = ExtResource("7_a32n1")
 
 [node name="station4" parent="Station_Manager" instance=ExtResource("4_yyd5p")]
 position = Vector2(209, 521)
+
+[node name="Music" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("15_cjunt")
+autoplay = true
 
 [connection signal="timeout" from="Meltdown Timer" to="." method="_on_meltdown_timer_timeout"]
 
