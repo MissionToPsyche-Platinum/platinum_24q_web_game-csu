@@ -78,7 +78,7 @@ offset_right = 14.0
 offset_bottom = 138.0
 grow_horizontal = 2
 theme = SubResource("Theme_2jvup")
-text = "Psyche 16 Satilite Repair"
+text = "16 Psyche Satilite Repair"
 label_settings = SubResource("LabelSettings_6qckm")
 
 [node name="NASA" type="Label" parent="."]
