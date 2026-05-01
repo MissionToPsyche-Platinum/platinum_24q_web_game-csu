@@ -920,9 +920,11 @@ scale = Vector2(2.5, 2.5)
 
 [node name="Meltdown Timer" parent="." groups=["Meltdown_Timer"] instance=ExtResource("6_53gqp")]
 unique_name_in_owner = true
+wait_time = 80.0
 
 [node name="Progress Timer" parent="." instance=ExtResource("8_oqpvj")]
 unique_name_in_owner = true
+duration = 60.0
 
 [node name="Station_Manager" type="Node2D" parent="." groups=["Station_Parent"]]
 script = ExtResource("6_yrr2p")
